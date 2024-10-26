@@ -6,7 +6,7 @@ import jsbeautifier
 import os
 
 class NinerEvent:
-    def __init__(self, name, start, end, lat, lng, url, location, description, host):
+    def __init__(self, name, start, end, lat, lng, url, location, description, host, gcal, ical):
         self.name = name
         self.start = start
         self.end = end
@@ -16,6 +16,8 @@ class NinerEvent:
         self.description = description
         self.url = url 
         self.host = host
+        self.gcal = gcal
+        self.ical = ical
         
 
 
@@ -32,7 +34,6 @@ def get_ics_data(ics_url='https://ninerengage.charlotte.edu/events.ics', print_n
         pal = "PAL Session"
         # Checking if the event is a PAL Session or It is cancelled 
         if pal != event.name[:11] and event.status != "CANCELLED":
-            print(vars(event))
             lat = ""
             lng = ""
 
@@ -44,6 +45,10 @@ def get_ics_data(ics_url='https://ninerengage.charlotte.edu/events.ics', print_n
                 description = match.group(1).strip()
                 organization = match.group(2).strip()
 
+            event_id = (event.url[-1-7:])
+            gcal = f'https://ninerengage.charlotte.edu/event/{event_id}/googlepublish'
+            ical = f'https://ninerengage.charlotte.edu/event/{event_id}.ics'
+            # Adding event to list
             if event.geo:
                 lat = f"{event.geo[0]}"
                 lng = f"{event.geo[1]}"
@@ -56,7 +61,10 @@ def get_ics_data(ics_url='https://ninerengage.charlotte.edu/events.ics', print_n
                 url = event.url,
                 location = event.location,
                 description = description,
-                host=organization)
+                host=organization,
+                gcal = gcal,
+                ical = ical
+                )
 
             event_list.append(Niner_Event)
     
@@ -67,11 +75,7 @@ def get_ics_data(ics_url='https://ninerengage.charlotte.edu/events.ics', print_n
         for event in event_list:
             if event.lat != "" and event.lng != "": 
                 counter += 1
-            if "Additional Information" in event.description:
-                counter_desc += 1
-
-        print(f"Num of Events with Geo: {counter} ")
-        print(f"Num of Events with Link Desc: {counter_desc} ")
+        print(f"Num of Events with Geo (Events Added): {counter} ")
 
     return event_list
 
@@ -87,7 +91,9 @@ def jsonify_events(event_list, file_path="./map-engage/src/data/events.json"):
             "url": event.url,
             "location": event.location,
             "description": event.description,
-            "host": event.host}
+            "host": event.host,
+            "gcal": event.gcal,
+            "ical": event.ical}
         event_list_json.append(event_dict)
         f = json.dumps(event_list_json)
         res = jsbeautifier.beautify(f)
