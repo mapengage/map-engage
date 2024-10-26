@@ -2,6 +2,8 @@ from ics import Calendar
 import requests
 import re
 import json
+import jsbeautifier
+import os
 
 class NinerEvent:
     def __init__(self, name, start, end, lat, lng, url, location, description):
@@ -68,11 +70,13 @@ def jsonify_events(event_list, file_path="./map-engage/src/data/events.json"):
             "location": event.location,
             "description": event.description}
         event_list_json.append(event_dict)
-        with open(file_path, "w") as f: 
-            json.dump(event_list_json, f)
+        f = json.dumps(event_list_json)
+        res = jsbeautifier.beautify(f)
+        with open(file_path, 'w') as file:
+            file.write(res)
 
-def make_events():
-    event_list = get_ics_data()
+def make_events(file_path="./map-engage/src/data/events.json"):
+    event_list = get_ics_data(print_num_events=True)
     jsonify_events(event_list)
-    
+        
 make_events()
