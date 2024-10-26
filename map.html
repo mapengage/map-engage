@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Local OpenStreetMap</title>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
     <style>
         #map { height: 600px; width: 100%; }
@@ -13,7 +12,7 @@
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
     <script>
         // Initialize the map
-        var map = L.map('map').setView([40.730610, -73.935242], 12); // Centered on New York City
+        var map = L.map('map').setView([35.308745467546416, -80.73380187671974], 12); // Centered on Popp Student Union
 
         // Add OSM tiles
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -22,8 +21,8 @@
         }).addTo(map);
 
         // Add a marker
-        L.marker([40.730610, -73.935242]).addTo(map)
-            .bindPopup('Welcome to New York City!')
+        L.marker([35.308745467546416, -80.73380187671974]).addTo(map)
+            .bindPopup('Student union')
             .openPopup();
     </script>
 </body>
