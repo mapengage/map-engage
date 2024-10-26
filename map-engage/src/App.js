@@ -2,8 +2,8 @@ import React, { useEffect, useState } from 'react';
 import { MapContainer, TileLayer, Marker, useMap } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
 import { Icon } from 'leaflet';
-import './App.css'; // Create and import App.css for sidebar styling
-
+import './App.css';
+import events from './data/events.json';
 // Fix for default marker icon in react-leaflet
 delete Icon.Default.prototype._getIconUrl;
 Icon.Default.mergeOptions({
@@ -12,8 +12,8 @@ Icon.Default.mergeOptions({
   shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-shadow.png',
 });
 
-// Custom icon for the destination marker
-const destinationIcon = new Icon({
+// Custom icon for the event markers
+const eventIcon = new Icon({
   iconUrl: 'https://cdn-icons-png.flaticon.com/512/1673/1673188.png',
   iconSize: [32, 32],
   iconAnchor: [16, 32],
@@ -24,7 +24,7 @@ const destinationIcon = new Icon({
 const Sidebar = ({ eventData, onClose, isOpen }) => (
   <div className={`sidebar ${isOpen ? 'sidebar-open' : ''}`}>
     <button className="close-btn" onClick={onClose}>X</button>
-    <h3>{eventData.name}</h3>
+    <h3>{eventData.eventName}</h3>
     <p>{eventData.description}</p>
     <button
       onClick={() => {
@@ -45,63 +45,65 @@ const Sidebar = ({ eventData, onClose, isOpen }) => (
   </div>
 );
 
-// LocationMarker component to display user's location and a nearby destination marker
+// EventMarkers component to place multiple event markers on the map
+const EventMarkers = ({ events, onEventClick }) => (
+  <>
+    {events.map((event, index) => (
+      <Marker
+        key={index}
+        position={[event.lat, event.lng]}
+        icon={eventIcon}
+        eventHandlers={{
+          click: () => onEventClick(event)
+        }}
+      />
+    ))}
+  </>
+);
+
 const LocationMarker = () => {
   const [position, setPosition] = useState(null);
-  const [destination, setDestination] = useState(null);
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+  const [selectedEvent, setSelectedEvent] = useState(null);
   const map = useMap();
 
-  // Event data for the destination marker
-  const eventData = {
-    name: "UNCC Event",
-    description: "Join us for an exciting event at UNCC!",
-    lat: 35.3084,
-    lng: -80.7336
-  };
 
   useEffect(() => {
     map.locate({ setView: true, maxZoom: 15 })
       .on('locationfound', (e) => {
-        const currentPos = e.latlng;
-        setPosition(currentPos);
-
-        const destinationPos = {
-          lat: currentPos.lat + 0.001,
-          lng: currentPos.lng + 0.001
-        };
-        setDestination(destinationPos);
-
-        map.setView(currentPos, 15);
+        setPosition(e.latlng);
+        map.setView(e.latlng, 15);
       })
       .on('locationerror', (e) => {
         alert(`Location access denied: ${e.message}`);
       });
   }, [map]);
 
+  const handleEventClick = (event) => {
+    setSelectedEvent(event);
+    setIsSidebarOpen(true);
+  };
+
   return (
     <>
       {/* User's current location marker */}
       {position && (
         <Marker position={position}>
-          {/* You are here marker */}
+          {/* Optional popup or custom icon */}
         </Marker>
       )}
 
-      {/* Destination marker with custom pin icon */}
-      {destination && (
-        <Marker
-          position={destination}
-          icon={destinationIcon}
-          eventHandlers={{
-            click: () => setIsSidebarOpen(true) // Show sidebar on click
-          }}
+      {/* Render markers for each event */}
+      <EventMarkers events={events} onEventClick={handleEventClick} />
+
+      {/* Sidebar showing selected event details */}
+      {selectedEvent && (
+        <Sidebar
+          eventData={selectedEvent}
+          onClose={() => setIsSidebarOpen(false)}
+          isOpen={isSidebarOpen}
         />
       )}
-
-      {/* Sidebar component */}
-      <Sidebar eventData={eventData} onClose={() => setIsSidebarOpen(false)} isOpen={isSidebarOpen} />
-
     </>
   );
 };
