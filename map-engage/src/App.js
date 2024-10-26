@@ -50,6 +50,8 @@ const LocationMarker = () => {
   const [position, setPosition] = useState(null);
   const [destination, setDestination] = useState(null);
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+  const [selectedEvent, setSelectedEvent] = useState(null);
+  const [events, setEvents] = useState([]); 
   const map = useMap();
 
   // Event data for the destination marker
@@ -59,6 +61,12 @@ const LocationMarker = () => {
     lat: 35.3084,
     lng: -80.7336
   };
+  useEffect(() => {
+    fetch("events.json") // Path to JSON file
+      .then(response => response.json())
+      .then(data => setEvents(data))
+      .catch(error => console.error("Error loading event data:", error));
+  }, []);
 
   useEffect(() => {
     map.locate({ setView: true, maxZoom: 15 })
@@ -84,7 +92,7 @@ const LocationMarker = () => {
       {/* User's current location marker */}
       {position && (
         <Marker position={position}>
-          {/* You are here marker */}
+          {/* Optional popup or custom icon */}
         </Marker>
       )}
 
@@ -94,14 +102,34 @@ const LocationMarker = () => {
           position={destination}
           icon={destinationIcon}
           eventHandlers={{
-            click: () => setIsSidebarOpen(true) // Show sidebar on click
+            click: () => setIsSidebarOpen(true)
           }}
         />
       )}
 
-      {/* Sidebar component */}
-      <Sidebar eventData={eventData} onClose={() => setIsSidebarOpen(false)} isOpen={isSidebarOpen} />
+      {/* Render markers for each event */}
+      {events.map((event, index) => (
+        <Marker
+          key={index}
+          position={[event.lat, event.lng]}
+          icon={destinationIcon}
+          eventHandlers={{
+            click: () => {
+              setSelectedEvent(event);
+              setIsSidebarOpen(true);
+            }
+          }}
+        />
+      ))}
 
+      {/* Sidebar showing selected event details */}
+      {selectedEvent && (
+        <Sidebar
+          eventData={selectedEvent}
+          onClose={() => setIsSidebarOpen(false)}
+          isOpen={isSidebarOpen}
+        />
+      )}
     </>
   );
 };
