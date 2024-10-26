@@ -3,7 +3,7 @@ import { MapContainer, TileLayer, Marker, useMap } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
 import { Icon } from 'leaflet';
 import './App.css';
-
+import events from './data/events.json';
 // Fix for default marker icon in react-leaflet
 delete Icon.Default.prototype._getIconUrl;
 Icon.Default.mergeOptions({
@@ -67,27 +67,6 @@ const LocationMarker = () => {
   const [selectedEvent, setSelectedEvent] = useState(null);
   const map = useMap();
 
-  // Random event data
-  const events = [
-    {
-      eventName: "Mock Shaadi",
-      description: "A vibrant South Asian wedding celebration.",
-      lat: 35.3084,
-      lng: -80.7336
-    },
-    {
-      eventName: "ACM Weekly Meeting",
-      description: "Join us for weekly discussions and coding challenges.",
-      lat: 35.3071,
-      lng: -80.7357
-    },
-    {
-      eventName: "Art Expo",
-      description: "A showcase of art from local artists.",
-      lat: 35.3062,
-      lng: -80.7341
-    }
-  ];
 
   useEffect(() => {
     map.locate({ setView: true, maxZoom: 15 })
