@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 import { MapContainer, TileLayer, Marker, Popup, useMap } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
 import { Icon } from 'leaflet';
-import buildings from './data/building_locations.json';
 
 // Fix for default marker icon in react-leaflet
 delete Icon.Default.prototype._getIconUrl;
@@ -15,9 +14,9 @@ Icon.Default.mergeOptions({
 // Custom icon for the destination marker
 const destinationIcon = new Icon({
   iconUrl: 'https://cdn-icons-png.flaticon.com/512/1673/1673188.png', // URL to a custom pin icon
-  iconSize: [32, 32], // Adjust size of the icon as needed
-  iconAnchor: [16, 32], // Anchor the icon's bottom to its location
-  popupAnchor: [0, -32] // Position the popup above the icon
+  iconSize: [32, 32],
+  iconAnchor: [16, 32],
+  popupAnchor: [0, -32]
 });
 
 // LocationMarker component to display user's location and a nearby destination marker
@@ -26,23 +25,27 @@ const LocationMarker = () => {
   const [destination, setDestination] = useState(null);
   const map = useMap();
 
+  // Event data for the destination marker
+  const eventData = {
+    name: "UNCC Event",
+    description: "Join us for an exciting event at UNCC!",
+    lat: 35.3084, // Replace with destination latitude
+    lng: -80.7336 // Replace with destination longitude
+  };
+
   useEffect(() => {
     map.locate({ setView: true, maxZoom: 15 })
       .on('locationfound', (e) => {
         const currentPos = e.latlng;
         setPosition(currentPos);
 
-        // building destination
-        const destination = buildings.buildings.find(building => building.name === 'Atkins Library');
-
         // Set the destination location close to current location
         const destinationPos = {
-          lat: destination.latitude,
-          lng: destination.longitude
+          lat: currentPos.lat + 0.001,
+          lng: currentPos.lng + 0.001
         };
         setDestination(destinationPos);
 
-        // Center map on user’s location
         map.setView(currentPos, 15);
       })
       .on('locationerror', (e) => {
@@ -58,11 +61,30 @@ const LocationMarker = () => {
           <Popup>You are here!</Popup>
         </Marker>
       )}
-      
-      {/* Destination marker with custom pin icon */}
+
+      {/* Destination marker with custom pin icon and popup content */}
       {destination && (
         <Marker position={destination} icon={destinationIcon}>
-          <Popup>Destination</Popup>
+          <Popup>
+            <h3>{eventData.name}</h3>
+            <p>{eventData.description}</p>
+            <button
+              onClick={() => {
+                const url = `https://www.google.com/maps/dir/?api=1&destination=${eventData.lat},${eventData.lng}`;
+                window.open(url, '_blank');
+              }}
+              style={{
+                padding: '8px 12px',
+                background: '#007bff',
+                color: '#fff',
+                border: 'none',
+                borderRadius: '4px',
+                cursor: 'pointer'
+              }}
+            >
+              Navigate
+            </button>
+          </Popup>
         </Marker>
       )}
     </>
@@ -72,7 +94,7 @@ const LocationMarker = () => {
 function App() {
   return (
     <div style={{ height: '100vh', width: '100%' }}>
-      <MapContainer center={[51.505, -0.09]} zoom={13} style={{ height: '100%', width: '100%' }}>
+      <MapContainer center={[35.307, -80.735]} zoom={15} style={{ height: '100%', width: '100%' }}>
         <TileLayer
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
           attribution="&copy; OpenStreetMap contributors"
