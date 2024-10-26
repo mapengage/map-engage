@@ -4,6 +4,21 @@ import 'leaflet/dist/leaflet.css';
 import { Icon } from 'leaflet';
 import './App.css';
 import events from './data/events.json';
+
+events = events.concat(
+  {
+    "name": "Japan Summer Program 2025",
+    "start": "2025-05-17T00:00:00+00:00",
+    "end": "2025-06-15T00:00:00+00:00",
+    "name": "Tokyo Studio, Japan",
+    "lat": 35.64126013351904, 
+    "lng": 139.60309040974118,
+    "url": "https://coaa.charlotte.edu/architecture/study-abroad/japan-summer-program/",
+    "description": "The Japan Summer Program is a study abroad experience for architecture students, featuring visits to architectural sites, including Tokyo and World Expo 2025 in Osaka. Led by Professor Chris Jarrett, the program includes coursework, site visits, and collaborations with Meiji University."
+  }
+);
+
+
 // Fix for default marker icon in react-leaflet
 delete Icon.Default.prototype._getIconUrl;
 Icon.Default.mergeOptions({
@@ -24,7 +39,7 @@ const eventIcon = new Icon({
 const Sidebar = ({ eventData, onClose, isOpen }) => (
   <div className={`sidebar ${isOpen ? 'sidebar-open' : ''}`}>
     <button className="close-btn" onClick={onClose}>X</button>
-    <h3>{eventData.eventName}</h3>
+    <h3>{eventData.name}</h3>
     <p>{eventData.description}</p>
     <button
       onClick={() => {
@@ -83,6 +98,8 @@ const LocationMarker = () => {
     setSelectedEvent(event);
     setIsSidebarOpen(true);
   };
+
+ 
 
   return (
     <>
