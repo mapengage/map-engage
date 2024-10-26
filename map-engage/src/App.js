@@ -68,24 +68,24 @@ const LocationMarker = () => {
   const studentUnionCoords = { lat: 35.30881988721451, lng: -80.73359802880277}; 
 
   useEffect(() => {
-    /*map.locate({ setView: true, maxZoom: 15 })
-      .on('locationfound', (e) => {
-        setPosition(e.latlng);
-        map.setView(e.latlng, 15);
-      })
-      .on('locationerror', (e) => {
-        alert(`Location access denied: ${e.message}`);
-      });
-  }, [map]);*/
     setPosition(studentUnionCoords);
-    map.setView(studentUnionCoords, 15);
-  }, [map]);
+    map.setView(studentUnionCoords, 17);
+  }, []);
 
   const handleEventClick = (event) => {
     setSelectedEvent(event);
     setIsSidebarOpen(true);
   };
-
+  const getCurrentLocation = () => {
+    map.locate({ setView: true, maxZoom: 17 })
+      .on('locationfound', (e) => {
+        setPosition(e.latlng);
+        map.setView(e.latlng, 17);
+      })
+      .on('locationerror', (e) => {
+        alert(`Location access denied: ${e.message}`);
+      });
+  };
   return (
     <>
       {/* User's current location marker */}
@@ -106,6 +106,23 @@ const LocationMarker = () => {
           isOpen={isSidebarOpen}
         />
       )}
+      <button
+        onClick={getCurrentLocation}
+        style={{
+          position: 'absolute',
+          bottom: '20px',
+          right: '20px',
+          padding: '10px',
+          backgroundColor: '#007bff',
+          color: 'white',
+          border: 'none',
+          borderRadius: '5px',
+          cursor: 'pointer',
+          zIndex: 1000,
+        }}
+      >
+        Current Location
+      </button>
     </>
   );
 };
