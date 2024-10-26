@@ -75,32 +75,32 @@ const EventMarkers = ({ events, onEventClick }) => (
     ))}
   </>
 );
-
 const LocationMarker = () => {
   const [position, setPosition] = useState(null);
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   const [selectedEvent, setSelectedEvent] = useState(null);
   const map = useMap();
-
+  const studentUnionCoords = { lat: 35.30881988721451, lng: -80.73359802880277}; 
 
   useEffect(() => {
-    map.locate({ setView: true, maxZoom: 15 })
-      .on('locationfound', (e) => {
-        setPosition(e.latlng);
-        map.setView(e.latlng, 15);
-      })
-      .on('locationerror', (e) => {
-        alert(`Location access denied: ${e.message}`);
-      });
-  }, [map]);
+    setPosition(studentUnionCoords);
+    map.setView(studentUnionCoords, 17);
+  }, []);
 
   const handleEventClick = (event) => {
     setSelectedEvent(event);
     setIsSidebarOpen(true);
   };
-
- 
-
+  const getCurrentLocation = () => {
+    map.locate({ setView: true, maxZoom: 17 })
+      .on('locationfound', (e) => {
+        setPosition(e.latlng);
+        map.setView(e.latlng, 17);
+      })
+      .on('locationerror', (e) => {
+        alert(`Location access denied: ${e.message}`);
+      });
+  };
   return (
     <>
       {/* User's current location marker */}
@@ -121,14 +121,44 @@ const LocationMarker = () => {
           isOpen={isSidebarOpen}
         />
       )}
+      <button
+        onClick={getCurrentLocation}
+        style={{
+          position: 'absolute',
+          bottom: '20px',
+          right: '20px',
+          padding: '10px',
+          backgroundColor: '#007bff',
+          color: 'white',
+          border: 'none',
+          borderRadius: '5px',
+          cursor: 'pointer',
+          zIndex: 1000,
+        }}
+      >
+        Current Location
+      </button>
     </>
   );
 };
 
 function App() {
+  const worldBounds = [
+    [-90, -180], // Southwest corner
+    [90, 180],   // Northeast corner
+  ];
+
   return (
     <div style={{ height: '100vh', width: '100%' }}>
-      <MapContainer center={[35.307, -80.735]} zoom={15} style={{ height: '100%', width: '100%' }}>
+      <MapContainer
+        center={[35.307, -80.735]}
+        zoom={2} // Starting zoom
+        minZoom={2} // Prevents zooming out too far
+        maxZoom={18} // Adjust based on your needs
+        maxBounds={worldBounds}
+        maxBoundsViscosity={1.0} // Ensures the map "bounces" back when attempting to pan outside bounds
+        style={{ height: '100%', width: '100%' }}
+      >
         <TileLayer
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
           attribution="&copy; OpenStreetMap contributors"
