@@ -67,28 +67,6 @@ const BurgerSide = ({
       }}>
         Show Next Week's Events
       </button>
-      
-      <button onClick={() => alert('Showing Past Events')} style={{
-        padding: '8px 12px',
-        background: '#dc3545',
-        color: '#fff',
-        border: 'none',
-        borderRadius: '4px',
-        cursor: 'pointer'
-      }}>
-        Show Past Events
-      </button>
-
-      <button onClick={() => alert('Showing Upcoming Events')} style={{
-        padding: '8px 12px',
-        background: '#17a2b8',
-        color: '#fff',
-        border: 'none',
-        borderRadius: '4px',
-        cursor: 'pointer'
-      }}>
-        Show Upcoming Events
-      </button>
     </div>
   </div>
 );
