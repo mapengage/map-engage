@@ -408,6 +408,18 @@
     "ical": "https://ninerengage.charlotte.edu/event/10356123.ics"
 }, {
     "name": "Monday Night Hangout",
+    "start": "2024-11-26T00:00:00+00:00",
+    "end": "2024-11-26T01:00:00+00:00",
+    "lat": "",
+    "lng": "",
+    "url": "https://ninerengage.charlotte.edu/event/10356124",
+    "location": "Campus",
+    "description": "Hangouts are a weekly rhythm for college students to exist in community with one another in two different ways:\nFamily Hangouts\u00a0are a time for believers to gather together and worship God through encouragement, song, scripture, and prayer.\nMissional Hangouts\u00a0is a fun, informal environment that allows Mercy College to invite their non-Christian friends into a community, engage them with the gospel, and model to them what it looks like to be transformed by the gospel.",
+    "host": "Mercy College",
+    "gcal": "https://ninerengage.charlotte.edu/event/10356124/googlepublish",
+    "ical": "https://ninerengage.charlotte.edu/event/10356124.ics"
+}, {
+    "name": "Monday Night Hangout",
     "start": "2024-11-05T00:00:00+00:00",
     "end": "2024-11-05T01:00:00+00:00",
     "lat": "",
@@ -538,6 +550,18 @@
     "host": "Reproductive Justice Collective",
     "gcal": "https://ninerengage.charlotte.edu/event/10535224/googlepublish",
     "ical": "https://ninerengage.charlotte.edu/event/10535224.ics"
+}, {
+    "name": "Clay it Your Way",
+    "start": "2024-11-25T23:00:00+00:00",
+    "end": "2024-11-26T00:00:00+00:00",
+    "lat": "35.30509",
+    "lng": "-80.73324",
+    "url": "https://ninerengage.charlotte.edu/event/10581225",
+    "location": "Cone 112",
+    "description": "Come for a chill night of getting creative with air-dry clay, acrylic paints, and canvases. We\u2019ll have Chick-Fil-A to snack on while you meet the Diversified Greek Council and hang out with other students. It\u2019s all about building a sense of community, so whether you\u2019re here to paint, chat, or just grab some free food, you\u2019ll find a relaxed space to connect, make friends, and create something cool. Don't miss out on the good vibes and great company!",
+    "host": "Diversified Greek Council",
+    "gcal": "https://ninerengage.charlotte.edu/event/10581225/googlepublish",
+    "ical": "https://ninerengage.charlotte.edu/event/10581225.ics"
 }, {
     "name": "Pam Reyes Concert",
     "start": "2024-11-19T23:00:00+00:00",
@@ -1836,16 +1860,16 @@
     "ical": "https://ninerengage.charlotte.edu/event/10356244.ics"
 }, {
     "name": "Monday Night Discovery Bible Study",
-    "start": "2024-10-28T23:00:00+00:00",
-    "end": "2024-10-29T00:00:00+00:00",
+    "start": "2024-11-26T00:00:00+00:00",
+    "end": "2024-11-26T01:00:00+00:00",
     "lat": "",
     "lng": "",
-    "url": "https://ninerengage.charlotte.edu/event/10356242",
+    "url": "https://ninerengage.charlotte.edu/event/10356245",
     "location": "Campus",
     "description": "Discover Bible Study\u00a0is for people who want to learn more about Jesus before deciding to commit their whole life to him. This group should meet together for no longer than a semester and then join a dGroup if they choose to follow Jesus.",
     "host": "Mercy College",
-    "gcal": "https://ninerengage.charlotte.edu/event/10356242/googlepublish",
-    "ical": "https://ninerengage.charlotte.edu/event/10356242.ics"
+    "gcal": "https://ninerengage.charlotte.edu/event/10356245/googlepublish",
+    "ical": "https://ninerengage.charlotte.edu/event/10356245.ics"
 }, {
     "name": "Wednesday Night Discovery Bible Study",
     "start": "2024-10-30T23:00:00+00:00",
@@ -1858,6 +1882,18 @@
     "host": "Mercy College",
     "gcal": "https://ninerengage.charlotte.edu/event/10356314/googlepublish",
     "ical": "https://ninerengage.charlotte.edu/event/10356314.ics"
+}, {
+    "name": "Monday Night Discovery Bible Study",
+    "start": "2024-10-28T23:00:00+00:00",
+    "end": "2024-10-29T00:00:00+00:00",
+    "lat": "",
+    "lng": "",
+    "url": "https://ninerengage.charlotte.edu/event/10356242",
+    "location": "Campus",
+    "description": "Discover Bible Study\u00a0is for people who want to learn more about Jesus before deciding to commit their whole life to him. This group should meet together for no longer than a semester and then join a dGroup if they choose to follow Jesus.",
+    "host": "Mercy College",
+    "gcal": "https://ninerengage.charlotte.edu/event/10356242/googlepublish",
+    "ical": "https://ninerengage.charlotte.edu/event/10356242.ics"
 }, {
     "name": "Financial Wellness Walk-In Hours",
     "start": "2024-11-25T16:00:00+00:00",
@@ -2170,6 +2206,18 @@
     "host": "IAmAFirstGenNiner",
     "gcal": "https://ninerengage.charlotte.edu/event/10634692/googlepublish",
     "ical": "https://ninerengage.charlotte.edu/event/10634692.ics"
+}, {
+    "name": "Odometry Workshop",
+    "start": "2024-11-25T23:00:00+00:00",
+    "end": "2024-11-26T00:00:00+00:00",
+    "lat": "",
+    "lng": "",
+    "url": "https://ninerengage.charlotte.edu/event/10637564",
+    "location": "EPIC 1249",
+    "description": "Learn more about odometry and robot navigation!",
+    "host": "Gold Rush Robotics",
+    "gcal": "https://ninerengage.charlotte.edu/event/10637564/googlepublish",
+    "ical": "https://ninerengage.charlotte.edu/event/10637564.ics"
 }, {
     "name": "CEO of EpicHire -  Speaker Series",
     "start": "2024-11-18T22:30:00+00:00",
@@ -3731,18 +3779,6 @@
     "gcal": "https://ninerengage.charlotte.edu/event/10351415/googlepublish",
     "ical": "https://ninerengage.charlotte.edu/event/10351415.ics"
 }, {
-    "name": "October Union LAN Party",
-    "start": "2024-10-26T15:00:00+00:00",
-    "end": "2024-10-27T00:00:00+00:00",
-    "lat": "35.30864",
-    "lng": "-80.73374",
-    "url": "https://ninerengage.charlotte.edu/event/10478018",
-    "location": "Popp-Martin Student Union, Room 340",
-    "description": "It\u2019s time for our second LAN of the semester on October 26th from 11AM-8PM at the Student Union, room 340!! So mark your calendars, bring your friends, and prepare some energy drinks for NINE hours of fun. Whether you're a casual or competitive gamer, come for our tournaments, free food, and prizes while meeting new people. We'd love to see you there!",
-    "host": "Niner Esports",
-    "gcal": "https://ninerengage.charlotte.edu/event/10478018/googlepublish",
-    "ical": "https://ninerengage.charlotte.edu/event/10478018.ics"
-}, {
     "name": "3D Printer Training",
     "start": "2024-10-31T18:00:00+00:00",
     "end": "2024-10-31T19:15:00+00:00",
@@ -4282,18 +4318,6 @@
     "host": "Popp Martin Student Union",
     "gcal": "https://ninerengage.charlotte.edu/event/10483765/googlepublish",
     "ical": "https://ninerengage.charlotte.edu/event/10483765.ics"
-}, {
-    "name": "Movie: Halloweentown",
-    "start": "2024-10-26T21:00:00+00:00",
-    "end": "2024-10-26T23:00:00+00:00",
-    "lat": "",
-    "lng": "",
-    "url": "https://ninerengage.charlotte.edu/event/10483763",
-    "location": "Popp Martin Student Union",
-    "description": "When a young girl living with her secret witch mother learns she too is a witch, she must help her witch grandmother save Halloweentown from evil forces.",
-    "host": "Popp Martin Student Union",
-    "gcal": "https://ninerengage.charlotte.edu/event/10483763/googlepublish",
-    "ical": "https://ninerengage.charlotte.edu/event/10483763.ics"
 }, {
     "name": "Mindset and Motivation",
     "start": "2024-11-05T16:30:00+00:00",
