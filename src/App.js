@@ -130,7 +130,7 @@ function App() {
 
   const filterNextWeekEvents = () => {
     // Implement this function to filter events for the next week
-    alert('Filtering events for next week');
+    //alert('Filtering events for next week');
     const today = new Date();
     const nextSunday = new Date(today);
     nextSunday.setDate(today.getDate() + (7 - today.getDay()) % 7);
@@ -143,10 +143,10 @@ function App() {
     setFilterDateStart(nextSunday);
     setFilterDateEnd(nextSaturday);
 
-    console.log('Filtering events from', nextSunday, 'to', nextSaturday);
+    //console.log('Filtering events from', nextSunday, 'to', nextSaturday);
   };
   const filterTodayEvents = () => {
-    alert('filtering events for today', today);
+    //alert('filtering events for today', today);
     const tomorrow = new Date(today);
     tomorrow.setDate(today.getDate() + 1); // Move to the next day
     setFilterDateStart(today);
@@ -155,7 +155,7 @@ function App() {
   const filterTomorrowEvents = () => {
     const tomorrow = new Date(today);
     tomorrow.setDate(tomorrow.getDate() + 1); // Move to the next day
-    alert("filtering for tomorrow's date", tomorrow);
+    //alert("filtering for tomorrow's date", tomorrow);
     const dayAfterTomorrow = new Date(tomorrow);
     dayAfterTomorrow.setDate(tomorrow.getDate() + 1); // Day after tomorrow
     setFilterDateStart(tomorrow);
