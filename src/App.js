@@ -5,6 +5,7 @@ import { Icon } from 'leaflet';
 import './App.css';
 import events from './data/events.json';
 import ReadMoreText from './components/ReadMoreText.js';
+import { MapPin } from 'lucide-react'
 events = events.concat(
   {
     "name": "Japan Summer Program 2025",
@@ -91,8 +92,10 @@ const Sidebar = ({ eventData, onClose, isOpen }) => (
     <ReadMoreText text={eventData.description} maxLength={100} />
 
     
-    <h3>{eventData.location}</h3>
-
+    <h3 className="flex items-center gap-6 font-semibold" style={{ fontSize: '16px', marginBottom: '10px'}}>
+      <MapPin size={16} className="pr-3" style= {{paddingRight: '5px'}}/>
+      {eventData.location}
+    </h3>
     <p>{ formatDateRange(new Date(eventData.start), new Date(eventData.end))}</p>
 
     <button
