@@ -77,6 +77,7 @@ const LocationMarker = () => {
           eventData={selectedEvent}
           onClose={() => setIsSidebarOpen(false)}
           isOpen={isSidebarOpen}
+          map={map}
         />
       )}
       <button
