@@ -127,7 +127,7 @@ const LocationMarker = () => {
         onClick={getCurrentLocation}
         style={{
           position: 'absolute',
-          bottom: '20px',
+          bottom: '50px',
           right: '20px',
           padding: '10px',
           backgroundColor: '#007bff',
