@@ -15,7 +15,7 @@ Map Engage is a Node.js application designed to put all the events on Niner Enga
    Clone this repository to your local machine using:
 
    ```bash
-   git clone https://github.com/your-username/map-engage.git
+   git clone https://github.com/mapengage/map-engage.git
    cd map-engage
    ```
 
