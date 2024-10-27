@@ -4,7 +4,7 @@ import 'leaflet/dist/leaflet.css';
 import { Icon } from 'leaflet';
 import './App.css';
 import events from './data/events.json';
-
+import ReadMoreText from './components/ReadMoreText.js';
 events = events.concat(
   {
     "name": "Japan Summer Program 2025",
@@ -86,8 +86,15 @@ const BurgerSide = ({ eventData, isOpen, onClose }) => (
 const Sidebar = ({ eventData, onClose, isOpen }) => (
   <div className={`sidebar ${isOpen ? 'sidebar-open' : ''}`}>
     <button className="close-btn" onClick={onClose}>X</button>
-    <h3>{eventData.name}</h3>
-    <p>{eventData.description}</p>
+    <h1>{eventData.name}</h1>
+    <h3>{eventData.host}</h3>
+    <ReadMoreText text={eventData.description} maxLength={100} />
+
+    
+    <h3>{eventData.location}</h3>
+
+    <p>{ formatDateRange(new Date(eventData.start), new Date(eventData.end))}</p>
+
     <button
       onClick={() => {
         const url = `https://www.google.com/maps/dir/?api=1&destination=${eventData.lat},${eventData.lng}`;
@@ -235,6 +242,28 @@ function App() {
       />
     </div>
   );
+}
+
+function formatDateRange(startDate, endDate) {
+  // Helper function to format hours and minutes
+  const formatTime = (date) => {
+    let hours = date.getHours();
+    const minutes = date.getMinutes().toString().padStart(2, '0');
+    const ampm = hours >= 12 ? 'PM' : 'AM';
+    hours = hours % 12 || 12; // convert to 12-hour format and handle midnight
+    return `${hours}:${minutes} ${ampm}`;
+  };
+
+  // Format the date (month/day)
+  const month = startDate.getMonth() + 1; // getMonth() is zero-based
+  const day = startDate.getDate();
+
+  // Format the time ranges
+  const startTime = formatTime(startDate);
+  const endTime = formatTime(endDate);
+
+  // Combine to the desired format
+  return `${month}/${day} ${startTime} to ${endTime}`;
 }
 
 export default App;
