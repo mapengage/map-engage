@@ -6,6 +6,7 @@ import './App.css';
 import BurgerSide from './components/BurgerSide';
 import Sidebar from './components/Sidebar';
 import EventMarkers from './components/EventMarkers';
+// import LocationMarker from './components/LocationMarker';
 
 import events from './data/events.json';
 events = events.concat(
@@ -30,19 +31,13 @@ Icon.Default.mergeOptions({
 });
 
 
-const LocationMarker = () => {
+const LocationMarker = (filterDateStart, filterDateEnd) => {
   const [position, setPosition] = useState(null);
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   const [selectedEvent, setSelectedEvent] = useState(null);
   const map = useMap();
   const studentUnionCoords = { lat: 35.30881988721451, lng: -80.73359802880277}; 
-  const currentDate = new Date();
-  const tomorrow = new Date(currentDate);
-  tomorrow.setDate(currentDate.getDate()+1);
-  tomorrow.setHours(0,0,0,0);
-  const endOfYear = new Date(currentDate.getFullYear(), 11, 31, 23, 59, 59);
-  const [filterDateStart, setFilterDateStart] = useState(new Date());
-  const [filterDateEnd, setFilterDateEnd] = useState(endOfYear);
+
 
   useEffect(() => {
     setPosition(studentUnionCoords);
@@ -119,13 +114,19 @@ const BurgerMenu = ({ onToggle }) => (
   </button>
 );
 function App() {
+  const today = new Date();
+  const tomorrow = new Date(today);
+  tomorrow.setDate(today.getDate() + 2);
+  tomorrow.setHours(0, 0, 0, 0);
+  const endOfYear = new Date(today.getFullYear(), 11, 31, 23, 59, 59);
+
+
   const [isBurgerSideOpen, setIsBurgerSideOpen] = useState(false);
   const [selectedEvent, setSelectedEvent] = useState(null);
-  const currentDate = new Date();
-  const tomorrow = currentDate.getDate() + 1;
-  const endOfYear = new Date(currentDate.getFullYear(), 11, 31, 23, 59, 59);
   const [filterDateStart, setFilterDateStart] = useState(new Date());
   const [filterDateEnd, setFilterDateEnd] = useState(endOfYear);
+  
+
   const handleEventClick = (event) => {
     setSelectedEvent(event);
     setIsBurgerSideOpen(true);
@@ -134,13 +135,36 @@ function App() {
   const filterNextWeekEvents = () => {
     // Implement this function to filter events for the next week
     alert('Filtering events for next week');
+    const today = new Date();
+    const nextSunday = new Date(today);
+    nextSunday.setDate(today.getDate() + (7 - today.getDay()) % 7);
+    nextSunday.setHours(0, 0, 0, 0);
+
+    const nextSaturday = new Date(nextSunday);
+    nextSaturday.setDate(nextSunday.getDate() + 6);
+    nextSaturday.setHours(23, 59, 59, 999);
+
+    setFilterDateStart(nextSunday);
+    setFilterDateEnd(nextSaturday);
+
+    console.log('Filtering events from', nextSunday, 'to', nextSaturday);
   };
   const filterTodayEvents = () => {
-    // Implement this function to filter events for the next week
-    alert(currentDate);
+    alert('today\'s date', today);
+    alert('tomorrow\'s date', tomorrow);
+
+    console.log('filtering today events');
+
+    setFilterDateStart(today);
+    setFilterDateEnd(tomorrow);
   };
   const filterTomorrowEvents = () => {
-    alert("tomorrow's date", tomorrow);
+    alert("filtering for tomorrow's date", tomorrow);
+
+    const tomorrowPlusOneDay = new Date(tomorrow);
+    tomorrowPlusOneDay.setDate(tomorrow.getDate() + 1);
+    setFilterDateStart(tomorrow);
+    setFilterDateEnd(tomorrowPlusOneDay);
   }
  
   return (
@@ -161,7 +185,7 @@ function App() {
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
           attribution="&copy; OpenStreetMap contributors"
         />
-        <LocationMarker onEventSelect={handleEventClick} />
+        <LocationMarker filterDateStart={filterDateStart} filterDateEnd={filterDateEnd} />
       </MapContainer>
 
       <BurgerMenu onToggle={() => setIsBurgerSideOpen((prev) => !prev)} />

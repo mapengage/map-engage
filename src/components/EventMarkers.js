@@ -14,9 +14,16 @@ const EventMarkers = ({ events, onEventClick, filterStartDate, filterEndDate }) 
   <>
     {events
     .filter(events => {
+      console.log("Filtering events ", filterStartDate, filterEndDate);
+      console.log('filterStartDate is type of Date:', filterStartDate instanceof Date);
+      console.log('filterStartDate is type of String:', filterStartDate instanceof String);
+      console.log('Type of filterStartDate:', typeof filterStartDate);
+      
+      console.log('events start', events.start)
+      console.log('events end', events.end)
       return (
         new Date(events.start) >= new Date(filterStartDate) &&
-        new Date(events.end) <= new Date(filterEndDate)
+        new Date(events.end) <= new Date(new Date().getTime() + 7 * 24 * 60 * 60 * 1000)
     )
     })
     .map((event, index) => (
