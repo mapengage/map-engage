@@ -7,6 +7,9 @@ const Sidebar = ({ eventData, onClose, isOpen, map }) => {
   useEffect(() => {
     if (isOpen) {
       map.scrollWheelZoom.disable(); // Disable scroll wheel zoom when sidebar is open
+      document.querySelector('.overlay-panel').addEventListener('wheel', (e) => {
+        e.stopPropagation();
+      });
     } else {
       map.scrollWheelZoom.enable(); // Enable scroll wheel zoom when sidebar is closed
     }
