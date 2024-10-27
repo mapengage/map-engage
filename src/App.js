@@ -15,6 +15,27 @@ events = events.concat(
     "lng": 139.60309040974118,
     "url": "https://coaa.charlotte.edu/architecture/study-abroad/japan-summer-program/",
     "description": "The Japan Summer Program is a study abroad experience for architecture students, featuring visits to architectural sites, including Tokyo and World Expo 2025 in Osaka. Led by Professor Chris Jarrett, the program includes coursework, site visits, and collaborations with Meiji University."
+    },
+    {
+      "name": "Kyoto Summer Study Program 2025",
+      "start": "2025-06-20T00:00:00+00:00",
+      "end": "2025-07-20T00:00:00+00:00",
+      "location": "Kyoto Cultural Exchange, Japan",
+      "lat": 35.011564, 
+      "lng": 135.768149,
+      "url": "https://coaa.charlotte.edu/architecture/study-abroad/kyoto-summer-program/",
+      "description": "The Kyoto Summer Study Program offers students an immersive experience in Japanese culture, history, and architecture. Led by Professor Aiko Yamamoto, the program includes coursework, visits to historic temples, gardens, and traditional Kyoto neighborhoods, as well as workshops in Japanese design practices and collaborations with Kyoto University."
+  }
+  ,
+  {
+    "name": "Eiffel Tower Visit Experience 2025",
+    "start": "2025-07-10T09:00:00+00:00",
+    "end": "2025-07-10T17:00:00+00:00",
+    "location": "Eiffel Tower, Paris, France",
+    "lat": 48.8584830111012, 
+    "lng": 2.2949962805797743,
+    "url": "https://www.toureiffel.paris/en",
+    "description": "Join us for a guided exploration of the iconic Eiffel Tower, where we’ll learn about its history, design, and cultural significance. This event includes a tour of the tower's various levels, insights into Parisian architecture, and panoramic views of the city. Perfect for architecture and history enthusiasts alike."
   }
 );
 
