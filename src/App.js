@@ -39,6 +39,10 @@ const LocationMarker = () => {
   const [selectedEvent, setSelectedEvent] = useState(null);
   const map = useMap();
   const studentUnionCoords = { lat: 35.30881988721451, lng: -80.73359802880277}; 
+  const currentDate = new Date();
+  const endOfYear = new Date(currentDate.getFullYear(), 11, 31, 23, 59, 59);
+  const [filterDateStart, setFilterDateStart] = useState(new Date());
+  const [filterDateEnd, setFilterDateEnd] = useState(endOfYear);
 
   useEffect(() => {
     setPosition(studentUnionCoords);
@@ -69,7 +73,12 @@ const LocationMarker = () => {
       )}
 
       {/* Render markers for each event */}
-      <EventMarkers events={events} onEventClick={handleEventClick} filterStartDate={new Date()} filterEndDate={new Date('10-30-2024')}/>
+      <EventMarkers 
+        events={events} 
+        onEventClick={handleEventClick} 
+        filterStartDate={filterDateStart} 
+        filterEndDate={filterDateEnd}
+      />
 
       {/* Sidebar showing selected event details */}
       {selectedEvent && (
