@@ -28,7 +28,7 @@ const Sidebar = ({ eventData, onClose, isOpen }) => {
 
       <div style={{ marginBottom: '10px' }}>
         <h3 className="flex items-center font-semibold" style={{ fontSize: '16px', margin: '10px 0 0 0' }}>
-          <MapPin size={16} className="pr-3" style={{ marginRight: '2px' }} /> {/* Added margin to the icon */}
+          <MapPin size={16} className="pr-3" style={{ marginRight: '2px' }} />
           {eventData.location}
         </h3>
         <p style={{ fontSize: '16px', margin: '8px 0 0 0', color: '#333', display: 'flex', alignItems: 'center', fontWeight: 'bold' }}>
@@ -40,6 +40,18 @@ const Sidebar = ({ eventData, onClose, isOpen }) => {
           {formatDateRange(new Date(eventData.start), new Date(eventData.end))}
         </p>
       </div>
+
+      {/* Moved Niner Engage link above calendar links but below time */}
+      <p style={{ fontSize: '16px', display: 'flex', alignItems: 'center', fontFamily: 'Arial, sans-serif', color: '#333', fontWeight: 'bold' }}>
+        <img 
+          src={`${process.env.PUBLIC_URL}/ninerEngageLogo.ico`} 
+          alt="Niner Engage Logo" 
+          style={{ width: '24px', height: '24px', marginRight: '8px' }} 
+        />
+        <a href={eventData.url} target="_blank" rel="noopener noreferrer" style={{ color: 'black', fontWeight: 'bold' }}>
+          Niner Engage Link
+        </a>
+      </p>
 
       <p style={{ fontSize: '16px', display: 'flex', alignItems: 'center', fontFamily: 'Arial, sans-serif', color: '#333', fontWeight: 'bold' }}>
         <img 
@@ -58,7 +70,7 @@ const Sidebar = ({ eventData, onClose, isOpen }) => {
         <a href={eventData.ical} target="_blank" rel="noopener noreferrer" style={{ color: 'black', fontWeight: 'bold' }}>Add to Outlook or iCal</a>
       </p>
 
-      <div style={{ display: 'flex', justifyContent: 'center', marginTop: '20px' }}> {/* Centering the button */}
+      <div style={{ display: 'flex', justifyContent: 'center', marginTop: '20px' }}>
         <button
           onClick={() => {
             const url = `https://www.google.com/maps/dir/?api=1&destination=${eventData.lat},${eventData.lng}`;
