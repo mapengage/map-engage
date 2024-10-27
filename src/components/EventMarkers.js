@@ -10,13 +10,13 @@ const eventIcon = new Icon({
   popupAnchor: [0, -32]
 });
 
-const EventMarkers = ({ events, onEventClick }) => (
+const EventMarkers = ({ events, onEventClick, filterStartDate, filterEndDate }) => (
   <>
     {events
     .filter(events => {
       return (
-        new Date(events.start) >= new Date() &&
-        new Date(events.end) <= new Date('10-30-2024')
+        new Date(events.start) >= new Date(filterStartDate) &&
+        new Date(events.end) <= new Date(filterEndDate)
     )
     })
     .map((event, index) => (

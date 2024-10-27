@@ -69,7 +69,7 @@ const LocationMarker = () => {
       )}
 
       {/* Render markers for each event */}
-      <EventMarkers events={events} onEventClick={handleEventClick} />
+      <EventMarkers events={events} onEventClick={handleEventClick} filterStartDate={new Date()} filterEndDate={new Date('10-30-2024')}/>
 
       {/* Sidebar showing selected event details */}
       {selectedEvent && (
