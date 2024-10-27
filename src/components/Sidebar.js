@@ -3,17 +3,21 @@ import ReadMoreText from './ReadMoreText';
 import { MapPin } from 'lucide-react';
 import { formatDateRange } from '../utils/dateUtils';
 
-const Sidebar = ({ eventData, onClose, isOpen, map }) => {
+const Sidebar = ({ eventData, onClose, isOpen }) => {
   useEffect(() => {
     if (isOpen) {
-      map.scrollWheelZoom.disable(); // Disable scroll wheel zoom when sidebar is open
-      document.querySelector('.overlay-panel').addEventListener('wheel', (e) => {
-        e.stopPropagation();
-      });
+      // Disable body scroll
+      document.body.style.overflow = 'hidden';
     } else {
-      map.scrollWheelZoom.enable(); // Enable scroll wheel zoom when sidebar is closed
+      // Enable body scroll
+      document.body.style.overflow = 'auto';
     }
-  }, [isOpen, map]);
+    
+    // Cleanup function to reset overflow on unmount
+    return () => {
+      document.body.style.overflow = 'auto';
+    };
+  }, [isOpen]);
 
   return (
     <div className={`sidebar ${isOpen ? 'sidebar-open' : ''}`}>
@@ -21,7 +25,6 @@ const Sidebar = ({ eventData, onClose, isOpen, map }) => {
       <h1>{eventData.name}</h1>
       <h3>{eventData.host}</h3>
       <ReadMoreText text={eventData.description} maxLength={100} />
-
       <h3 className="flex items-center gap-6 font-semibold" style={{ fontSize: '16px', marginBottom: '10px' }}>
         <MapPin size={16} className="pr-3" style={{ paddingRight: '5px' }} />
         {eventData.location}
