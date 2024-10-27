@@ -22,10 +22,12 @@ const EventMarkers = ({ events, onEventClick, filterStartDate, filterEndDate }) 
       console.log('events start', events.start)
       console.log('events end', events.end)
       return (
+
+        // to pass filterStartDate as String, use new Date(filterStartDate) so comparison works
         // new Date(events.start) >= new Date('10-27-2024') &&
         // new Date(events.end) <= new Date(new Date().getTime() + 7 * 24 * 60 * 60 * 1000)
-        new Date(events.start) >= filterStartDate &&
-        new Date(events.end) <= filterEndDate
+        new Date(events.start) >= filterStartDate.filterStartDate &&
+        new Date(events.end) <= filterEndDate.filterEndDate
     )
     })
     .map((event, index) => (
