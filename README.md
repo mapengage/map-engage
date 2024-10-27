@@ -1,70 +1,76 @@
-# Getting Started with Create React App
+# Map Engage
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Map Engage is a Node.js application designed to put all the events on Niner Engage on a map for easy viewing access. You can also add events to your calendar and open the routing in Google Maps. 
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [Installation](#installation)
+- [Running the Project](#running-the-project)
+- [Usage](#usage)
 
-### `npm start`
+## Installation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. **Clone the Repository**
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+   Clone this repository to your local machine using:
 
-### `npm test`
+   ```bash
+   git clone https://github.com/your-username/map-engage.git
+   cd map-engage
+   ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. **Install Npm, Node.js, and the dependencies**
 
-### `npm run build`
+   Make sure you have Node.js and npm installed. Install the required dependencies by running:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+   ```bash
+   npm install
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. **Install Python, and the dependencies**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   Make sure you have Python 3 installed. Install the required dependencies by running:
 
-### `npm run eject`
+   For Windows:
+   
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   For Unix-based Systems (Linux, MacOS):
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   ```bash
+   pip3 install -r requirements.txt
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Running the Project
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Before starting the application, you need to load the NinerEngage events from their servers onto your computer.
 
-## Learn More
+### For Windows
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Run the following command:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+npm run loadevents
+```
 
-### Code Splitting
+### For Unix-based Systems (Linux, MacOS)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Run the following command:
 
-### Analyzing the Bundle Size
+```bash
+npm run loadevents_unix
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## After loading events, you can start the application with:
 
-### Making a Progressive Web App
+```bash
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+It should start on localhost:3000.
 
-### Advanced Configuration
+## Usage
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Navigate to http://localhost:3000/ and enjoy!
