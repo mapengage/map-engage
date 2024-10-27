@@ -47,6 +47,10 @@ const Sidebar = ({ eventData, onClose, isOpen }) => {
       >
         Navigate
       </button>
+
+      <p> <a href={eventData.gcal} target="_blank" rel="noopener noreferrer">Google Calendar</a></p>
+      <p> <a href={eventData.ical} target="_blank" rel="noopener noreferrer">iCal</a></p>
+
     </div>
   );
 };

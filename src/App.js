@@ -3,11 +3,8 @@ import { MapContainer, TileLayer, Marker, useMap } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
 import { Icon } from 'leaflet';
 import './App.css';
-import ReadMoreText from './components/ReadMoreText.js';
-import { MapPin } from 'lucide-react'
 import BurgerSide from './components/BurgerSide';
 import Sidebar from './components/Sidebar';
-import { formatDateRange } from './utils/dateUtils';
 import EventMarkers from './components/EventMarkers';
 
 import events from './data/events.json';
