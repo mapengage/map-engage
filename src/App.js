@@ -34,7 +34,33 @@ const eventIcon = new Icon({
   iconAnchor: [16, 32],
   popupAnchor: [0, -32]
 });
-
+// BurgerSide component to show event details or menu options
+const BurgerSide = ({ eventData, isOpen, onClose }) => (
+  <div className={`burger-side ${isOpen ? 'burger-side-open' : ''}`}>
+    <button className="burgerclosebtn" onClick={onClose}>X</button>
+    {eventData ? (
+      <>
+        <h3>{eventData.name}</h3>
+        <p>{eventData.description}</p>
+        <button
+          onClick={() => window.open(`https://www.google.com/maps/dir/?api=1&destination=${eventData.lat},${eventData.lng}`, '_blank')}
+          style={{
+            padding: '8px 12px',
+            background: '#007bff',
+            color: '#fff',
+            border: 'none',
+            borderRadius: '4px',
+            cursor: 'pointer'
+          }}
+        >
+          Navigate
+        </button>
+      </>
+    ) : (
+      <p>Select an event to see details</p>
+    )}
+  </div>
+);
 // Sidebar component to show event details
 const Sidebar = ({ eventData, onClose, isOpen }) => (
   <div className={`sidebar ${isOpen ? 'sidebar-open' : ''}`}>
@@ -142,29 +168,50 @@ const LocationMarker = () => {
   );
 };
 
+const BurgerMenu = ({ onToggle }) => (
+  <button
+    onClick={onToggle}
+    className="burger-menu"
+  >
+    ☰
+  </button>
+);
 function App() {
-  const worldBounds = [
-    [-90, -180], // Southwest corner
-    [90, 180],   // Northeast corner
-  ];
+  const [isBurgerSideOpen, setIsBurgerSideOpen] = useState(false);
+  const [selectedEvent, setSelectedEvent] = useState(null);
 
+  const handleEventClick = (event) => {
+    setSelectedEvent(event);
+    setIsBurgerSideOpen(true);
+  };
   return (
     <div style={{ height: '100vh', width: '100%' }}>
       <MapContainer
         center={[35.307, -80.735]}
-        zoom={2} // Starting zoom
-        minZoom={2} // Prevents zooming out too far
-        maxZoom={18} // Adjust based on your needs
-        maxBounds={worldBounds}
-        maxBoundsViscosity={1.0} // Ensures the map "bounces" back when attempting to pan outside bounds
+        zoom={2}
+        minZoom={2}
+        maxZoom={18}
+        maxBounds={[
+          [-90, -180],
+          [90, 180],
+        ]}
+        maxBoundsViscosity={1.0}
         style={{ height: '100%', width: '100%' }}
       >
         <TileLayer
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
           attribution="&copy; OpenStreetMap contributors"
         />
-        <LocationMarker />
+        <LocationMarker onEventSelect={handleEventClick} />
       </MapContainer>
+
+      <BurgerMenu onToggle={() => setIsBurgerSideOpen((prev) => !prev)} />
+
+      <BurgerSide
+        eventData={selectedEvent}
+        isOpen={isBurgerSideOpen}
+        onClose={() => setIsBurgerSideOpen(false)}
+      />
     </div>
   );
 }
