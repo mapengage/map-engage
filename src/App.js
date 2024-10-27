@@ -31,7 +31,7 @@ Icon.Default.mergeOptions({
 });
 
 
-const LocationMarker = (filterDateStart, filterDateEnd) => {
+const LocationMarker = ({filterDateStart, filterDateEnd}) => {
   const [position, setPosition] = useState(null);
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   const [selectedEvent, setSelectedEvent] = useState(null);
@@ -115,11 +115,7 @@ const BurgerMenu = ({ onToggle }) => (
 );
 function App() {
   const today = new Date();
-  const tomorrow = new Date(today);
-  tomorrow.setDate(today.getDate() + 2);
-  tomorrow.setHours(0, 0, 0, 0);
   const endOfYear = new Date(today.getFullYear(), 11, 31, 23, 59, 59);
-
 
   const [isBurgerSideOpen, setIsBurgerSideOpen] = useState(false);
   const [selectedEvent, setSelectedEvent] = useState(null);
@@ -134,7 +130,7 @@ function App() {
 
   const filterNextWeekEvents = () => {
     // Implement this function to filter events for the next week
-    alert('Filtering events for next week');
+    //alert('Filtering events for next week');
     const today = new Date();
     const nextSunday = new Date(today);
     nextSunday.setDate(today.getDate() + (7 - today.getDay()) % 7);
@@ -147,24 +143,23 @@ function App() {
     setFilterDateStart(nextSunday);
     setFilterDateEnd(nextSaturday);
 
-    console.log('Filtering events from', nextSunday, 'to', nextSaturday);
+    //console.log('Filtering events from', nextSunday, 'to', nextSaturday);
   };
   const filterTodayEvents = () => {
-    alert('today\'s date', today);
-    alert('tomorrow\'s date', tomorrow);
-
-    console.log('filtering today events');
-
+    //alert('filtering events for today', today);
+    const tomorrow = new Date(today);
+    tomorrow.setDate(today.getDate() + 1); // Move to the next day
     setFilterDateStart(today);
     setFilterDateEnd(tomorrow);
   };
   const filterTomorrowEvents = () => {
-    alert("filtering for tomorrow's date", tomorrow);
-
-    const tomorrowPlusOneDay = new Date(tomorrow);
-    tomorrowPlusOneDay.setDate(tomorrow.getDate() + 1);
+    const tomorrow = new Date(today);
+    tomorrow.setDate(tomorrow.getDate() + 1); // Move to the next day
+    //alert("filtering for tomorrow's date", tomorrow);
+    const dayAfterTomorrow = new Date(tomorrow);
+    dayAfterTomorrow.setDate(tomorrow.getDate() + 1); // Day after tomorrow
     setFilterDateStart(tomorrow);
-    setFilterDateEnd(tomorrowPlusOneDay);
+    setFilterDateEnd(dayAfterTomorrow);
   }
  
   return (

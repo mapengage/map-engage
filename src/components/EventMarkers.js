@@ -10,37 +10,52 @@ const eventIcon = new Icon({
   popupAnchor: [0, -32]
 });
 
-const EventMarkers = ({ events, onEventClick, filterStartDate, filterEndDate }) => (
-  <>
-    {events
-    .filter(events => {
-      console.log("Filtering events ", filterStartDate, filterEndDate);
-      console.log('filterStartDate is type of Date:', filterStartDate instanceof Date);
-      console.log('filterStartDate is type of String:', filterStartDate instanceof String);
-      console.log('Type of filterStartDate:', typeof filterStartDate);
+const EventMarkers = ({ events, onEventClick, filterStartDate, filterEndDate }) => {
+  // Convert filter dates to Date objects if necessary
+  const startDate = filterStartDate instanceof Date ? filterStartDate : new Date(filterStartDate);
+  const endDate = filterEndDate instanceof Date ? filterEndDate : new Date(filterEndDate);
+  console.log(isNaN(startDate));
+  console.log(isNaN(endDate));
+  console.log("Filter Dates:", startDate, endDate);
+  console.log("Events to Filter:", events);
 
-      console.log('events start', events.start)
-      console.log('events end', events.end)
-      return (
+  return (
+    <>
+      {events
+        .filter(event => {
+          const eventStartDate = new Date(event.start);
+          const eventEndDate = new Date(event.end);
+          
+          // Log each event being filtered
+          console.log("Event Start Date:", eventStartDate, "| Event End Date:", eventEndDate);
 
-        // to pass filterStartDate as String, use new Date(filterStartDate) so comparison works
-        // new Date(events.start) >= new Date('10-27-2024') &&
-        // new Date(events.end) <= new Date(new Date().getTime() + 7 * 24 * 60 * 60 * 1000)
-        new Date(events.start) >= filterStartDate.filterStartDate &&
-        new Date(events.end) <= filterEndDate.filterEndDate
-    )
-    })
-    .map((event, index) => (
-      <Marker
-        key={index}
-        position={[event.lat, event.lng]}
-        icon={eventIcon}
-        eventHandlers={{
-          click: () => onEventClick(event)
-        }}
-      />
-    ))}
-  </>
-);
+          // Filter events by comparing start and end dates
+          console.log(eventStartDate.getTime());
+          console.log(eventEndDate.getTime());
+          console.log(startDate.getTime());
+          console.log(endDate.getTime());
+          return eventStartDate.getTime() >= startDate.getTime() && eventEndDate.getTime() <= endDate.getTime();
+        })
+        .map((event, index) => {
+          // Ensure that the lat and lng properties are defined
+          if (!event.lat || !event.lng) {
+            console.warn(`Event ${event.name} is missing coordinates.`);
+            return null; // Skip rendering this marker
+          }
+          
+          return (
+            <Marker
+              key={index}
+              position={[event.lat, event.lng]}
+              icon={eventIcon}
+              eventHandlers={{
+                click: () => onEventClick(event),
+              }}
+            />
+          );
+        })}
+    </>
+  );
+};
 
 export default EventMarkers;

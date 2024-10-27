@@ -3,14 +3,21 @@ import ReadMoreText from './ReadMoreText';
 import { MapPin } from 'lucide-react';
 import { formatDateRange } from '../utils/dateUtils';
 
-const Sidebar = ({ eventData, onClose, isOpen, map }) => {
+const Sidebar = ({ eventData, onClose, isOpen }) => {
   useEffect(() => {
     if (isOpen) {
-      map.scrollWheelZoom.disable(); // Disable scroll wheel zoom when sidebar is open
+      // Disable body scroll
+      document.body.style.overflow = 'hidden';
     } else {
-      map.scrollWheelZoom.enable(); // Enable scroll wheel zoom when sidebar is closed
+      // Enable body scroll
+      document.body.style.overflow = 'auto';
     }
-  }, [isOpen, map]);
+
+    // Cleanup function to reset overflow on unmount
+    return () => {
+      document.body.style.overflow = 'auto';
+    };
+  }, [isOpen]);
 
   return (
     <div className={`sidebar ${isOpen ? 'sidebar-open' : ''}`}>
@@ -19,32 +26,56 @@ const Sidebar = ({ eventData, onClose, isOpen, map }) => {
       <h3>{eventData.host}</h3>
       <ReadMoreText text={eventData.description} maxLength={100} />
 
-      <h3 className="flex items-center gap-6 font-semibold" style={{ fontSize: '16px', marginBottom: '10px' }}>
-        <MapPin size={16} className="pr-3" style={{ paddingRight: '5px' }} />
-        {eventData.location}
-      </h3>
-      <p>{formatDateRange(new Date(eventData.start), new Date(eventData.end))}</p>
+      <div style={{ marginBottom: '10px' }}>
+        <h3 className="flex items-center font-semibold" style={{ fontSize: '16px', margin: '10px 0 0 0' }}>
+          <MapPin size={16} className="pr-3" style={{ marginRight: '2px' }} /> {/* Added margin to the icon */}
+          {eventData.location}
+        </h3>
+        <p style={{ fontSize: '16px', margin: '8px 0 0 0', color: '#333', display: 'flex', alignItems: 'center', fontWeight: 'bold' }}>
+          <img 
+            src={`${process.env.PUBLIC_URL}/images/clock.ico`} 
+            alt="Clock Icon" 
+            style={{ width: '16px', height: '16px', marginRight: '5px' }} 
+          />
+          {formatDateRange(new Date(eventData.start), new Date(eventData.end))}
+        </p>
+      </div>
 
-      <button
-        onClick={() => {
-          const url = `https://www.google.com/maps/dir/?api=1&destination=${eventData.lat},${eventData.lng}`;
-          window.open(url, '_blank');
-        }}
-        style={{
-          padding: '8px 12px',
-          background: '#007bff',
-          color: '#fff',
-          border: 'none',
-          borderRadius: '4px',
-          cursor: 'pointer'
-        }}
-      >
-        Navigate
-      </button>
+      <p style={{ fontSize: '16px', display: 'flex', alignItems: 'center', fontFamily: 'Arial, sans-serif', color: '#333', fontWeight: 'bold' }}>
+        <img 
+          src={`${process.env.PUBLIC_URL}/images/gcal.ico`} 
+          alt="Google Calendar Icon" 
+          style={{ width: '24px', height: '24px', marginRight: '8px' }} 
+        />
+        <a href={eventData.gcal} target="_blank" rel="noopener noreferrer" style={{ color: 'black', fontWeight: 'bold' }}>Add to Google Calendar</a>
+      </p>
+      <p style={{ fontSize: '16px', display: 'flex', alignItems: 'center', fontFamily: 'Arial, sans-serif', color: '#333', fontWeight: 'bold' }}>
+        <img 
+          src={`${process.env.PUBLIC_URL}/images/ical.ico`} 
+          alt="iCal Icon" 
+          style={{ width: '24px', height: '24px', marginRight: '8px' }} 
+        />
+        <a href={eventData.ical} target="_blank" rel="noopener noreferrer" style={{ color: 'black', fontWeight: 'bold' }}>Add to Outlook or iCal</a>
+      </p>
 
-      <p> <a href={eventData.gcal} target="_blank" rel="noopener noreferrer">Google Calendar</a></p>
-      <p> <a href={eventData.ical} target="_blank" rel="noopener noreferrer">iCal</a></p>
-
+      <div style={{ display: 'flex', justifyContent: 'center', marginTop: '20px' }}> {/* Centering the button */}
+        <button
+          onClick={() => {
+            const url = `https://www.google.com/maps/dir/?api=1&destination=${eventData.lat},${eventData.lng}`;
+            window.open(url, '_blank');
+          }}
+          style={{
+            padding: '8px 12px',
+            background: '#007bff',
+            color: '#fff',
+            border: 'none',
+            borderRadius: '4px',
+            cursor: 'pointer',
+          }}
+        >
+          Navigate
+        </button>
+      </div>
     </div>
   );
 };
