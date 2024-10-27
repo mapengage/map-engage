@@ -40,6 +40,9 @@ const LocationMarker = () => {
   const map = useMap();
   const studentUnionCoords = { lat: 35.30881988721451, lng: -80.73359802880277}; 
   const currentDate = new Date();
+  const tomorrow = new Date(currentDate);
+  tomorrow.setDate(currentDate.getDate()+1);
+  tomorrow.setHours(0,0,0,0);
   const endOfYear = new Date(currentDate.getFullYear(), 11, 31, 23, 59, 59);
   const [filterDateStart, setFilterDateStart] = useState(new Date());
   const [filterDateEnd, setFilterDateEnd] = useState(endOfYear);
@@ -121,7 +124,11 @@ const BurgerMenu = ({ onToggle }) => (
 function App() {
   const [isBurgerSideOpen, setIsBurgerSideOpen] = useState(false);
   const [selectedEvent, setSelectedEvent] = useState(null);
-
+  const currentDate = new Date();
+  const tomorrow = currentDate.getDate() + 1;
+  const endOfYear = new Date(currentDate.getFullYear(), 11, 31, 23, 59, 59);
+  const [filterDateStart, setFilterDateStart] = useState(new Date());
+  const [filterDateEnd, setFilterDateEnd] = useState(endOfYear);
   const handleEventClick = (event) => {
     setSelectedEvent(event);
     setIsBurgerSideOpen(true);
@@ -131,7 +138,14 @@ function App() {
     // Implement this function to filter events for the next week
     alert('Filtering events for next week');
   };
-
+  const filterTodayEvents = () => {
+    // Implement this function to filter events for the next week
+    alert(currentDate);
+  };
+  const filterTomorrowEvents = () => {
+    alert("tomorrow's date", tomorrow);
+  }
+ 
   return (
     <div style={{ height: '100vh', width: '100%' }}>
       <MapContainer
@@ -160,6 +174,8 @@ function App() {
         isOpen={isBurgerSideOpen}
         onClose={() => setIsBurgerSideOpen(false)}
         filterNextWeekEvents={filterNextWeekEvents}
+        filterTodayEvents={filterTodayEvents}
+        filterTomorrowEvents={filterTomorrowEvents}
       />
     </div>
   );
