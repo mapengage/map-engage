@@ -1,5 +1,6 @@
 import React from 'react';
 import EventMarkers from './EventMarkers';
+
 const BurgerSide = ({ 
   eventData, 
   isOpen, 
@@ -30,9 +31,14 @@ const BurgerSide = ({
         </button>
       </>
     ) : (
-      <p>Select an event to see details</p>
+      <p></p>
     )}
 
+    {/* Icon above buttons */}
+    <div style={{ textAlign: 'center', margin: '20px 0' }}>
+      <img src={`${process.env.PUBLIC_URL}/logo512.png`} alt="Event Icon" style={{ width: '150px' }} />
+    </div>
+    <p>Select an event to see details.</p>
     {/* List of additional buttons */}
     <div style={{ marginTop: '20px', display: 'flex', flexDirection: 'column', gap: '5px' }}>
       <button onClick={filterTodayEvents} style={{
@@ -72,4 +78,3 @@ const BurgerSide = ({
 );
 
 export default BurgerSide;
-
