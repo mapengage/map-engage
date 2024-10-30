@@ -1,4 +1,16 @@
 [{
+    "name": "Guest Speaker: Director of Pre-Trial Services in Mecklenburg County - James Owens",
+    "start": "2024-10-30T21:30:00+00:00",
+    "end": "2024-10-30T23:30:00+00:00",
+    "lat": "",
+    "lng": "",
+    "url": "https://ninerengage.charlotte.edu/event/10670600",
+    "location": "Woodward Hall 254",
+    "description": "Come join us this Wednesday as we welcome UNCC Alumni James Owens. He will be speaking with us regarding all things pre-trial services. There will also be time for a Q+A at the end!",
+    "host": "Criminal Justice Association",
+    "gcal": "https://ninerengage.charlotte.edu/event/10670600/googlepublish",
+    "ical": "https://ninerengage.charlotte.edu/event/10670600.ics"
+}, {
     "name": "Mock Shaadi",
     "start": "2024-11-07T22:30:00+00:00",
     "end": "2024-11-08T01:00:00+00:00",
@@ -107,29 +119,17 @@
     "gcal": "https://ninerengage.charlotte.edu/event/10356161/googlepublish",
     "ical": "https://ninerengage.charlotte.edu/event/10356161.ics"
 }, {
-    "name": "Jamil Niner Student Pantry: Tuesday Volunteer Shift  |  10:30am \u2013 12:45pm",
-    "start": "2024-10-29T14:30:00+00:00",
-    "end": "2024-10-29T16:45:00+00:00",
-    "lat": "35.30994",
-    "lng": "-80.72398",
-    "url": "https://ninerengage.charlotte.edu/event/10486162",
-    "location": "Jamil Niner Student Pantry",
-    "description": "The Jamil Niner Student Pantry assists UNC Charlotte students and faculty/staff who are having challenges accessing food regularly. Through volunteering, you will be working with the pantry leadership team to provide healthy, culturally appropriate, and emergency foods to students, faculty, and staff on campus. Volunteer activities may include, but are not limited to: checking shoppers in and out, assisting with pantry upkeep, stocking and sorting food, garden work, and other various activities to help run the pantry. Please wear closed-toed shoes and comfortable clothing when volunteering at the food pantry. Enter through the front door and proceed to the conference room for volunteer check-in.\u00a0\nIf you are unable to stay for the duration of the volunteer shift, please notify a team member before leaving your shift.\u00a0\nQuestions? Email ninerpantry@charlotte.edu.",
-    "host": "Jamil Niner Student Pantry",
-    "gcal": "https://ninerengage.charlotte.edu/event/10486162/googlepublish",
-    "ical": "https://ninerengage.charlotte.edu/event/10486162.ics"
-}, {
-    "name": "Charlotte Recovery Program Weekly Drop-In",
-    "start": "2024-10-29T18:00:00+00:00",
-    "end": "2024-10-29T20:30:00+00:00",
+    "name": "Tuesday Night Hangout",
+    "start": "2024-11-27T00:00:00+00:00",
+    "end": "2024-11-27T01:00:00+00:00",
     "lat": "",
     "lng": "",
-    "url": "https://ninerengage.charlotte.edu/event/10524830",
-    "location": " Waddell Center for Student Health and Wellbeing, Room 107",
-    "description": "Drop-In for place to relax, connect, and explore recovery support on campus. Drop-In's will happen every week in the Charlotte Recovery Program (CRP) Room to meet new people, connect with CRP members, and gain insight into recovery resources both on and off campus. Everyone is welcome\u2014it's a perfect opportunity to bring a supportive friend to build connections in a supportive space.*Join us in the Charlotte Recovery Program (CRP) room, located on the lower level of the Waddell Center for Student Health and Wellbeing, Room 107. Free parking is available on the upper level of the Waddell Center.",
-    "host": "Center for Wellness Promotion, Health and Wellbeing",
-    "gcal": "https://ninerengage.charlotte.edu/event/10524830/googlepublish",
-    "ical": "https://ninerengage.charlotte.edu/event/10524830.ics"
+    "url": "https://ninerengage.charlotte.edu/event/10356162",
+    "location": "Campus",
+    "description": "Hangouts are a weekly rhythm for college students to exist in community with one another in two different ways:\nFamily Hangouts\u00a0are a time for believers to gather together and worship God through encouragement, song, scripture, and prayer.\nMissional Hangouts\u00a0is a fun, informal environment that allows Mercy College to invite their non-Christian friends into a community, engage them with the gospel, and model to them what it looks like to be transformed by the gospel.",
+    "host": "Mercy College",
+    "gcal": "https://ninerengage.charlotte.edu/event/10356162/googlepublish",
+    "ical": "https://ninerengage.charlotte.edu/event/10356162.ics"
 }, {
     "name": "Charlotte Recovery Program Weekly Drop-In",
     "start": "2024-11-05T19:00:00+00:00",
@@ -167,17 +167,17 @@
     "gcal": "https://ninerengage.charlotte.edu/event/10524833/googlepublish",
     "ical": "https://ninerengage.charlotte.edu/event/10524833.ics"
 }, {
-    "name": "HOME vs. Stevenson University",
-    "start": "2024-10-27T02:00:00+00:00",
-    "end": "2024-10-27T04:30:00+00:00",
-    "lat": "35.0919",
-    "lng": "-80.65223",
-    "url": "https://ninerengage.charlotte.edu/event/10355032",
-    "location": "Extreme Ice Center",
-    "description": "The 49ers head back home to take on the Stevenson University Mustangs",
-    "host": "Ice Hockey Club",
-    "gcal": "https://ninerengage.charlotte.edu/event/10355032/googlepublish",
-    "ical": "https://ninerengage.charlotte.edu/event/10355032.ics"
+    "name": "Charlotte Recovery Program Weekly Drop-In",
+    "start": "2024-11-26T19:00:00+00:00",
+    "end": "2024-11-26T21:30:00+00:00",
+    "lat": "",
+    "lng": "",
+    "url": "https://ninerengage.charlotte.edu/event/10524834",
+    "location": " Waddell Center for Student Health and Wellbeing, Room 107",
+    "description": "Drop-In for place to relax, connect, and explore recovery support on campus. Drop-In's will happen every week in the Charlotte Recovery Program (CRP) Room to meet new people, connect with CRP members, and gain insight into recovery resources both on and off campus. Everyone is welcome\u2014it's a perfect opportunity to bring a supportive friend to build connections in a supportive space.*Join us in the Charlotte Recovery Program (CRP) room, located on the lower level of the Waddell Center for Student Health and Wellbeing, Room 107. Free parking is available on the upper level of the Waddell Center.",
+    "host": "Center for Wellness Promotion, Health and Wellbeing",
+    "gcal": "https://ninerengage.charlotte.edu/event/10524834/googlepublish",
+    "ical": "https://ninerengage.charlotte.edu/event/10524834.ics"
 }, {
     "name": "Friendsgiving",
     "start": "2024-11-23T22:00:00+00:00",
@@ -191,29 +191,17 @@
     "gcal": "https://ninerengage.charlotte.edu/event/10637703/googlepublish",
     "ical": "https://ninerengage.charlotte.edu/event/10637703.ics"
 }, {
-    "name": "Movie: Trap",
-    "start": "2024-10-27T21:00:00+00:00",
-    "end": "2024-10-27T23:00:00+00:00",
-    "lat": "35.30871920175642",
-    "lng": "-80.73317960493391",
-    "url": "https://ninerengage.charlotte.edu/event/10483701",
-    "location": "Popp Martin Student Union",
-    "description": "A father and his teen daughter attend a pop concert only to realize they've entered the center of a dark and sinister event.",
-    "host": "Popp Martin Student Union",
-    "gcal": "https://ninerengage.charlotte.edu/event/10483701/googlepublish",
-    "ical": "https://ninerengage.charlotte.edu/event/10483701.ics"
-}, {
-    "name": "Movie: Trap",
-    "start": "2024-10-27T01:00:00+00:00",
-    "end": "2024-10-27T03:00:00+00:00",
-    "lat": "35.30871920175642",
-    "lng": "-80.73317960493391",
-    "url": "https://ninerengage.charlotte.edu/event/10483700",
-    "location": "Popp Martin Student Union",
-    "description": "A father and his teen daughter attend a pop concert only to realize they've entered the center of a dark and sinister event.",
-    "host": "Popp Martin Student Union",
-    "gcal": "https://ninerengage.charlotte.edu/event/10483700/googlepublish",
-    "ical": "https://ninerengage.charlotte.edu/event/10483700.ics"
+    "name": "Chole Puri",
+    "start": "2024-11-27T00:00:00+00:00",
+    "end": "2024-11-27T03:00:00+00:00",
+    "lat": "35.30864",
+    "lng": "-80.73374",
+    "url": "https://ninerengage.charlotte.edu/event/10657708",
+    "location": "Union 340 A-C",
+    "description": "The Chole Puri SASA Gala is a cultural event that highlights South Asian traditions through vibrant attire and energetic music. Guests are encouraged to dress in traditional South Asian clothing, such as sarees, lehengas, kurtas, and sherwanis, adding a colorful and festive element to the evening. Music plays a key role, with a blend of Bollywood hits, classical South Asian tunes, and upbeat tracks that set the mood for dancing and celebration. The event provides an immersive experience in South Asian culture, creating an atmosphere of joy and unity.",
+    "host": "South Asian Student Association",
+    "gcal": "https://ninerengage.charlotte.edu/event/10657708/googlepublish",
+    "ical": "https://ninerengage.charlotte.edu/event/10657708.ics"
 }, {
     "name": "Negotiating Your Employment Offer",
     "start": "2024-11-19T18:30:00+00:00",
@@ -226,6 +214,18 @@
     "host": "The Center for Graduate Life and Learning",
     "gcal": "https://ninerengage.charlotte.edu/event/10177023/googlepublish",
     "ical": "https://ninerengage.charlotte.edu/event/10177023.ics"
+}, {
+    "name": "Movie: Transformers One",
+    "start": "2024-11-15T02:00:00+00:00",
+    "end": "2024-11-15T04:45:00+00:00",
+    "lat": "",
+    "lng": "",
+    "url": "https://ninerengage.charlotte.edu/event/10667029",
+    "location": "Popp Martin Student Union",
+    "description": "The untold origin story of Optimus Prime and Megatron, better known as sworn enemies, but who once were friends bonded like brothers who changed the fate of Cybertron forever.",
+    "host": "Popp Martin Student Union",
+    "gcal": "https://ninerengage.charlotte.edu/event/10667029/googlepublish",
+    "ical": "https://ninerengage.charlotte.edu/event/10667029.ics"
 }, {
     "name": "ASSP Student Section On-Campus Meeting",
     "start": "2024-10-31T16:00:00+00:00",
@@ -263,30 +263,6 @@
     "gcal": "https://ninerengage.charlotte.edu/event/10328811/googlepublish",
     "ical": "https://ninerengage.charlotte.edu/event/10328811.ics"
 }, {
-    "name": "Candy Palooza - HvZ Week Fall 2024",
-    "start": "2024-10-23T11:30:00+00:00",
-    "end": "2024-10-27T03:00:00+00:00",
-    "lat": "",
-    "lng": "",
-    "url": "https://ninerengage.charlotte.edu/event/10545949",
-    "location": "Norm Statue, CHHS/COED PLAZA",
-    "description": "HvZ week is Charlotte Outdoor Gaming's semesterly weeklong game of survival tag, this time with a Halloween Theme. Join us for a game of infection tag with planned out games occurring daily (and foam blasters allowed in the evenings). Come earn candy, play fun games, paint pumpkins, and shoot nerf blasters. more info can be found on the COG discord.",
-    "host": "",
-    "gcal": "https://ninerengage.charlotte.edu/event/10545949/googlepublish",
-    "ical": "https://ninerengage.charlotte.edu/event/10545949.ics"
-}, {
-    "name": "Club Meeting",
-    "start": "2024-10-29T20:00:00+00:00",
-    "end": "2024-10-29T21:00:00+00:00",
-    "lat": "",
-    "lng": "",
-    "url": "https://ninerengage.charlotte.edu/event/10466393",
-    "location": "Friday 117",
-    "description": "Meetings with varying contents from Networking, Resume Building, Interviewing, Informative Lectures and Technical Workshops. All meetings will be in the context of Banking/High finance. Unless notified, dress casually and no materials are required for you to bring. We welcome all majors, and even if just curious about Banking as a career, feel free to come to any meeting.\nAll meetings unless specified later will be held Tuesdays at 4:00pm in Friday 117.",
-    "host": "Niner Banking Club",
-    "gcal": "https://ninerengage.charlotte.edu/event/10466393/googlepublish",
-    "ical": "https://ninerengage.charlotte.edu/event/10466393.ics"
-}, {
     "name": "Club Meeting",
     "start": "2024-11-05T21:00:00+00:00",
     "end": "2024-11-05T22:00:00+00:00",
@@ -322,6 +298,30 @@
     "host": "Niner Banking Club",
     "gcal": "https://ninerengage.charlotte.edu/event/10466396/googlepublish",
     "ical": "https://ninerengage.charlotte.edu/event/10466396.ics"
+}, {
+    "name": "Club Meeting",
+    "start": "2024-11-26T21:00:00+00:00",
+    "end": "2024-11-26T22:00:00+00:00",
+    "lat": "",
+    "lng": "",
+    "url": "https://ninerengage.charlotte.edu/event/10466397",
+    "location": "Friday 117",
+    "description": "Meetings with varying contents from Networking, Resume Building, Interviewing, Informative Lectures and Technical Workshops. All meetings will be in the context of Banking/High finance. Unless notified, dress casually and no materials are required for you to bring. We welcome all majors, and even if just curious about Banking as a career, feel free to come to any meeting.\nAll meetings unless specified later will be held Tuesdays at 4:00pm in Friday 117.",
+    "host": "Niner Banking Club",
+    "gcal": "https://ninerengage.charlotte.edu/event/10466397/googlepublish",
+    "ical": "https://ninerengage.charlotte.edu/event/10466397.ics"
+}, {
+    "name": "Club Meeting",
+    "start": "2024-11-26T21:00:00+00:00",
+    "end": "2024-11-26T22:00:00+00:00",
+    "lat": "",
+    "lng": "",
+    "url": "https://ninerengage.charlotte.edu/event/10466398",
+    "location": "Friday 117",
+    "description": "Meetings with varying contents from Networking, Resume Building, Interviewing, Informative Lectures and Technical Workshops. All meetings will be in the context of Banking/High finance. Unless notified, dress casually and no materials are required for you to bring. We welcome all majors, and even if just curious about Banking as a career, feel free to come to any meeting.\nAll meetings unless specified later will be held Tuesdays at 4:00pm in Friday 117.",
+    "host": "Niner Banking Club",
+    "gcal": "https://ninerengage.charlotte.edu/event/10466398/googlepublish",
+    "ical": "https://ninerengage.charlotte.edu/event/10466398.ics"
 }, {
     "name": "Techstars Startup Weekend @Flywheel Coworking (Concord, NC)",
     "start": "2024-11-08T22:30:00+00:00",
@@ -431,18 +431,6 @@
     "gcal": "https://ninerengage.charlotte.edu/event/10356121/googlepublish",
     "ical": "https://ninerengage.charlotte.edu/event/10356121.ics"
 }, {
-    "name": "Monday Night Hangout",
-    "start": "2024-10-28T23:00:00+00:00",
-    "end": "2024-10-29T00:00:00+00:00",
-    "lat": "",
-    "lng": "",
-    "url": "https://ninerengage.charlotte.edu/event/10356120",
-    "location": "Campus",
-    "description": "Hangouts are a weekly rhythm for college students to exist in community with one another in two different ways:\nFamily Hangouts\u00a0are a time for believers to gather together and worship God through encouragement, song, scripture, and prayer.\nMissional Hangouts\u00a0is a fun, informal environment that allows Mercy College to invite their non-Christian friends into a community, engage them with the gospel, and model to them what it looks like to be transformed by the gospel.",
-    "host": "Mercy College",
-    "gcal": "https://ninerengage.charlotte.edu/event/10356120/googlepublish",
-    "ical": "https://ninerengage.charlotte.edu/event/10356120.ics"
-}, {
     "name": "MCPH Department Panel",
     "start": "2024-11-04T23:00:00+00:00",
     "end": "2024-11-05T00:30:00+00:00",
@@ -527,30 +515,6 @@
     "gcal": "https://ninerengage.charlotte.edu/event/10279907/googlepublish",
     "ical": "https://ninerengage.charlotte.edu/event/10279907.ics"
 }, {
-    "name": "10/29 Working Globally, here and abroad",
-    "start": "2024-10-29T16:15:00+00:00",
-    "end": "2024-10-29T17:00:00+00:00",
-    "lat": "",
-    "lng": "",
-    "url": "https://ninerengage.charlotte.edu/event/10646353",
-    "location": "Online",
-    "description": "Open to all majors. Come learn more about working for international companies here in the US and Abroad. Faculty will share their experiences and what resources we have to offer interested students!",
-    "host": "College of Engineering - OSDS, The Career Center",
-    "gcal": "https://ninerengage.charlotte.edu/event/10646353/googlepublish",
-    "ical": "https://ninerengage.charlotte.edu/event/10646353.ics"
-}, {
-    "name": "RJC Fall Mixer",
-    "start": "2024-10-29T23:00:00+00:00",
-    "end": "2024-10-30T00:30:00+00:00",
-    "lat": "",
-    "lng": "",
-    "url": "https://ninerengage.charlotte.edu/event/10535224",
-    "location": "Student Union 261",
-    "description": "Join the RJC for our fall mixer, we will be playing spooky games and chatting about our reproductive rights!",
-    "host": "Reproductive Justice Collective",
-    "gcal": "https://ninerengage.charlotte.edu/event/10535224/googlepublish",
-    "ical": "https://ninerengage.charlotte.edu/event/10535224.ics"
-}, {
     "name": "Clay it Your Way",
     "start": "2024-11-25T23:00:00+00:00",
     "end": "2024-11-26T00:00:00+00:00",
@@ -587,30 +551,6 @@
     "gcal": "https://ninerengage.charlotte.edu/event/10631476/googlepublish",
     "ical": "https://ninerengage.charlotte.edu/event/10631476.ics"
 }, {
-    "name": "Sales In Retail (@ Ashley Homestore)",
-    "start": "2024-10-30T21:00:00+00:00",
-    "end": "2024-10-30T22:00:00+00:00",
-    "lat": "35.30119",
-    "lng": "-80.74765",
-    "url": "https://ninerengage.charlotte.edu/event/10164343",
-    "location": "Ashley Store",
-    "description": "Experience \"Sales in Retail\" at Ashley HomeStore, where you'll embark on an interactive walkthrough of the store to gain firsthand insight into the sales process on the retail floor. Hear from seasoned sales professionals as they share their expertise and strategies for success in the retail environment. This is your chance to see the sales process in action and learn from the best in the business!",
-    "host": "Charlotte Sales Network",
-    "gcal": "https://ninerengage.charlotte.edu/event/10164343/googlepublish",
-    "ical": "https://ninerengage.charlotte.edu/event/10164343.ics"
-}, {
-    "name": "Time Management",
-    "start": "2024-10-28T21:00:00+00:00",
-    "end": "2024-10-28T22:00:00+00:00",
-    "lat": "",
-    "lng": "",
-    "url": "https://ninerengage.charlotte.edu/event/10434349",
-    "location": "Popp Martin Student Union Room 263",
-    "description": "Having trouble balancing all of the different things in your life? Want to learn how to schedule and use your time more effectively? Look no further than our time management workshop. Within this workshop you will learn the skills necessary to manage your time effectively.\n\u00a0\nThis workshop will count towards a Skill Building credit.",
-    "host": "Programs in Leadership and Organizational Training",
-    "gcal": "https://ninerengage.charlotte.edu/event/10434349/googlepublish",
-    "ical": "https://ninerengage.charlotte.edu/event/10434349.ics"
-}, {
     "name": "ISO Halloween Party",
     "start": "2024-11-01T22:00:00+00:00",
     "end": "2024-11-03T02:00:00+00:00",
@@ -622,6 +562,18 @@
     "host": "Iranian Student Organization",
     "gcal": "https://ninerengage.charlotte.edu/event/10580596/googlepublish",
     "ical": "https://ninerengage.charlotte.edu/event/10580596.ics"
+}, {
+    "name": "Out of the Darkness Walk",
+    "start": "2024-11-02T14:00:00+00:00",
+    "end": "2024-11-02T18:00:00+00:00",
+    "lat": "",
+    "lng": "",
+    "url": "https://ninerengage.charlotte.edu/event/10673465",
+    "location": "Jerry Richardson Stadium Concourse",
+    "description": "Join SERVE Team's Special Topics Committee and serve at the Out of the Darkness suicide prevention walk! If you would like to volunteer, please RSVP here for more information.",
+    "host": "SERVE Team",
+    "gcal": "https://ninerengage.charlotte.edu/event/10673465/googlepublish",
+    "ical": "https://ninerengage.charlotte.edu/event/10673465.ics"
 }, {
     "name": "Mercy College United",
     "start": "2024-11-22T00:00:00+00:00",
@@ -636,8 +588,8 @@
     "ical": "https://ninerengage.charlotte.edu/event/10356333.ics"
 }, {
     "name": "Pool Tournament",
-    "start": "2024-11-24T17:00:00+00:00",
-    "end": "2024-11-24T18:00:00+00:00",
+    "start": "2024-11-07T00:30:00+00:00",
+    "end": "2024-11-07T02:30:00+00:00",
     "lat": "",
     "lng": "",
     "url": "https://ninerengage.charlotte.edu/event/10645207",
@@ -646,18 +598,6 @@
     "host": "",
     "gcal": "https://ninerengage.charlotte.edu/event/10645207/googlepublish",
     "ical": "https://ninerengage.charlotte.edu/event/10645207.ics"
-}, {
-    "name": "Cider Sips and Cozy Vibes",
-    "start": "2024-10-29T22:00:00+00:00",
-    "end": "2024-10-29T23:30:00+00:00",
-    "lat": "",
-    "lng": "",
-    "url": "https://ninerengage.charlotte.edu/event/10535455",
-    "location": "Martin Hall 2nd Floor Lounge",
-    "description": "RA Alexis and RA Chandler are hosting a pumpkin painting party! Come show your skills and sip some apple cider, while watching TWITCHES!!",
-    "host": "",
-    "gcal": "https://ninerengage.charlotte.edu/event/10535455/googlepublish",
-    "ical": "https://ninerengage.charlotte.edu/event/10535455.ics"
 }, {
     "name": "Movie: Friday the 13th",
     "start": "2024-10-31T22:00:00+00:00",
@@ -695,6 +635,18 @@
     "gcal": "https://ninerengage.charlotte.edu/event/10630571/googlepublish",
     "ical": "https://ninerengage.charlotte.edu/event/10630571.ics"
 }, {
+    "name": "Movie: Friday the 13th",
+    "start": "2024-11-02T01:00:00+00:00",
+    "end": "2024-11-02T03:00:00+00:00",
+    "lat": "",
+    "lng": "",
+    "url": "https://ninerengage.charlotte.edu/event/10483833",
+    "location": "Popp Martin Student Union",
+    "description": "A group of teenage camp counselors attempt to re-open an abandoned summer camp with a tragic past, but they are stalked by a mysterious, relentless killer.",
+    "host": "Popp Martin Student Union",
+    "gcal": "https://ninerengage.charlotte.edu/event/10483833/googlepublish",
+    "ical": "https://ninerengage.charlotte.edu/event/10483833.ics"
+}, {
     "name": "Women's Club Soccer Bake Sale",
     "start": "2024-10-31T15:00:00+00:00",
     "end": "2024-10-31T18:00:00+00:00",
@@ -706,18 +658,6 @@
     "host": "Women's Club Soccer",
     "gcal": "https://ninerengage.charlotte.edu/event/10644579/googlepublish",
     "ical": "https://ninerengage.charlotte.edu/event/10644579.ics"
-}, {
-    "name": "Study Abroad Ambassador Tabling",
-    "start": "2024-10-29T19:00:00+00:00",
-    "end": "2024-10-29T21:00:00+00:00",
-    "lat": "35.30864",
-    "lng": "-80.73374",
-    "url": "https://ninerengage.charlotte.edu/event/10617441",
-    "location": "Student Union",
-    "description": "Stop by the Student Union to the Study Abroad Ambassadors' table! We have postcards for study abroad program, stickers & other swag, and candy! You can ask the ambassadors about their experiences abroad or learn more about all the different types of programs we offer in over 50 countries!",
-    "host": "Study Abroad Ambassadors",
-    "gcal": "https://ninerengage.charlotte.edu/event/10617441/googlepublish",
-    "ical": "https://ninerengage.charlotte.edu/event/10617441.ics"
 }, {
     "name": "Friends and Finance",
     "start": "2024-11-19T23:30:00+00:00",
@@ -778,6 +718,18 @@
     "host": "Mercy College",
     "gcal": "https://ninerengage.charlotte.edu/event/10356315/googlepublish",
     "ical": "https://ninerengage.charlotte.edu/event/10356315.ics"
+}, {
+    "name": "Photography Club Lessons - The \"Triangle\"",
+    "start": "2024-10-30T22:00:00+00:00",
+    "end": "2024-10-30T23:00:00+00:00",
+    "lat": "35.30709",
+    "lng": "-80.73001",
+    "url": "https://ninerengage.charlotte.edu/event/10667697",
+    "location": "McEniry 127",
+    "description": "Join us for a lesson on the triangle of Photography! Namely, shutter speed, aperture and ISO! This is an important lesson in Photography Fundamentals and will greatly benefit both newbies and more advanced individuals! Event set for Wednesday at 6 PM in McEniry 127!",
+    "host": "The Photography Club",
+    "gcal": "https://ninerengage.charlotte.edu/event/10667697/googlepublish",
+    "ical": "https://ninerengage.charlotte.edu/event/10667697.ics"
 }, {
     "name": "AMA Fundraiser Night - Dave's Hot Chicken",
     "start": "2024-11-13T21:00:00+00:00",
@@ -971,18 +923,6 @@
     "gcal": "https://ninerengage.charlotte.edu/event/10625646/googlepublish",
     "ical": "https://ninerengage.charlotte.edu/event/10625646.ics"
 }, {
-    "name": "Build a Treat Bag",
-    "start": "2024-10-29T22:00:00+00:00",
-    "end": "2024-10-29T23:00:00+00:00",
-    "lat": "",
-    "lng": "",
-    "url": "https://ninerengage.charlotte.edu/event/10649645",
-    "location": "Wallis Hall - Lobby",
-    "description": "Build your own treat bag with all your favorite candy!",
-    "host": "",
-    "gcal": "https://ninerengage.charlotte.edu/event/10649645/googlepublish",
-    "ical": "https://ninerengage.charlotte.edu/event/10649645.ics"
-}, {
     "name": "Autofair",
     "start": "2024-11-22T23:00:00+00:00",
     "end": "2024-11-23T02:00:00+00:00",
@@ -1031,6 +971,18 @@
     "gcal": "https://ninerengage.charlotte.edu/event/10635895/googlepublish",
     "ical": "https://ninerengage.charlotte.edu/event/10635895.ics"
 }, {
+    "name": "Hot Chocolate Bar",
+    "start": "2024-11-18T23:00:00+00:00",
+    "end": "2024-11-19T00:00:00+00:00",
+    "lat": "35.31044",
+    "lng": "-80.73472",
+    "url": "https://ninerengage.charlotte.edu/event/10664767",
+    "location": "Belk Lounge 325",
+    "description": "Come out and make your own hot chocolate",
+    "host": "",
+    "gcal": "https://ninerengage.charlotte.edu/event/10664767/googlepublish",
+    "ical": "https://ninerengage.charlotte.edu/event/10664767.ics"
+}, {
     "name": "PCB Workshop",
     "start": "2024-11-21T23:00:00+00:00",
     "end": "2024-11-22T01:00:00+00:00",
@@ -1066,18 +1018,6 @@
     "host": "Center for Wellness Promotion",
     "gcal": "https://ninerengage.charlotte.edu/event/10337634/googlepublish",
     "ical": "https://ninerengage.charlotte.edu/event/10337634.ics"
-}, {
-    "name": "Movie: Hocus Pocus",
-    "start": "2024-11-01T01:00:00+00:00",
-    "end": "2024-11-01T03:00:00+00:00",
-    "lat": "",
-    "lng": "",
-    "url": "https://ninerengage.charlotte.edu/event/10483884",
-    "location": "Popp Martin Student Union",
-    "description": "A teenage boy named Max and his little sister move to Salem, where he struggles to fit in before awakening a trio of diabolical witches that were executed in the 17th century.",
-    "host": "Popp Martin Student Union",
-    "gcal": "https://ninerengage.charlotte.edu/event/10483884/googlepublish",
-    "ical": "https://ninerengage.charlotte.edu/event/10483884.ics"
 }, {
     "name": "Movie: Hocus Pocus",
     "start": "2024-11-01T22:00:00+00:00",
@@ -1198,6 +1138,18 @@
     "host": "EmpowerHer: Black Women in Business",
     "gcal": "https://ninerengage.charlotte.edu/event/10216070/googlepublish",
     "ical": "https://ninerengage.charlotte.edu/event/10216070.ics"
+}, {
+    "name": "SDS Alumni Social",
+    "start": "2024-11-11T23:00:00+00:00",
+    "end": "2024-11-12T01:00:00+00:00",
+    "lat": "35.20109",
+    "lng": "-80.86955",
+    "url": "https://ninerengage.charlotte.edu/event/10669628",
+    "location": "The Barrel Room at Triple C Brewing",
+    "description": "Please join us in celebrating the (almost) end of the semester by attending the SDS Alumni Social! This event is for all current and former students from the School of Data Science. We look forward to seeing you there!\nEnjoy complimentary food, SDS swag, reconnecting with peers, and a surprise announcement!\nPlease register using the link below:https://49eralumni.charlotte.edu/s/1721/m19/interior.aspx?sid=1721&pgid=5370&gid=2&cid=11318&ecid=11318&post_id=0",
+    "host": "Association of Data Science, School of Data Science Student Organization",
+    "gcal": "https://ninerengage.charlotte.edu/event/10669628/googlepublish",
+    "ical": "https://ninerengage.charlotte.edu/event/10669628.ics"
 }, {
     "name": "Art Exhibition!",
     "start": "2024-10-30T22:00:00+00:00",
@@ -1368,6 +1320,18 @@
     "ical": "https://ninerengage.charlotte.edu/event/10383861.ics"
 }, {
     "name": "Jamil Niner Student Pantry: Tuesday Volunteer Shift  |  2:30pm \u2013 5:15pm",
+    "start": "2024-11-26T19:30:00+00:00",
+    "end": "2024-11-26T22:15:00+00:00",
+    "lat": "35.30994",
+    "lng": "-80.72398",
+    "url": "https://ninerengage.charlotte.edu/event/10625602",
+    "location": "Jamil Niner Student Pantry",
+    "description": "The Jamil Niner Student Pantry assists UNC Charlotte students and faculty/staff who are having challenges accessing food regularly. Through volunteering, you will be working with the pantry leadership team to provide healthy, culturally appropriate, and emergency foods to students, faculty, and staff on campus. Volunteer activities may include, but are not limited to: checking shoppers in and out, assisting with pantry upkeep, stocking and sorting food, garden work, and other various activities to help run the pantry. Please wear closed-toed shoes and comfortable clothing when volunteering at the food pantry. Enter through the front door and proceed to the conference room for volunteer check-in.\u00a0\nIf you are unable to stay for the duration of the volunteer shift, please notify a team member before leaving your shift.\u00a0\nQuestions? Email ninerpantry@charlotte.edu.",
+    "host": "Jamil Niner Student Pantry",
+    "gcal": "https://ninerengage.charlotte.edu/event/10625602/googlepublish",
+    "ical": "https://ninerengage.charlotte.edu/event/10625602.ics"
+}, {
+    "name": "Jamil Niner Student Pantry: Tuesday Volunteer Shift  |  2:30pm \u2013 5:15pm",
     "start": "2024-11-19T19:30:00+00:00",
     "end": "2024-11-19T22:15:00+00:00",
     "lat": "35.30994",
@@ -1403,17 +1367,17 @@
     "gcal": "https://ninerengage.charlotte.edu/event/10653186/googlepublish",
     "ical": "https://ninerengage.charlotte.edu/event/10653186.ics"
 }, {
-    "name": "First-Gen Cookout",
-    "start": "2024-11-08T16:00:00+00:00",
-    "end": "2024-11-08T18:00:00+00:00",
-    "lat": "",
-    "lng": "",
-    "url": "https://ninerengage.charlotte.edu/event/10634721",
-    "location": "Star Quad/West Quad",
-    "description": "It\u2019s National First-Generation College Celebration Day! Come to the cookout! You bring the vibes, we have the food! With a DJ, giveaways, food, and more, the cookout will be the best part of your week!\u00a0\n\u00a0\nThe first 100 students to attend will receive an IAmAFirstGenNiner tote bag",
-    "host": "IAmAFirstGenNiner",
-    "gcal": "https://ninerengage.charlotte.edu/event/10634721/googlepublish",
-    "ical": "https://ninerengage.charlotte.edu/event/10634721.ics"
+    "name": "Norte\u00f1a Night",
+    "start": "2024-11-22T23:00:00+00:00",
+    "end": "2024-11-23T01:00:00+00:00",
+    "lat": "35.30741",
+    "lng": "-80.73521",
+    "url": "https://ninerengage.charlotte.edu/event/10662052",
+    "location": "Belk Plaza",
+    "description": "Join us on Nov 22nd for a Norte\u00f1a class!",
+    "host": "DALE (Dancing Association for Latine Expression)",
+    "gcal": "https://ninerengage.charlotte.edu/event/10662052/googlepublish",
+    "ical": "https://ninerengage.charlotte.edu/event/10662052.ics"
 }, {
     "name": "First-Gen Cookout",
     "start": "2024-11-08T16:00:00+00:00",
@@ -1426,6 +1390,18 @@
     "host": "IAmAFirstGenNiner",
     "gcal": "https://ninerengage.charlotte.edu/event/10634722/googlepublish",
     "ical": "https://ninerengage.charlotte.edu/event/10634722.ics"
+}, {
+    "name": "First-Gen Cookout",
+    "start": "2024-11-08T16:00:00+00:00",
+    "end": "2024-11-08T18:00:00+00:00",
+    "lat": "",
+    "lng": "",
+    "url": "https://ninerengage.charlotte.edu/event/10634721",
+    "location": "Star Quad/West Quad",
+    "description": "It\u2019s National First-Generation College Celebration Day! Come to the cookout! You bring the vibes, we have the food! With a DJ, giveaways, food, and more, the cookout will be the best part of your week!\u00a0\n\u00a0\nThe first 100 students to attend will receive an IAmAFirstGenNiner tote bag",
+    "host": "IAmAFirstGenNiner",
+    "gcal": "https://ninerengage.charlotte.edu/event/10634721/googlepublish",
+    "ical": "https://ninerengage.charlotte.edu/event/10634721.ics"
 }, {
     "name": "Holiday Hero's (Youth Villages)",
     "start": "2024-11-01T15:00:00+00:00",
@@ -1487,30 +1463,6 @@
     "gcal": "https://ninerengage.charlotte.edu/event/10640294/googlepublish",
     "ical": "https://ninerengage.charlotte.edu/event/10640294.ics"
 }, {
-    "name": "Pack HOPE kits for women with breast cancer",
-    "start": "2024-10-29T22:30:00+00:00",
-    "end": "2024-10-29T23:30:00+00:00",
-    "lat": "",
-    "lng": "",
-    "url": "https://ninerengage.charlotte.edu/event/10546715",
-    "location": "CHHS 155",
-    "description": "Pack HOPE kits for women with breast cancer (Hope kits are gifts that contain items women would like such as journals, letters of support, pens, water bottles, pajamas, bracelets, etc.) *",
-    "host": "Black Student Union",
-    "gcal": "https://ninerengage.charlotte.edu/event/10546715/googlepublish",
-    "ical": "https://ninerengage.charlotte.edu/event/10546715.ics"
-}, {
-    "name": "A Moment of Magic Weekly Member Training",
-    "start": "2024-10-29T23:00:00+00:00",
-    "end": "2024-10-30T00:00:00+00:00",
-    "lat": "",
-    "lng": "",
-    "url": "https://ninerengage.charlotte.edu/event/10332967",
-    "location": "Friday 112",
-    "description": "A Moment of Magic hosts weekly required trainings for members only. Interested in joining the magic? See our Niner Engage page for our interest form! Questions? Reach out to amomentofmagicuncc@gmail.com",
-    "host": "A Moment of Magic at UNC Charlotte",
-    "gcal": "https://ninerengage.charlotte.edu/event/10332967/googlepublish",
-    "ical": "https://ninerengage.charlotte.edu/event/10332967.ics"
-}, {
     "name": "A Moment of Magic Weekly Member Training",
     "start": "2024-11-06T00:00:00+00:00",
     "end": "2024-11-06T01:00:00+00:00",
@@ -1534,18 +1486,6 @@
     "host": "A Moment of Magic at UNC Charlotte",
     "gcal": "https://ninerengage.charlotte.edu/event/10332969/googlepublish",
     "ical": "https://ninerengage.charlotte.edu/event/10332969.ics"
-}, {
-    "name": "Biopalooza: Bat Week Celebration",
-    "start": "2024-10-29T21:30:00+00:00",
-    "end": "2024-10-30T00:00:00+00:00",
-    "lat": "",
-    "lng": "",
-    "url": "https://ninerengage.charlotte.edu/event/10601838",
-    "location": "Student Activity Center Salons",
-    "description": "Join the Pollinator Club, Biology Club, and Mycology Club as we get together for a spooky night of food, games, pumpkin painting, and more! This is a great opportunity to relax after midterms and mingle with other peers in similar interest pools.",
-    "host": "Biology Club of UNC Charlotte, Pollinator Club, The Mycology Club of UNC Charlotte",
-    "gcal": "https://ninerengage.charlotte.edu/event/10601838/googlepublish",
-    "ical": "https://ninerengage.charlotte.edu/event/10601838.ics"
 }, {
     "name": "Wednesday Afternoon Discovery Bible Study",
     "start": "2024-10-30T17:00:00+00:00",
@@ -1631,6 +1571,18 @@
     "gcal": "https://ninerengage.charlotte.edu/event/10270954/googlepublish",
     "ical": "https://ninerengage.charlotte.edu/event/10270954.ics"
 }, {
+    "name": "UNC Charlotte Club Field Hockey Tournament VS ECU and App State",
+    "start": "2024-11-10T16:00:00+00:00",
+    "end": "2024-11-10T20:00:00+00:00",
+    "lat": "35.30725",
+    "lng": "-80.74205",
+    "url": "https://ninerengage.charlotte.edu/event/10318955",
+    "location": "Hayes Field Complex Field 13",
+    "description": "Come out to Field 13 on Sunday, November 10th to support the Charlotte Club Field Hockey Team as they take on ECU and App State in a day long tournament!",
+    "host": "Club Field Hockey",
+    "gcal": "https://ninerengage.charlotte.edu/event/10318955/googlepublish",
+    "ical": "https://ninerengage.charlotte.edu/event/10318955.ics"
+}, {
     "name": "HOME vs. Wake Forest University",
     "start": "2024-11-10T03:00:00+00:00",
     "end": "2024-11-10T05:30:00+00:00",
@@ -1642,18 +1594,6 @@
     "host": "Ice Hockey Club",
     "gcal": "https://ninerengage.charlotte.edu/event/10355155/googlepublish",
     "ical": "https://ninerengage.charlotte.edu/event/10355155.ics"
-}, {
-    "name": "UNC Charlotte Club Field Hockey Tournament VS ECU and App State",
-    "start": "2024-11-09T18:00:00+00:00",
-    "end": "2024-11-09T22:00:00+00:00",
-    "lat": "35.30725",
-    "lng": "-80.74205",
-    "url": "https://ninerengage.charlotte.edu/event/10318955",
-    "location": "Hayes Field Complex Field 13",
-    "description": "Come out to Field 13 on Saturday, November 9th to support the Charlotte Club Field Hockey Team as they take on ECU and App State in a day long tournament!",
-    "host": "Club Field Hockey",
-    "gcal": "https://ninerengage.charlotte.edu/event/10318955/googlepublish",
-    "ical": "https://ninerengage.charlotte.edu/event/10318955.ics"
 }, {
     "name": "SKY@Charlotte Weekly Meeting",
     "start": "2024-10-30T23:00:00+00:00",
@@ -1692,18 +1632,6 @@
     "ical": "https://ninerengage.charlotte.edu/event/10647392.ics"
 }, {
     "name": "Tuesday Night Discovery Bible Study",
-    "start": "2024-10-29T22:30:00+00:00",
-    "end": "2024-10-29T23:30:00+00:00",
-    "lat": "",
-    "lng": "",
-    "url": "https://ninerengage.charlotte.edu/event/10356261",
-    "location": "Belk Hall Quad",
-    "description": "Discover Bible Study\u00a0is for people who want to learn more about Jesus before deciding to commit their whole life to him. This group should meet together for no longer than a semester and then join a dGroup if they choose to follow Jesus.",
-    "host": "Mercy College",
-    "gcal": "https://ninerengage.charlotte.edu/event/10356261/googlepublish",
-    "ical": "https://ninerengage.charlotte.edu/event/10356261.ics"
-}, {
-    "name": "Tuesday Night Discovery Bible Study",
     "start": "2024-11-05T23:30:00+00:00",
     "end": "2024-11-06T00:30:00+00:00",
     "lat": "",
@@ -1738,6 +1666,30 @@
     "host": "Mercy College",
     "gcal": "https://ninerengage.charlotte.edu/event/10356264/googlepublish",
     "ical": "https://ninerengage.charlotte.edu/event/10356264.ics"
+}, {
+    "name": "Tuesday Night Discovery Bible Study",
+    "start": "2024-11-26T23:30:00+00:00",
+    "end": "2024-11-27T00:30:00+00:00",
+    "lat": "",
+    "lng": "",
+    "url": "https://ninerengage.charlotte.edu/event/10356265",
+    "location": "Campus",
+    "description": "Discover Bible Study\u00a0is for people who want to learn more about Jesus before deciding to commit their whole life to him. This group should meet together for no longer than a semester and then join a dGroup if they choose to follow Jesus.",
+    "host": "Mercy College",
+    "gcal": "https://ninerengage.charlotte.edu/event/10356265/googlepublish",
+    "ical": "https://ninerengage.charlotte.edu/event/10356265.ics"
+}, {
+    "name": "Silver Soiree",
+    "start": "2024-11-04T00:00:00+00:00",
+    "end": "2024-11-04T02:00:00+00:00",
+    "lat": "35.30509",
+    "lng": "-80.73324",
+    "url": "https://ninerengage.charlotte.edu/event/10672264",
+    "location": "Lucas Room in Cone",
+    "description": "The sister of Delta Phi Lambda Sorority, Inc. proudly presents our Charity Gala\u2026Get dressed up in formal or cultural attire, enjoy a food buffet, performances, games, activities and community!Take some time to read about the foundation, Doctors Without Borders\nTo find out more information or if you have any questions\u00a0look at our Instagram @unccdphil or contact our VP External which is illustrius79.dphil@gmail.com!",
+    "host": "Delta Phi Lambda Sorority, Inc.",
+    "gcal": "https://ninerengage.charlotte.edu/event/10672264/googlepublish",
+    "ical": "https://ninerengage.charlotte.edu/event/10672264.ics"
 }, {
     "name": "Wilson Residential Leadership Council Weekly Meeting",
     "start": "2024-11-07T00:30:00+00:00",
@@ -1787,6 +1739,54 @@
     "gcal": "https://ninerengage.charlotte.edu/event/10170938/googlepublish",
     "ical": "https://ninerengage.charlotte.edu/event/10170938.ics"
 }, {
+    "name": "Movie: Amber Alert",
+    "start": "2024-11-16T02:00:00+00:00",
+    "end": "2024-11-16T04:45:00+00:00",
+    "lat": "",
+    "lng": "",
+    "url": "https://ninerengage.charlotte.edu/event/10666920",
+    "location": "Popp Martin Student Union",
+    "description": "A ride-share turns into a high-stakes game of cat and mouse after it follows a car fitting the description of an AMBER ALERT.",
+    "host": "Popp Martin Student Union",
+    "gcal": "https://ninerengage.charlotte.edu/event/10666920/googlepublish",
+    "ical": "https://ninerengage.charlotte.edu/event/10666920.ics"
+}, {
+    "name": "Movie: Amber Alert",
+    "start": "2024-11-17T22:00:00+00:00",
+    "end": "2024-11-18T00:00:00+00:00",
+    "lat": "",
+    "lng": "",
+    "url": "https://ninerengage.charlotte.edu/event/10666923",
+    "location": "Popp Martin Student Union",
+    "description": "A ride-share turns into a high-stakes game of cat and mouse after it follows a car fitting the description of an AMBER ALERT.",
+    "host": "Popp Martin Student Union",
+    "gcal": "https://ninerengage.charlotte.edu/event/10666923/googlepublish",
+    "ical": "https://ninerengage.charlotte.edu/event/10666923.ics"
+}, {
+    "name": "Movie: Amber Alert",
+    "start": "2024-11-17T02:00:00+00:00",
+    "end": "2024-11-17T04:45:00+00:00",
+    "lat": "",
+    "lng": "",
+    "url": "https://ninerengage.charlotte.edu/event/10666922",
+    "location": "Popp Martin Student Union",
+    "description": "A ride-share turns into a high-stakes game of cat and mouse after it follows a car fitting the description of an AMBER ALERT.",
+    "host": "Popp Martin Student Union",
+    "gcal": "https://ninerengage.charlotte.edu/event/10666922/googlepublish",
+    "ical": "https://ninerengage.charlotte.edu/event/10666922.ics"
+}, {
+    "name": "Movie: Amber Alert",
+    "start": "2024-11-16T19:00:00+00:00",
+    "end": "2024-11-16T21:00:00+00:00",
+    "lat": "",
+    "lng": "",
+    "url": "https://ninerengage.charlotte.edu/event/10666921",
+    "location": "Popp Martin Student Union",
+    "description": "A ride-share turns into a high-stakes game of cat and mouse after it follows a car fitting the description of an AMBER ALERT.",
+    "host": "Popp Martin Student Union",
+    "gcal": "https://ninerengage.charlotte.edu/event/10666921/googlepublish",
+    "ical": "https://ninerengage.charlotte.edu/event/10666921.ics"
+}, {
     "name": "Carvey CNC Router Training",
     "start": "2024-10-31T15:00:00+00:00",
     "end": "2024-10-31T16:00:00+00:00",
@@ -1822,18 +1822,6 @@
     "host": "Unity In Diversity",
     "gcal": "https://ninerengage.charlotte.edu/event/10537379/googlepublish",
     "ical": "https://ninerengage.charlotte.edu/event/10537379.ics"
-}, {
-    "name": "Jamil Niner Student Pantry: Tuesday Volunteer Shift  |  12:30pm \u2013 2:45pm",
-    "start": "2024-10-29T16:30:00+00:00",
-    "end": "2024-10-29T18:45:00+00:00",
-    "lat": "35.30994",
-    "lng": "-80.72398",
-    "url": "https://ninerengage.charlotte.edu/event/10486242",
-    "location": "Jamil Niner Student Pantry",
-    "description": "The Jamil Niner Student Pantry assists UNC Charlotte students and faculty/staff who are having challenges accessing food regularly. Through volunteering, you will be working with the pantry leadership team to provide healthy, culturally appropriate, and emergency foods to students, faculty, and staff on campus. Volunteer activities may include, but are not limited to: checking shoppers in and out, assisting with pantry upkeep, stocking and sorting food, garden work, and other various activities to help run the pantry. Please wear closed-toed shoes and comfortable clothing when volunteering at the food pantry. Enter through the front door and proceed to the conference room for volunteer check-in.\u00a0\nIf you are unable to stay for the duration of the volunteer shift, please notify a team member before leaving your shift.\u00a0\nQuestions? Email ninerpantry@charlotte.edu.",
-    "host": "Jamil Niner Student Pantry",
-    "gcal": "https://ninerengage.charlotte.edu/event/10486242/googlepublish",
-    "ical": "https://ninerengage.charlotte.edu/event/10486242.ics"
 }, {
     "name": "Monday Night Discovery Bible Study",
     "start": "2024-11-05T00:00:00+00:00",
@@ -1882,18 +1870,6 @@
     "host": "Mercy College",
     "gcal": "https://ninerengage.charlotte.edu/event/10356314/googlepublish",
     "ical": "https://ninerengage.charlotte.edu/event/10356314.ics"
-}, {
-    "name": "Monday Night Discovery Bible Study",
-    "start": "2024-10-28T23:00:00+00:00",
-    "end": "2024-10-29T00:00:00+00:00",
-    "lat": "",
-    "lng": "",
-    "url": "https://ninerengage.charlotte.edu/event/10356242",
-    "location": "Campus",
-    "description": "Discover Bible Study\u00a0is for people who want to learn more about Jesus before deciding to commit their whole life to him. This group should meet together for no longer than a semester and then join a dGroup if they choose to follow Jesus.",
-    "host": "Mercy College",
-    "gcal": "https://ninerengage.charlotte.edu/event/10356242/googlepublish",
-    "ical": "https://ninerengage.charlotte.edu/event/10356242.ics"
 }, {
     "name": "Financial Wellness Walk-In Hours",
     "start": "2024-11-25T16:00:00+00:00",
@@ -2051,18 +2027,6 @@
     "gcal": "https://ninerengage.charlotte.edu/event/10211344/googlepublish",
     "ical": "https://ninerengage.charlotte.edu/event/10211344.ics"
 }, {
-    "name": "Completing an IRB Protocol Application",
-    "start": "2024-10-29T20:30:00+00:00",
-    "end": "2024-10-29T22:00:00+00:00",
-    "lat": "",
-    "lng": "",
-    "url": "https://ninerengage.charlotte.edu/event/10389344",
-    "location": "Cameron Building 303",
-    "description": "This workshop is eligible for the\u00a0Niner Career Challenge!\nPreparing an IRB proposal/application may be intimidating as a student researcher.\u00a0 You may not know how much detail to provide in your application or what documents the IRB requires you to provide.\u00a0 \u00a0In this workshop, you will hear from UNC Charlotte's IRB office to learn about the IRB application process.\u00a0 Including tips for preparing an IRB application and mistakes to avoid.\u00a0 Because this workshop is intended to give a detailed review of the IRB application and help guide you for preparing your own IRB application, this workshop would be ideal for students who will be starting their IRB applications this academic year.\u00a0 Attendees should be prepared to talk about their own study plans.Instructor: Cat RundenRegister here!",
-    "host": "The Center for Graduate Life and Learning",
-    "gcal": "https://ninerengage.charlotte.edu/event/10389344/googlepublish",
-    "ical": "https://ninerengage.charlotte.edu/event/10389344.ics"
-}, {
     "name": "Campus Bible Fellowship Weekly Meeting",
     "start": "2024-10-30T23:00:00+00:00",
     "end": "2024-10-31T00:30:00+00:00",
@@ -2159,6 +2123,18 @@
     "gcal": "https://ninerengage.charlotte.edu/event/10356209/googlepublish",
     "ical": "https://ninerengage.charlotte.edu/event/10356209.ics"
 }, {
+    "name": "NSBE General Body Meeting",
+    "start": "2024-10-30T22:00:00+00:00",
+    "end": "2024-10-30T23:30:00+00:00",
+    "lat": "35.30724",
+    "lng": "-80.7302",
+    "url": "https://ninerengage.charlotte.edu/event/10667588",
+    "location": "McEniry 124",
+    "description": "Come get SPOOKY with NSBE! Wear your best costume (for a chance to win a prize) and play Jeopardy with us!",
+    "host": "National Society of Black Engineers",
+    "gcal": "https://ninerengage.charlotte.edu/event/10667588/googlepublish",
+    "ical": "https://ninerengage.charlotte.edu/event/10667588.ics"
+}, {
     "name": "Out of the Darkness Walk",
     "start": "2024-11-02T16:00:00+00:00",
     "end": "2024-11-02T18:00:00+00:00",
@@ -2170,18 +2146,6 @@
     "host": "Athletics Department, Center for Wellness Promotion",
     "gcal": "https://ninerengage.charlotte.edu/event/10586459/googlepublish",
     "ical": "https://ninerengage.charlotte.edu/event/10586459.ics"
-}, {
-    "name": "Fright Night",
-    "start": "2024-10-28T21:00:00+00:00",
-    "end": "2024-10-29T02:00:00+00:00",
-    "lat": "35.30509",
-    "lng": "-80.73324",
-    "url": "https://ninerengage.charlotte.edu/event/10635321",
-    "location": "Lucas Room",
-    "description": "FRIGHT NIGHT .\ud81a\udd54 \u0741 \u02d6\ud83d\udd78\ufe0f\ud83d\udd77.\ud81a\udd54 \u0741 \u02d6\nJoin us MONDAY 10/28 in Lucas room for frights, food, and fun! Feel free to come join us and dress up in (appropriate) costumes \ud83c\udf83\nAgenda:\ud83d\udc57 6:30pm - 7:30pm DTI compete for 5 stars, may the best costume wins!\ud83c\udf9f\ufe0f Tickets for our raffle prize: - one free ticket for members- $2 for non-members- $1 for additional tickets\ud83c\udfa5 7:30pm - 9:00pm relax and enjoy a movie for the night!\nPIZZA, POPCORN, CANDY for only $5!\nWait...did I forget to mention our EPIC collab?! With our lovely @cltkasa and @clt_hsa !!\nCan't wait to see you all there, it's going to be so boo-tiful\ud83d\udc7b",
-    "host": "Asian Student Association",
-    "gcal": "https://ninerengage.charlotte.edu/event/10635321/googlepublish",
-    "ical": "https://ninerengage.charlotte.edu/event/10635321.ics"
 }, {
     "name": "Formatting and Submitting Your Thesis or Dissertation",
     "start": "2024-11-08T20:00:00+00:00",
@@ -2231,29 +2195,77 @@
     "gcal": "https://ninerengage.charlotte.edu/event/10529301/googlepublish",
     "ical": "https://ninerengage.charlotte.edu/event/10529301.ics"
 }, {
-    "name": "6th Floor Plate Palette",
-    "start": "2024-10-29T22:30:00+00:00",
-    "end": "2024-10-29T23:30:00+00:00",
-    "lat": "35.30276",
-    "lng": "-80.73656",
-    "url": "https://ninerengage.charlotte.edu/event/10529554",
-    "location": "Laurel Hall 6th Floor RM 601",
-    "description": "Connect with fellow residents in a relaxed, creative atmosphere while taking a break from studying and engaging in a fun, therapeutic activity.",
-    "host": "",
-    "gcal": "https://ninerengage.charlotte.edu/event/10529554/googlepublish",
-    "ical": "https://ninerengage.charlotte.edu/event/10529554.ics"
-}, {
-    "name": "Bounce Back from Setbacks",
-    "start": "2024-10-28T21:30:00+00:00",
-    "end": "2024-10-28T22:15:00+00:00",
+    "name": "Movie: It Ends with Us",
+    "start": "2024-11-09T22:00:00+00:00",
+    "end": "2024-11-10T00:00:00+00:00",
     "lat": "",
     "lng": "",
-    "url": "https://ninerengage.charlotte.edu/event/10298677",
-    "location": "Colvard North, Room 2006",
-    "description": "Discover tips to help get you refocused and stay motivated throughout the semester.\n\u00a0\nThis workshop is first come, first serve.\n\u00a0\nThis workshop counts towards the Skill Building PILOT credit.",
-    "host": "Programs in Leadership and Organizational Training",
-    "gcal": "https://ninerengage.charlotte.edu/event/10298677/googlepublish",
-    "ical": "https://ninerengage.charlotte.edu/event/10298677.ics"
+    "url": "https://ninerengage.charlotte.edu/event/10666686",
+    "location": "Popp Martin Student Union",
+    "description": "When a woman's first love suddenly reenters her life, her relationship with a charming, but abusive neurosurgeon is upended and she realizes she must learn to rely on her own strength to make an impossible choice for her future.",
+    "host": "Popp Martin Student Union",
+    "gcal": "https://ninerengage.charlotte.edu/event/10666686/googlepublish",
+    "ical": "https://ninerengage.charlotte.edu/event/10666686.ics"
+}, {
+    "name": "Movie: It Ends with Us",
+    "start": "2024-11-10T19:00:00+00:00",
+    "end": "2024-11-10T21:00:00+00:00",
+    "lat": "",
+    "lng": "",
+    "url": "https://ninerengage.charlotte.edu/event/10666687",
+    "location": "Popp Martin Student Union",
+    "description": "When a woman's first love suddenly reenters her life, her relationship with a charming, but abusive neurosurgeon is upended and she realizes she must learn to rely on her own strength to make an impossible choice for her future.",
+    "host": "Popp Martin Student Union",
+    "gcal": "https://ninerengage.charlotte.edu/event/10666687/googlepublish",
+    "ical": "https://ninerengage.charlotte.edu/event/10666687.ics"
+}, {
+    "name": "Jamil Niner Student Pantry: Tuesday Volunteer Shift  |  10:30am \u2013 12:45pm",
+    "start": "2024-11-26T15:30:00+00:00",
+    "end": "2024-11-26T17:45:00+00:00",
+    "lat": "35.30994",
+    "lng": "-80.72398",
+    "url": "https://ninerengage.charlotte.edu/event/10625550",
+    "location": "Jamil Niner Student Pantry",
+    "description": "The Jamil Niner Student Pantry assists UNC Charlotte students and faculty/staff who are having challenges accessing food regularly. Through volunteering, you will be working with the pantry leadership team to provide healthy, culturally appropriate, and emergency foods to students, faculty, and staff on campus. Volunteer activities may include, but are not limited to: checking shoppers in and out, assisting with pantry upkeep, stocking and sorting food, garden work, and other various activities to help run the pantry. Please wear closed-toed shoes and comfortable clothing when volunteering at the food pantry. Enter through the front door and proceed to the conference room for volunteer check-in.\u00a0\nIf you are unable to stay for the duration of the volunteer shift, please notify a team member before leaving your shift.\u00a0\nQuestions? Email ninerpantry@charlotte.edu.",
+    "host": "Jamil Niner Student Pantry",
+    "gcal": "https://ninerengage.charlotte.edu/event/10625550/googlepublish",
+    "ical": "https://ninerengage.charlotte.edu/event/10625550.ics"
+}, {
+    "name": "Movie: It Ends with Us",
+    "start": "2024-11-11T02:00:00+00:00",
+    "end": "2024-11-11T04:45:00+00:00",
+    "lat": "",
+    "lng": "",
+    "url": "https://ninerengage.charlotte.edu/event/10666688",
+    "location": "Popp Martin Student Union",
+    "description": "When a woman's first love suddenly reenters her life, her relationship with a charming, but abusive neurosurgeon is upended and she realizes she must learn to rely on her own strength to make an impossible choice for her future.",
+    "host": "Popp Martin Student Union",
+    "gcal": "https://ninerengage.charlotte.edu/event/10666688/googlepublish",
+    "ical": "https://ninerengage.charlotte.edu/event/10666688.ics"
+}, {
+    "name": "Movie: It Ends with Us",
+    "start": "2024-11-08T23:00:00+00:00",
+    "end": "2024-11-09T01:00:00+00:00",
+    "lat": "",
+    "lng": "",
+    "url": "https://ninerengage.charlotte.edu/event/10666685",
+    "location": "Popp Martin Student Union",
+    "description": "When a woman's first love suddenly reenters her life, her relationship with a charming, but abusive neurosurgeon is upended and she realizes she must learn to rely on her own strength to make an impossible choice for her future.",
+    "host": "Popp Martin Student Union",
+    "gcal": "https://ninerengage.charlotte.edu/event/10666685/googlepublish",
+    "ical": "https://ninerengage.charlotte.edu/event/10666685.ics"
+}, {
+    "name": "Movie: It Ends with Us",
+    "start": "2024-11-08T02:00:00+00:00",
+    "end": "2024-11-08T04:45:00+00:00",
+    "lat": "",
+    "lng": "",
+    "url": "https://ninerengage.charlotte.edu/event/10666684",
+    "location": "Popp Martin Student Union",
+    "description": "When a woman's first love suddenly reenters her life, her relationship with a charming, but abusive neurosurgeon is upended and she realizes she must learn to rely on her own strength to make an impossible choice for her future.",
+    "host": "Popp Martin Student Union",
+    "gcal": "https://ninerengage.charlotte.edu/event/10666684/googlepublish",
+    "ical": "https://ninerengage.charlotte.edu/event/10666684.ics"
 }, {
     "name": "Procrastination Workshop Series",
     "start": "2024-11-06T21:00:00+00:00",
@@ -2278,6 +2290,18 @@
     "host": "J. Murrey Atkins Library",
     "gcal": "https://ninerengage.charlotte.edu/event/10624679/googlepublish",
     "ical": "https://ninerengage.charlotte.edu/event/10624679.ics"
+}, {
+    "name": "Movie: Hocus Pocus",
+    "start": "2024-11-01T01:00:00+00:00",
+    "end": "2024-11-01T03:00:00+00:00",
+    "lat": "",
+    "lng": "",
+    "url": "https://ninerengage.charlotte.edu/event/10483884",
+    "location": "Popp Martin Student Union",
+    "description": "A teenage boy named Max and his little sister move to Salem, where he struggles to fit in before awakening a trio of diabolical witches that were executed in the 17th century.",
+    "host": "Popp Martin Student Union",
+    "gcal": "https://ninerengage.charlotte.edu/event/10483884/googlepublish",
+    "ical": "https://ninerengage.charlotte.edu/event/10483884.ics"
 }, {
     "name": "Jamil Niner Student Pantry: Thursday Volunteer Shift  | 12:30pm \u2013 2:45pm",
     "start": "2024-10-31T16:30:00+00:00",
@@ -2346,7 +2370,7 @@
     "lng": "-80.73167",
     "url": "https://ninerengage.charlotte.edu/event/10571781",
     "location": "Cone After Hours",
-    "description": "Join us for a fun and informative tobacco awareness jeopardy game in honor of the Great American Smokeout!\u00a0Test your knowledge about the dangers of tobacco, vaping, and nicotine use while learning valuable tips on how to quit or support others in quitting.\nEnjoy some friendly competition, win prizes, and discover resources to help you or a loved one live tobacco-free.\nThe 1st 40 students to RSVP on Niner Engage will be entered into a drawing for a Fit Bit!!",
+    "description": "Join us for a fun and informative tobacco awareness jeopardy game in honor of the Great American Smokeout!\u00a0Test your knowledge about the dangers of tobacco, vaping, and nicotine use while learning valuable tips on how to quit or support others in quitting.\nEnjoy some FREE FOOD,\u00a0 friendly competition, win prizes, and discover resources to help you or a loved one live tobacco-free.\nThe 1st 40 students to RSVP on Niner Engage will be entered into a drawing for a Fit Bit!!",
     "host": "Center for Wellness Promotion, Graduate Public Health Association, Health and Wellbeing, Undergraduate Public Health Association",
     "gcal": "https://ninerengage.charlotte.edu/event/10571781/googlepublish",
     "ical": "https://ninerengage.charlotte.edu/event/10571781.ics"
@@ -2375,17 +2399,17 @@
     "gcal": "https://ninerengage.charlotte.edu/event/10499783/googlepublish",
     "ical": "https://ninerengage.charlotte.edu/event/10499783.ics"
 }, {
-    "name": "Game - University of South Carolina (AWAY)",
-    "start": "2024-10-27T18:00:00+00:00",
-    "end": "2024-10-27T20:00:00+00:00",
-    "lat": "33.96982",
-    "lng": "-81.01827",
-    "url": "https://ninerengage.charlotte.edu/event/10325781",
-    "location": "University of South Carolina - Field",
-    "description": "This league game will be away at the University of South Carolina!",
-    "host": "Women's Club Soccer",
-    "gcal": "https://ninerengage.charlotte.edu/event/10325781/googlepublish",
-    "ical": "https://ninerengage.charlotte.edu/event/10325781.ics"
+    "name": "Engineering Resume Workshop",
+    "start": "2024-11-06T16:30:00+00:00",
+    "end": "2024-11-06T18:30:00+00:00",
+    "lat": "35.30893",
+    "lng": "-80.7417",
+    "url": "https://ninerengage.charlotte.edu/event/10670409",
+    "location": "EPIC",
+    "description": "Join our Engineering Resume Workshop to refine your resume for a competitive edge in today\u2019s job market! This workshop includes interactive group sessions, where we'll discuss key strategies for crafting a standout resume tailored to engineering roles. Participants will also have the opportunity for one-on-one feedback to fine-tune personal achievements, technical skills, and project experiences. Gain insights to effectively showcase your strengths and land that next opportunity!",
+    "host": "IEEE-Eta Kappa Nu, Tau Beta Pi - The National Engineering Honor Society, The Career Center",
+    "gcal": "https://ninerengage.charlotte.edu/event/10670409/googlepublish",
+    "ical": "https://ninerengage.charlotte.edu/event/10670409.ics"
 }, {
     "name": "Relationship Renewal",
     "start": "2024-11-07T19:30:00+00:00",
@@ -2423,6 +2447,18 @@
     "gcal": "https://ninerengage.charlotte.edu/event/10426899/googlepublish",
     "ical": "https://ninerengage.charlotte.edu/event/10426899.ics"
 }, {
+    "name": "General Meeting: Q&A and Partner Selection",
+    "start": "2024-10-30T22:30:00+00:00",
+    "end": "2024-10-31T00:00:00+00:00",
+    "lat": "35.3064",
+    "lng": "-80.73322",
+    "url": "https://ninerengage.charlotte.edu/event/10670633",
+    "location": "Friday Hall in Room 144",
+    "description": "This meeting is for students who are looking for partners for their events to compete at the International Conference in April 2025. We are beginning to discuss the different topics and events you are able to choose. But having a group of 2-3 students can make splitting the work a lot easier.",
+    "host": "Collegiate DECA",
+    "gcal": "https://ninerengage.charlotte.edu/event/10670633/googlepublish",
+    "ical": "https://ninerengage.charlotte.edu/event/10670633.ics"
+}, {
     "name": "PitchBreakfast",
     "start": "2024-11-13T13:30:00+00:00",
     "end": "2024-11-13T15:15:00+00:00",
@@ -2459,18 +2495,6 @@
     "gcal": "https://ninerengage.charlotte.edu/event/10589086/googlepublish",
     "ical": "https://ninerengage.charlotte.edu/event/10589086.ics"
 }, {
-    "name": "Nsbe tabling",
-    "start": "2024-10-29T15:00:00+00:00",
-    "end": "2024-10-29T18:30:00+00:00",
-    "lat": "35.30203",
-    "lng": "-80.73167",
-    "url": "https://ninerengage.charlotte.edu/event/10646878",
-    "location": "Student union",
-    "description": "Tabling in student union",
-    "host": "National Society of Black Engineers",
-    "gcal": "https://ninerengage.charlotte.edu/event/10646878/googlepublish",
-    "ical": "https://ninerengage.charlotte.edu/event/10646878.ics"
-}, {
     "name": "11/4 :  Hear from an HR professional on HOW to standout!",
     "start": "2024-11-04T18:30:00+00:00",
     "end": "2024-11-04T19:15:00+00:00",
@@ -2482,18 +2506,6 @@
     "host": "S-STEM Scholars, College of Engineering",
     "gcal": "https://ninerengage.charlotte.edu/event/10618615/googlepublish",
     "ical": "https://ninerengage.charlotte.edu/event/10618615.ics"
-}, {
-    "name": "HACK CLT 2024",
-    "start": "2024-10-25T19:30:00+00:00",
-    "end": "2024-10-27T21:00:00+00:00",
-    "lat": "",
-    "lng": "",
-    "url": "https://ninerengage.charlotte.edu/event/10511066",
-    "location": "Woodward",
-    "description": "HACK CLT is a hackathon put on Charlotte Hack in conjunction with Charlotte AI Research.\nWhat: A hackathon is a team event where groups of students form teams to complete a project in less than 48 hours based on a certain theme or category. Then at the end, judges will evaluate your project for the potential to win big prizes and massive clout.\nWhere/When: HACK CLT will take place on the first floor of Woodward. Times and rooms will be provided upon attendance confirmation notice.\nHow: To show interest, you can fill out the following form: https://forms.gle/WiNK8xRvejkSqaSDA. This form will show you are interested. You can also attend one of our three interest meetings which can be found on Charlotte Hack's Niner Engage page.\nWe hope to see you there!",
-    "host": "Charlotte Hack, Charlotte AI Research",
-    "gcal": "https://ninerengage.charlotte.edu/event/10511066/googlepublish",
-    "ical": "https://ninerengage.charlotte.edu/event/10511066.ics"
 }, {
     "name": "AA Meetings",
     "start": "2024-10-30T20:00:00+00:00",
@@ -2555,18 +2567,6 @@
     "gcal": "https://ninerengage.charlotte.edu/event/10499729/googlepublish",
     "ical": "https://ninerengage.charlotte.edu/event/10499729.ics"
 }, {
-    "name": "Introduction to the Graduate and Postdoctoral Writing Center",
-    "start": "2024-10-28T23:00:00+00:00",
-    "end": "2024-10-28T23:30:00+00:00",
-    "lat": "",
-    "lng": "",
-    "url": "https://ninerengage.charlotte.edu/event/10499975",
-    "location": "Online",
-    "description": "Presenter:\u00a0 Lisa Russell-Pinson, Ph.D.\n\u00a0\n\nPlease join us to learn more about the Graduate and Postdoctoral Writing Center (GPWC)!\u00a0 This brief presentation will introduce you to the many services offered by the GPWC, including:\n\u00a0\n*Getting feedback on your writing\n*Receiving guidance on grant writing \n*Navigating the dissertation process \n\u00a0\nThe presentation will also include a preview of upcoming writing events sponsored by the GPWC.\u00a0 We hope to see you there!\n\u00a0\nRegister Here\n\u00a0\n**Please note:\u00a0 This presentation will be held during Dr. Kathleen Jordan's DNP class.\u00a0 However, ALL graduate students and postdoctoral students are welcome to attend!",
-    "host": "The Center for Graduate Life and Learning",
-    "gcal": "https://ninerengage.charlotte.edu/event/10499975/googlepublish",
-    "ical": "https://ninerengage.charlotte.edu/event/10499975.ics"
-}, {
     "name": "Commencement Kick-Off",
     "start": "2024-10-30T15:00:00+00:00",
     "end": "2024-10-30T18:00:00+00:00",
@@ -2615,17 +2615,53 @@
     "gcal": "https://ninerengage.charlotte.edu/event/10658848/googlepublish",
     "ical": "https://ninerengage.charlotte.edu/event/10658848.ics"
 }, {
-    "name": "Adopt a Spot Cleanup - Social Event",
-    "start": "2024-11-04T22:30:00+00:00",
-    "end": "2024-11-04T23:30:00+00:00",
-    "lat": "39.85124",
-    "lng": "-86.08302",
-    "url": "https://ninerengage.charlotte.edu/event/10487710",
-    "location": "Laurel Hall",
-    "description": "Join the Charlotte Sales Network for our Adopt-A-Spot Cleanup event as we give back to the community! We\u2019re coming together to clean and beautify a designated area on campus, showing our commitment to service and sustainability. This is a great way to bond with fellow club members while making a positive impact on our environment. Gloves, bags, and other supplies will be provided\u2014just bring your enthusiasm and a team spirit! Let\u2019s take pride in our community and keep it looking its best. All are welcome to participate in this meaningful, hands-on event!",
-    "host": "Charlotte Sales Network",
-    "gcal": "https://ninerengage.charlotte.edu/event/10487710/googlepublish",
-    "ical": "https://ninerengage.charlotte.edu/event/10487710.ics"
+    "name": "Movie: Transformers One",
+    "start": "2024-11-15T23:00:00+00:00",
+    "end": "2024-11-16T01:00:00+00:00",
+    "lat": "",
+    "lng": "",
+    "url": "https://ninerengage.charlotte.edu/event/10667030",
+    "location": "Popp Martin Student Union",
+    "description": "The untold origin story of Optimus Prime and Megatron, better known as sworn enemies, but who once were friends bonded like brothers who changed the fate of Cybertron forever.",
+    "host": "Popp Martin Student Union",
+    "gcal": "https://ninerengage.charlotte.edu/event/10667030/googlepublish",
+    "ical": "https://ninerengage.charlotte.edu/event/10667030.ics"
+}, {
+    "name": "Movie: Transformers One",
+    "start": "2024-11-16T22:00:00+00:00",
+    "end": "2024-11-17T00:00:00+00:00",
+    "lat": "",
+    "lng": "",
+    "url": "https://ninerengage.charlotte.edu/event/10667031",
+    "location": "Popp Martin Student Union",
+    "description": "The untold origin story of Optimus Prime and Megatron, better known as sworn enemies, but who once were friends bonded like brothers who changed the fate of Cybertron forever.",
+    "host": "Popp Martin Student Union",
+    "gcal": "https://ninerengage.charlotte.edu/event/10667031/googlepublish",
+    "ical": "https://ninerengage.charlotte.edu/event/10667031.ics"
+}, {
+    "name": "Movie: Transformers One",
+    "start": "2024-11-17T19:00:00+00:00",
+    "end": "2024-11-17T21:00:00+00:00",
+    "lat": "",
+    "lng": "",
+    "url": "https://ninerengage.charlotte.edu/event/10667032",
+    "location": "Popp Martin Student Union",
+    "description": "The untold origin story of Optimus Prime and Megatron, better known as sworn enemies, but who once were friends bonded like brothers who changed the fate of Cybertron forever.",
+    "host": "Popp Martin Student Union",
+    "gcal": "https://ninerengage.charlotte.edu/event/10667032/googlepublish",
+    "ical": "https://ninerengage.charlotte.edu/event/10667032.ics"
+}, {
+    "name": "Movie: Transformers One",
+    "start": "2024-11-18T02:00:00+00:00",
+    "end": "2024-11-18T04:45:00+00:00",
+    "lat": "",
+    "lng": "",
+    "url": "https://ninerengage.charlotte.edu/event/10667033",
+    "location": "Popp Martin Student Union",
+    "description": "The untold origin story of Optimus Prime and Megatron, better known as sworn enemies, but who once were friends bonded like brothers who changed the fate of Cybertron forever.",
+    "host": "Popp Martin Student Union",
+    "gcal": "https://ninerengage.charlotte.edu/event/10667033/googlepublish",
+    "ical": "https://ninerengage.charlotte.edu/event/10667033.ics"
 }, {
     "name": "Green Dot Student Overview Training",
     "start": "2024-11-19T23:00:00+00:00",
@@ -2638,18 +2674,6 @@
     "host": "Center for Wellness Promotion, Health and Wellbeing, NinerReady , Programs in Leadership and Organizational Training, The Health Education Leadership and Prevention Certificate",
     "gcal": "https://ninerengage.charlotte.edu/event/10146834/googlepublish",
     "ical": "https://ninerengage.charlotte.edu/event/10146834.ics"
-}, {
-    "name": "Pumpkin Carving Party \ud83c\udf83",
-    "start": "2024-10-29T21:30:00+00:00",
-    "end": "2024-10-29T22:30:00+00:00",
-    "lat": "35.30632",
-    "lng": "-80.72999",
-    "url": "https://ninerengage.charlotte.edu/event/10661709",
-    "location": "Friday 116",
-    "description": "Ready to get creative? Join us on Tuesday, October 29th at 5:30 PM in Friday 116 for a fun night of pumpkin carving!\n\u00a0\nWe'll provide all the supplies\u2014just bring your ideas and Halloween spirit. Limited spots available, so RSVP\u00a0to claim your spot AND get a pumpkin!\n\u00a0\nDon\u2019t miss out on the Halloween fun! We hope to see you there! \ud83d\udc7b\ud83d\udd78",
-    "host": "Association of Black Entrepreneurs & Creators",
-    "gcal": "https://ninerengage.charlotte.edu/event/10661709/googlepublish",
-    "ical": "https://ninerengage.charlotte.edu/event/10661709.ics"
 }, {
     "name": "The Future of Money",
     "start": "2024-11-19T22:00:00+00:00",
@@ -2693,8 +2717,8 @@
     "lat": "",
     "lng": "",
     "url": "https://ninerengage.charlotte.edu/event/10249027",
-    "location": "Atkins 146",
-    "description": "Experience relaxation and rejuvenation with the Center for Wellness Promotion's weekly SKY Wellness Sessions. These sessions introduce breathing and meditation techniques aimed at promoting total well-being and provide an opportunity for positive social connection with other graduate students. The sessions are held every Thursday at 3:30 pm at the Center for Graduate Life and Learning, continuing through November 14th, 2024. Join us and discover the benefits of conscious breathing, meditation, and connection for stress relief.These sessions are lead by Nita Kanal, Taraneh Kamyab & Katie Tomer.Register here",
+    "location": "Online",
+    "description": "Experience relaxation and rejuvenation with the Center for Wellness Promotion's weekly De-Stress Sessions. These sessions introduce breathing and meditation techniques aimed at promoting total well-being and provide an opportunity for positive social connection with other students across the university. The sessions are held every Thursday at 3:30 pm via zoom through November 2024. Join to de-stress, meet new people, and discover the benefits of conscious breathing from wherever you are! Link to join\u00a0 - tiny.cc/unccltdestress\n\u00a0\nThese sessions are led by Nita Kanal, Taraneh Kamyab & Katie Tomer.Register here",
     "host": "The Center for Graduate Life and Learning",
     "gcal": "https://ninerengage.charlotte.edu/event/10249027/googlepublish",
     "ical": "https://ninerengage.charlotte.edu/event/10249027.ics"
@@ -2705,8 +2729,8 @@
     "lat": "",
     "lng": "",
     "url": "https://ninerengage.charlotte.edu/event/10249026",
-    "location": "Atkins 146",
-    "description": "Experience relaxation and rejuvenation with the Center for Wellness Promotion's weekly SKY Wellness Sessions. These sessions introduce breathing and meditation techniques aimed at promoting total well-being and provide an opportunity for positive social connection with other graduate students. The sessions are held every Thursday at 3:30 pm at the Center for Graduate Life and Learning, continuing through November 14th, 2024. Join us and discover the benefits of conscious breathing, meditation, and connection for stress relief.These sessions are lead by Nita Kanal, Taraneh Kamyab & Katie Tomer.Register here",
+    "location": "Online",
+    "description": "Experience relaxation and rejuvenation with the Center for Wellness Promotion's weekly De-Stress Sessions. These sessions introduce breathing and meditation techniques aimed at promoting total well-being and provide an opportunity for positive social connection with other students across the university. The sessions are held every Thursday at 3:30 pm via zoom through November 2024. Join to de-stress, meet new people, and discover the benefits of conscious breathing from wherever you are! Link to join\u00a0 - tiny.cc/unccltdestress\n\u00a0\nThese sessions are led by Nita Kanal, Taraneh Kamyab & Katie Tomer.\nRegister here",
     "host": "The Center for Graduate Life and Learning",
     "gcal": "https://ninerengage.charlotte.edu/event/10249026/googlepublish",
     "ical": "https://ninerengage.charlotte.edu/event/10249026.ics"
@@ -2741,7 +2765,7 @@
     "lat": "35.30203",
     "lng": "-80.73167",
     "url": "https://ninerengage.charlotte.edu/event/10647943",
-    "location": "Fretwell 307",
+    "location": "Fretwell 306",
     "description": "Join us to learn from Professor Billie Waller as he talks about his research on the queer community. Billie works with transgender philosophy, queer theory, decolonial feminism, and media studies. After discussing his research we will watch a film about how pathologized transness affects personhood and sense of self.",
     "host": "Prism",
     "gcal": "https://ninerengage.charlotte.edu/event/10647943/googlepublish",
@@ -2794,18 +2818,6 @@
     "host": "Center for Wellness Promotion, Health and Wellbeing",
     "gcal": "https://ninerengage.charlotte.edu/event/10387260/googlepublish",
     "ical": "https://ninerengage.charlotte.edu/event/10387260.ics"
-}, {
-    "name": "Haunted Hall",
-    "start": "2024-10-29T22:00:00+00:00",
-    "end": "2024-10-30T00:00:00+00:00",
-    "lat": "",
-    "lng": "",
-    "url": "https://ninerengage.charlotte.edu/event/10656134",
-    "location": "Scott Hall",
-    "description": "Join Scott Hall for games, free food, pumpkin painting, cookie decorating, costume contest, and a boo basket raffle!",
-    "host": "",
-    "gcal": "https://ninerengage.charlotte.edu/event/10656134/googlepublish",
-    "ical": "https://ninerengage.charlotte.edu/event/10656134.ics"
 }, {
     "name": "Nihon Club Film Screening 'Carving The Divine' by Yujiro Seki",
     "start": "2024-11-18T22:30:00+00:00",
@@ -2867,33 +2879,9 @@
     "gcal": "https://ninerengage.charlotte.edu/event/10298371/googlepublish",
     "ical": "https://ninerengage.charlotte.edu/event/10298371.ics"
 }, {
-    "name": "Formatting and Submitting Your Thesis or Dissertation",
-    "start": "2024-10-28T16:00:00+00:00",
-    "end": "2024-10-28T17:00:00+00:00",
-    "lat": "",
-    "lng": "",
-    "url": "https://ninerengage.charlotte.edu/event/10490379",
-    "location": "Online",
-    "description": "Are you planning to submit your thesis or dissertation sometime this or next semester?\u00a0Attend this session to have all of your questions about formatting, defense, and submission procedures answered!\nThese workshops are offered approximately every two weeks and are *essential* for a stress-free graduation.\nRegister here and you will receive an email confirmation message and Zoom link.\nPresenter: Michelle Hypki",
-    "host": "The Center for Graduate Life and Learning",
-    "gcal": "https://ninerengage.charlotte.edu/event/10490379/googlepublish",
-    "ical": "https://ninerengage.charlotte.edu/event/10490379.ics"
-}, {
-    "name": "The Last Reformers: Bible Study",
-    "start": "2024-11-20T23:00:00+00:00",
-    "end": "2024-11-21T01:00:00+00:00",
-    "lat": "",
-    "lng": "",
-    "url": "https://ninerengage.charlotte.edu/event/10246111",
-    "location": "COED/ Mebane 065",
-    "description": "You want the knowledge and faith of the early apostles of Christ? Come and see (John 1:46)",
-    "host": "The Last Reformers",
-    "gcal": "https://ninerengage.charlotte.edu/event/10246111/googlepublish",
-    "ical": "https://ninerengage.charlotte.edu/event/10246111.ics"
-}, {
     "name": "PUMPKIN CARVING AND COSTUME CONTEST!",
-    "start": "2024-10-31T20:00:00+00:00",
-    "end": "2024-10-31T21:00:00+00:00",
+    "start": "2024-10-30T20:00:00+00:00",
+    "end": "2024-10-30T21:00:00+00:00",
     "lat": "35.31277",
     "lng": "-80.74196",
     "url": "https://ninerengage.charlotte.edu/event/10612363",
@@ -2916,13 +2904,13 @@
     "ical": "https://ninerengage.charlotte.edu/event/10482364.ics"
 }, {
     "name": "vs UNC Greensboro",
-    "start": "2024-11-16T18:00:00+00:00",
-    "end": "2024-11-16T21:00:00+00:00",
+    "start": "2024-11-17T18:00:00+00:00",
+    "end": "2024-11-17T21:00:00+00:00",
     "lat": "35.30703",
     "lng": "-80.7309",
     "url": "https://ninerengage.charlotte.edu/event/10526368",
     "location": "UNC Charlotte",
-    "description": "Kickoff time = 2pm\nField Location = Hayes Field (Field 13)\nTeam = Green/B\n*last updated 9/24*",
+    "description": "Kickoff time = 2pm\nField Location = Hayes Field (Field 13)\nTeam = Green/B\n*last updated 10/30*",
     "host": "Men's Soccer Club",
     "gcal": "https://ninerengage.charlotte.edu/event/10526368/googlepublish",
     "ical": "https://ninerengage.charlotte.edu/event/10526368.ics"
@@ -2951,17 +2939,17 @@
     "gcal": "https://ninerengage.charlotte.edu/event/10551239/googlepublish",
     "ical": "https://ninerengage.charlotte.edu/event/10551239.ics"
 }, {
-    "name": "Copyright Quick Bites: Dissertation Workshop",
-    "start": "2024-10-29T19:00:00+00:00",
-    "end": "2024-10-29T20:00:00+00:00",
+    "name": "Cozy Reading Night",
+    "start": "2024-11-19T20:00:00+00:00",
+    "end": "2024-11-19T23:00:00+00:00",
     "lat": "",
     "lng": "",
-    "url": "https://ninerengage.charlotte.edu/event/10659488",
-    "location": "Online",
-    "description": "Do you want to publish a book or scholarly article? Are you thinking of working with a publisher to bring your scholarly work to a wider\u00a0audience?\n\u00a0\nIf so, join us for this workshop, tailored to academic authors. We\u2019ll cover the basics of copyright law, negotiation, publication contract terms, and UNC Charlotte\u2019s policies\u2026before you agree to a deal with a publisher.\n\u00a0\nThis workshop is facilitated by Arnetta Girardeau, who also created a video on the topic. You can view it below; while not required before attending the workshop, it will help you shape your questions when you are there.\n\u00a0\nRegister Here\n\u00a0\nhttps://www.youtube.com/watch?v=TxzU99tp9TA",
-    "host": "The Center for Graduate Life and Learning",
-    "gcal": "https://ninerengage.charlotte.edu/event/10659488/googlepublish",
-    "ical": "https://ninerengage.charlotte.edu/event/10659488.ics"
+    "url": "https://ninerengage.charlotte.edu/event/10670359",
+    "location": "Atkins Library; Visualization Lab (2nd floor)",
+    "description": "Take a break from the semester\u2019s hustle and bustle and relax at Cozy Reading Night! Drop in for a peaceful evening of reading, calming music, and good vibes. Bring your own book or pick one from our selections and settle in with a warm drink and sweet treat. Tea, coffee, hot cocoa, and desserts will be provided. Unwind before the final push to the end of the semester!",
+    "host": "J. Murrey Atkins Library",
+    "gcal": "https://ninerengage.charlotte.edu/event/10670359/googlepublish",
+    "ical": "https://ninerengage.charlotte.edu/event/10670359.ics"
 }, {
     "name": "Writing Abstracts for Presentation or Publication",
     "start": "2024-11-12T18:00:00+00:00",
@@ -2987,17 +2975,65 @@
     "gcal": "https://ninerengage.charlotte.edu/event/10486346/googlepublish",
     "ical": "https://ninerengage.charlotte.edu/event/10486346.ics"
 }, {
-    "name": "Spooky Social",
-    "start": "2024-10-28T22:00:00+00:00",
-    "end": "2024-10-28T23:00:00+00:00",
+    "name": "Movie: Thanksgiving",
+    "start": "2024-11-07T23:00:00+00:00",
+    "end": "2024-11-08T01:00:00+00:00",
     "lat": "",
     "lng": "",
-    "url": "https://ninerengage.charlotte.edu/event/10472590",
-    "location": "Denny 200",
-    "description": "We will be celebrating Halloween with our Spooky Social! We will be having a costume contest, games, crafts, and much more! RSVP soon :)",
-    "host": "Literature and Lattes",
-    "gcal": "https://ninerengage.charlotte.edu/event/10472590/googlepublish",
-    "ical": "https://ninerengage.charlotte.edu/event/10472590.ics"
+    "url": "https://ninerengage.charlotte.edu/event/10666590",
+    "location": "Popp Martin Student Union",
+    "description": "After a Black Friday riot ends in tragedy, a mysterious Thanksgiving-inspired killer terrorizes Plymouth, Massachusetts - the birthplace of the infamous holiday.",
+    "host": "Popp Martin Student Union",
+    "gcal": "https://ninerengage.charlotte.edu/event/10666590/googlepublish",
+    "ical": "https://ninerengage.charlotte.edu/event/10666590.ics"
+}, {
+    "name": "Movie: Thanksgiving",
+    "start": "2024-11-09T02:00:00+00:00",
+    "end": "2024-11-09T04:45:00+00:00",
+    "lat": "",
+    "lng": "",
+    "url": "https://ninerengage.charlotte.edu/event/10666591",
+    "location": "Popp Martin Student Union",
+    "description": "After a Black Friday riot ends in tragedy, a mysterious Thanksgiving-inspired killer terrorizes Plymouth, Massachusetts - the birthplace of the infamous holiday.",
+    "host": "Popp Martin Student Union",
+    "gcal": "https://ninerengage.charlotte.edu/event/10666591/googlepublish",
+    "ical": "https://ninerengage.charlotte.edu/event/10666591.ics"
+}, {
+    "name": "Movie: Thanksgiving",
+    "start": "2024-11-09T19:00:00+00:00",
+    "end": "2024-11-09T21:00:00+00:00",
+    "lat": "",
+    "lng": "",
+    "url": "https://ninerengage.charlotte.edu/event/10666592",
+    "location": "Popp Martin Student Union",
+    "description": "After a Black Friday riot ends in tragedy, a mysterious Thanksgiving-inspired killer terrorizes Plymouth, Massachusetts - the birthplace of the infamous holiday.",
+    "host": "Popp Martin Student Union",
+    "gcal": "https://ninerengage.charlotte.edu/event/10666592/googlepublish",
+    "ical": "https://ninerengage.charlotte.edu/event/10666592.ics"
+}, {
+    "name": "Movie: Thanksgiving",
+    "start": "2024-11-10T22:00:00+00:00",
+    "end": "2024-11-11T00:00:00+00:00",
+    "lat": "",
+    "lng": "",
+    "url": "https://ninerengage.charlotte.edu/event/10666594",
+    "location": "Popp Martin Student Union",
+    "description": "After a Black Friday riot ends in tragedy, a mysterious Thanksgiving-inspired killer terrorizes Plymouth, Massachusetts - the birthplace of the infamous holiday.",
+    "host": "Popp Martin Student Union",
+    "gcal": "https://ninerengage.charlotte.edu/event/10666594/googlepublish",
+    "ical": "https://ninerengage.charlotte.edu/event/10666594.ics"
+}, {
+    "name": "Movie: Thanksgiving",
+    "start": "2024-11-10T02:00:00+00:00",
+    "end": "2024-11-10T04:45:00+00:00",
+    "lat": "",
+    "lng": "",
+    "url": "https://ninerengage.charlotte.edu/event/10666593",
+    "location": "Popp Martin Student Union",
+    "description": "After a Black Friday riot ends in tragedy, a mysterious Thanksgiving-inspired killer terrorizes Plymouth, Massachusetts - the birthplace of the infamous holiday.",
+    "host": "Popp Martin Student Union",
+    "gcal": "https://ninerengage.charlotte.edu/event/10666593/googlepublish",
+    "ical": "https://ninerengage.charlotte.edu/event/10666593.ics"
 }, {
     "name": "Chapter Meeting - Career Center Speaker",
     "start": "2024-11-06T22:30:00+00:00",
@@ -3215,18 +3251,6 @@
     "gcal": "https://ninerengage.charlotte.edu/event/10652788/googlepublish",
     "ical": "https://ninerengage.charlotte.edu/event/10652788.ics"
 }, {
-    "name": "49er Democracy Experience Donut Forget to Vote",
-    "start": "2024-10-29T13:00:00+00:00",
-    "end": "2024-10-29T18:00:00+00:00",
-    "lat": "",
-    "lng": "",
-    "url": "https://ninerengage.charlotte.edu/event/10654521",
-    "location": "Cone University Center",
-    "description": "Join SERVE Team\u2019s Special Topics Committee and the 49er Democracy Experience as we hand out donuts and encourage civic engagement! If you would like to volunteer, please RSVP.",
-    "host": "49er Democracy Experience, SERVE Team",
-    "gcal": "https://ninerengage.charlotte.edu/event/10654521/googlepublish",
-    "ical": "https://ninerengage.charlotte.edu/event/10654521.ics"
-}, {
     "name": "Effective Application Strategies for Conference Travel Funding",
     "start": "2024-11-06T22:00:00+00:00",
     "end": "2024-11-06T23:00:00+00:00",
@@ -3239,18 +3263,6 @@
     "gcal": "https://ninerengage.charlotte.edu/event/10440522/googlepublish",
     "ical": "https://ninerengage.charlotte.edu/event/10440522.ics"
 }, {
-    "name": "Code or treat",
-    "start": "2024-10-29T22:00:00+00:00",
-    "end": "2024-10-29T23:00:00+00:00",
-    "lat": "",
-    "lng": "",
-    "url": "https://ninerengage.charlotte.edu/event/10658777",
-    "location": "Fretwell 302",
-    "description": "Create a game and grab some candies!",
-    "host": "GirlsWhoCode",
-    "gcal": "https://ninerengage.charlotte.edu/event/10658777/googlepublish",
-    "ical": "https://ninerengage.charlotte.edu/event/10658777.ics"
-}, {
     "name": "Coffee with a Professor",
     "start": "2024-11-18T15:00:00+00:00",
     "end": "2024-11-18T16:00:00+00:00",
@@ -3262,6 +3274,18 @@
     "host": "American Society of Mechanical Engineers at UNC Charlotte, Society of Women Engineers",
     "gcal": "https://ninerengage.charlotte.edu/event/10233890/googlepublish",
     "ical": "https://ninerengage.charlotte.edu/event/10233890.ics"
+}, {
+    "name": "Adopt a Spot Cleanup - Social Event",
+    "start": "2024-11-04T22:30:00+00:00",
+    "end": "2024-11-04T23:30:00+00:00",
+    "lat": "39.85124",
+    "lng": "-86.08302",
+    "url": "https://ninerengage.charlotte.edu/event/10487710",
+    "location": "Laurel Hall",
+    "description": "Join the Charlotte Sales Network for our Adopt-A-Spot Cleanup event as we give back to the community! We\u2019re coming together to clean and beautify a designated area on campus, showing our commitment to service and sustainability. This is a great way to bond with fellow club members while making a positive impact on our environment. Gloves, bags, and other supplies will be provided\u2014just bring your enthusiasm and a team spirit! Let\u2019s take pride in our community and keep it looking its best. All are welcome to participate in this meaningful, hands-on event!",
+    "host": "Charlotte Sales Network",
+    "gcal": "https://ninerengage.charlotte.edu/event/10487710/googlepublish",
+    "ical": "https://ninerengage.charlotte.edu/event/10487710.ics"
 }, {
     "name": "Al-Anon Meeting",
     "start": "2024-11-04T21:00:00+00:00",
@@ -3299,18 +3323,6 @@
     "gcal": "https://ninerengage.charlotte.edu/event/10546765/googlepublish",
     "ical": "https://ninerengage.charlotte.edu/event/10546765.ics"
 }, {
-    "name": "Al-Anon Meeting",
-    "start": "2024-10-28T20:00:00+00:00",
-    "end": "2024-10-28T21:00:00+00:00",
-    "lat": "",
-    "lng": "",
-    "url": "https://ninerengage.charlotte.edu/event/10386767",
-    "location": "Student Health Center Room 107",
-    "description": "An on-campus support for students impacted by someone else\u2019s drinking. Open to all students.\nMeets in the Charlotte Recovery Program (CRP) Room Lower Level of Student Health, Room 107. Free Parking Located Upper Level of Waddell Center for Student Health and Wellbeing*\nOperates independently of the CRP.\nFor questions or learn more about the Charlotte Recovery Program, please visit our\u00a0website\u00a0or email us at\u00a0crp-support@charlotte.edu",
-    "host": "Center for Wellness Promotion, Health and Wellbeing",
-    "gcal": "https://ninerengage.charlotte.edu/event/10386767/googlepublish",
-    "ical": "https://ninerengage.charlotte.edu/event/10386767.ics"
-}, {
     "name": "Effective Academic Presentations",
     "start": "2024-11-06T17:00:00+00:00",
     "end": "2024-11-06T18:00:00+00:00",
@@ -3322,18 +3334,6 @@
     "host": "The Center for Graduate Life and Learning",
     "gcal": "https://ninerengage.charlotte.edu/event/10504822/googlepublish",
     "ical": "https://ninerengage.charlotte.edu/event/10504822.ics"
-}, {
-    "name": "What Do I Do with My Hands? Nonverbal Communication in Presentations",
-    "start": "2024-10-28T19:30:00+00:00",
-    "end": "2024-10-28T20:30:00+00:00",
-    "lat": "35.30703",
-    "lng": "-80.7309",
-    "url": "https://ninerengage.charlotte.edu/event/10504505",
-    "location": "Atkins 146",
-    "description": "This workshop is eligible for the Niner Career Challenge!\nEvery gesture, from the movement of your hands to eye contact, will send different signals to the audience about your capabilities and understanding of the subject. Nonverbal communications are the most challenging aspect for people to improve when public speaking. In this workshop, we will discuss the most important nonverbal tips for public speaking.\nThis information will significantly assist you in communication because nonverbal communication and verbal communication are the two core components of public speaking. While verbal communication can be improved with extensive practice, nonverbal communication directly impacts the audience\u2019s ability to comprehend the message. Imagine, if you see a public speaker who delivers their point coherently and comprehensively, what will you think if they keep looking down or sideways, and put their hands behind their back? Between verbal and non-verbal communication, it\u2019s the latter who speaks louder. Think about it. By paying close attention to your nonverbal communication, you can improve the delivery of your message.\n\u00a0\nRegister Here\n\u00a0\nPresenter: Dr. Daryl L. Kerr, Adjunct Professor and former Professor of Management and Business Communication, Belk College of Business",
-    "host": "The Center for Graduate Life and Learning",
-    "gcal": "https://ninerengage.charlotte.edu/event/10504505/googlepublish",
-    "ical": "https://ninerengage.charlotte.edu/event/10504505.ics"
 }, {
     "name": "Cultivating GRADitude - Grad Student Support Space",
     "start": "2024-11-20T17:00:00+00:00",
@@ -3503,6 +3503,18 @@
     "gcal": "https://ninerengage.charlotte.edu/event/10654986/googlepublish",
     "ical": "https://ninerengage.charlotte.edu/event/10654986.ics"
 }, {
+    "name": "The Blood Connection Blood Drive",
+    "start": "2024-11-15T14:00:00+00:00",
+    "end": "2024-11-15T21:00:00+00:00",
+    "lat": "",
+    "lng": "",
+    "url": "https://ninerengage.charlotte.edu/event/10674051",
+    "location": "Belk Plaza",
+    "description": "Join SERVE Team's Special Topics Committee and serve at the Blood Connection Blood Drive! We will be tabling to direct people to the blood drive and answer any questions. If you would like to volunteer, please RSVP here.",
+    "host": "SERVE Team",
+    "gcal": "https://ninerengage.charlotte.edu/event/10674051/googlepublish",
+    "ical": "https://ninerengage.charlotte.edu/event/10674051.ics"
+}, {
     "name": "A Moment of Magic Weekly Member Training",
     "start": "2024-11-20T00:00:00+00:00",
     "end": "2024-11-20T01:00:00+00:00",
@@ -3539,17 +3551,17 @@
     "gcal": "https://ninerengage.charlotte.edu/event/10176978/googlepublish",
     "ical": "https://ninerengage.charlotte.edu/event/10176978.ics"
 }, {
-    "name": "Boo'd Up",
-    "start": "2024-10-28T22:00:00+00:00",
-    "end": "2024-10-29T00:30:00+00:00",
+    "name": "Meet The Candidate: Ed Eldred",
+    "start": "2024-10-30T22:00:00+00:00",
+    "end": "2024-10-30T23:00:00+00:00",
     "lat": "",
     "lng": "",
-    "url": "https://ninerengage.charlotte.edu/event/10522290",
-    "location": "Cone After Hours",
-    "description": "Grab your boo or a couple friends for a fun trivia night and costume party to learn more about relationship tips and tricks for everyone. Costumes are encouraged and the best costume of the night will receive a prize.\u00a0\nJoin us for food, prizes, dancing, and relationship trivia!",
-    "host": "Center for Wellness Promotion",
-    "gcal": "https://ninerengage.charlotte.edu/event/10522290/googlepublish",
-    "ical": "https://ninerengage.charlotte.edu/event/10522290.ics"
+    "url": "https://ninerengage.charlotte.edu/event/10661848",
+    "location": "Friday Building Room 141",
+    "description": "Join us on October 30th at 6 pm for our Meet the Candidate event! Hear from Ed Eldridge (running for the NC Court of Appeals) and Jordan Lopez, representing Josh Stein\u2019s campaign. Each will speak briefly, take questions, and stay for food and mingling.\nWhere: Friday Bldg Room 141.\nWhen: Wednesday, October 30th 6pm",
+    "host": "College Democrats at UNC Charlotte",
+    "gcal": "https://ninerengage.charlotte.edu/event/10661848/googlepublish",
+    "ical": "https://ninerengage.charlotte.edu/event/10661848.ics"
 }, {
     "name": "Student Org Toolbox Series",
     "start": "2024-11-06T21:00:00+00:00",
@@ -3575,17 +3587,17 @@
     "gcal": "https://ninerengage.charlotte.edu/event/10639167/googlepublish",
     "ical": "https://ninerengage.charlotte.edu/event/10639167.ics"
 }, {
-    "name": "Office of Undergraduate Research Drop-In Hours",
-    "start": "2024-11-04T18:00:00+00:00",
-    "end": "2024-11-04T19:00:00+00:00",
+    "name": "Digital Humanities @ Charlotte Meetup",
+    "start": "2024-11-14T14:45:00+00:00",
+    "end": "2024-11-14T15:45:00+00:00",
     "lat": "",
     "lng": "",
-    "url": "https://ninerengage.charlotte.edu/event/10383834",
-    "location": "Barnard 109",
-    "description": "Have questions about undergraduate research?\u00a0 What is it?\u00a0 Why should I do research?\u00a0 How will it help me in my classes or getting hired after graduation?\u00a0 How do I get involved?\u00a0 How do I find opportunities? How do I apply?\u00a0 What does a good application look like?\u00a0 How do I make my resume reflect my research experiences?\u00a0 How do I attend conferences and present my research?\u00a0\u00a0\nThe Office of Undergraduate Research (OUR) can answer all these questions and many more.\u00a0 Just drop in for open hours every Monday or Wednesday afternoon and we can help.",
-    "host": "Office of Undergraduate Research",
-    "gcal": "https://ninerengage.charlotte.edu/event/10383834/googlepublish",
-    "ical": "https://ninerengage.charlotte.edu/event/10383834.ics"
+    "url": "https://ninerengage.charlotte.edu/event/10670030",
+    "location": "Area 49, Visualization Lab (2nd floor of Atkins Library)",
+    "description": "Join us for a campus meetup of digital humanities (DH) practitioners, enthusiasts and those interested in learning more about DH and connecting with others.\u00a0\nWe will share the findings from the library\u2019s summer Digital Humanities research fellow. There will also be an opportunity to share your DH research and/or projects, and make connections for current and future collaborations.\nPastries and coffee/tea will be provided.",
+    "host": "J. Murrey Atkins Library",
+    "gcal": "https://ninerengage.charlotte.edu/event/10670030/googlepublish",
+    "ical": "https://ninerengage.charlotte.edu/event/10670030.ics"
 }, {
     "name": "Office of Undergraduate Research Drop-In Hours",
     "start": "2024-11-11T18:00:00+00:00",
@@ -3606,7 +3618,7 @@
     "lng": "",
     "url": "https://ninerengage.charlotte.edu/event/10540036",
     "location": "PMSU 340",
-    "description": "The SOLD Institute is a one-day Student Organization Leadership Development conference. Students looking to further their leadership within their student organization and beyond can come and learn about themselves while building skills that aid the success of their student organization(s). Join us on Saturday, November 23 from 10 a.m. - 3 p.m. in the Student Union. \nRSVP by November 9th to secure your spot!\nReach out to Ayana Cholula with any accommodation needs or questions [ ACHOLULA@charlotte.edu ]",
+    "description": "The SOLD Institute is a one-day Student Organization Leadership Development conference. Students looking to further their leadership within their student organization and beyond can come and learn about themselves while building skills that aid the success of their student organization(s). Join us on Saturday, November 23 from 10 a.m. - 3 p.m. in the Student Union. Come alone, with a friend, your exec board, or all members from your org!\u00a0\nRSVP by November 16th to secure your spot!\nReach out to Ayana Cholula with any accommodation needs or questions [ ACHOLULA@charlotte.edu ]",
     "host": "Student Organizations",
     "gcal": "https://ninerengage.charlotte.edu/event/10540036/googlepublish",
     "ical": "https://ninerengage.charlotte.edu/event/10540036.ics"
@@ -3622,6 +3634,18 @@
     "host": "Office of Undergraduate Research",
     "gcal": "https://ninerengage.charlotte.edu/event/10383836/googlepublish",
     "ical": "https://ninerengage.charlotte.edu/event/10383836.ics"
+}, {
+    "name": "Office of Undergraduate Research Drop-In Hours",
+    "start": "2024-11-04T18:00:00+00:00",
+    "end": "2024-11-04T19:00:00+00:00",
+    "lat": "",
+    "lng": "",
+    "url": "https://ninerengage.charlotte.edu/event/10383834",
+    "location": "Barnard 109",
+    "description": "Have questions about undergraduate research?\u00a0 What is it?\u00a0 Why should I do research?\u00a0 How will it help me in my classes or getting hired after graduation?\u00a0 How do I get involved?\u00a0 How do I find opportunities? How do I apply?\u00a0 What does a good application look like?\u00a0 How do I make my resume reflect my research experiences?\u00a0 How do I attend conferences and present my research?\u00a0\u00a0\nThe Office of Undergraduate Research (OUR) can answer all these questions and many more.\u00a0 Just drop in for open hours every Monday or Wednesday afternoon and we can help.",
+    "host": "Office of Undergraduate Research",
+    "gcal": "https://ninerengage.charlotte.edu/event/10383834/googlepublish",
+    "ical": "https://ninerengage.charlotte.edu/event/10383834.ics"
 }, {
     "name": "Movie: Friday the 13th",
     "start": "2024-11-03T22:00:00+00:00",
@@ -3659,30 +3683,6 @@
     "gcal": "https://ninerengage.charlotte.edu/event/10483834/googlepublish",
     "ical": "https://ninerengage.charlotte.edu/event/10483834.ics"
 }, {
-    "name": "Movie: Friday the 13th",
-    "start": "2024-11-02T01:00:00+00:00",
-    "end": "2024-11-02T03:00:00+00:00",
-    "lat": "",
-    "lng": "",
-    "url": "https://ninerengage.charlotte.edu/event/10483833",
-    "location": "Popp Martin Student Union",
-    "description": "A group of teenage camp counselors attempt to re-open an abandoned summer camp with a tragic past, but they are stalked by a mysterious, relentless killer.",
-    "host": "Popp Martin Student Union",
-    "gcal": "https://ninerengage.charlotte.edu/event/10483833/googlepublish",
-    "ical": "https://ninerengage.charlotte.edu/event/10483833.ics"
-}, {
-    "name": "Office of Undergraduate Research Drop-In Hours",
-    "start": "2024-10-28T17:00:00+00:00",
-    "end": "2024-10-28T18:00:00+00:00",
-    "lat": "",
-    "lng": "",
-    "url": "https://ninerengage.charlotte.edu/event/10383833",
-    "location": "Barnard 109",
-    "description": "Have questions about undergraduate research?\u00a0 What is it?\u00a0 Why should I do research?\u00a0 How will it help me in my classes or getting hired after graduation?\u00a0 How do I get involved?\u00a0 How do I find opportunities? How do I apply?\u00a0 What does a good application look like?\u00a0 How do I make my resume reflect my research experiences?\u00a0 How do I attend conferences and present my research?\u00a0\u00a0\nThe Office of Undergraduate Research (OUR) can answer all these questions and many more.\u00a0 Just drop in for open hours every Monday or Wednesday afternoon and we can help.",
-    "host": "Office of Undergraduate Research",
-    "gcal": "https://ninerengage.charlotte.edu/event/10383833/googlepublish",
-    "ical": "https://ninerengage.charlotte.edu/event/10383833.ics"
-}, {
     "name": "Self Care Night with the Lovely Lambda Ladies",
     "start": "2024-11-14T23:30:00+00:00",
     "end": "2024-11-15T01:30:00+00:00",
@@ -3719,18 +3719,6 @@
     "gcal": "https://ninerengage.charlotte.edu/event/10576270/googlepublish",
     "ical": "https://ninerengage.charlotte.edu/event/10576270.ics"
 }, {
-    "name": "General Body Meeting #2",
-    "start": "2024-10-29T23:00:00+00:00",
-    "end": "2024-10-30T01:00:00+00:00",
-    "lat": "35.30737",
-    "lng": "-80.73334",
-    "url": "https://ninerengage.charlotte.edu/event/10628940",
-    "location": "CHHS 380",
-    "description": "Hey RSA community! This meeting will be on Tuesday, October 29th at 7:00pm at CHHS 380. Dinner will be provided, so come hungry. We will be holding elections and going over other interesting information.",
-    "host": "Resident Students Association",
-    "gcal": "https://ninerengage.charlotte.edu/event/10628940/googlepublish",
-    "ical": "https://ninerengage.charlotte.edu/event/10628940.ics"
-}, {
     "name": "Build-A-Plane Day",
     "start": "2024-11-19T00:00:00+00:00",
     "end": "2024-11-19T02:00:00+00:00",
@@ -3743,21 +3731,9 @@
     "gcal": "https://ninerengage.charlotte.edu/event/10634941/googlepublish",
     "ical": "https://ninerengage.charlotte.edu/event/10634941.ics"
 }, {
-    "name": "Jamil Niner Student Pantry: Tuesday Volunteer Shift  |  2:30pm \u2013 5:15pm",
-    "start": "2024-10-29T18:30:00+00:00",
-    "end": "2024-10-29T21:15:00+00:00",
-    "lat": "35.30994",
-    "lng": "-80.72398",
-    "url": "https://ninerengage.charlotte.edu/event/10486279",
-    "location": "Jamil Niner Student Pantry",
-    "description": "The Jamil Niner Student Pantry assists UNC Charlotte students and faculty/staff who are having challenges accessing food regularly. Through volunteering, you will be working with the pantry leadership team to provide healthy, culturally appropriate, and emergency foods to students, faculty, and staff on campus. Volunteer activities may include, but are not limited to: checking shoppers in and out, assisting with pantry upkeep, stocking and sorting food, garden work, and other various activities to help run the pantry. Please wear closed-toed shoes and comfortable clothing when volunteering at the food pantry. Enter through the front door and proceed to the conference room for volunteer check-in.\u00a0\nIf you are unable to stay for the duration of the volunteer shift, please notify a team member before leaving your shift.\u00a0\nQuestions? Email ninerpantry@charlotte.edu.",
-    "host": "Jamil Niner Student Pantry",
-    "gcal": "https://ninerengage.charlotte.edu/event/10486279/googlepublish",
-    "ical": "https://ninerengage.charlotte.edu/event/10486279.ics"
-}, {
     "name": "Friendsgiving",
-    "start": "2024-11-24T17:00:00+00:00",
-    "end": "2024-11-24T18:00:00+00:00",
+    "start": "2024-11-21T00:30:00+00:00",
+    "end": "2024-11-21T02:30:00+00:00",
     "lat": "",
     "lng": "",
     "url": "https://ninerengage.charlotte.edu/event/10645148",
@@ -3851,6 +3827,18 @@
     "gcal": "https://ninerengage.charlotte.edu/event/10298490/googlepublish",
     "ical": "https://ninerengage.charlotte.edu/event/10298490.ics"
 }, {
+    "name": "Movie: Amber Alert",
+    "start": "2024-11-14T23:00:00+00:00",
+    "end": "2024-11-15T01:00:00+00:00",
+    "lat": "",
+    "lng": "",
+    "url": "https://ninerengage.charlotte.edu/event/10666919",
+    "location": "Popp Martin Student Union",
+    "description": "A ride-share turns into a high-stakes game of cat and mouse after it follows a car fitting the description of an AMBER ALERT.",
+    "host": "Popp Martin Student Union",
+    "gcal": "https://ninerengage.charlotte.edu/event/10666919/googlepublish",
+    "ical": "https://ninerengage.charlotte.edu/event/10666919.ics"
+}, {
     "name": "America First Election Watch",
     "start": "2024-11-05T22:00:00+00:00",
     "end": "2024-11-06T04:30:00+00:00",
@@ -3862,18 +3850,6 @@
     "host": "Turning Point USA at the University of North Carolina at Charlotte",
     "gcal": "https://ninerengage.charlotte.edu/event/10522919/googlepublish",
     "ical": "https://ninerengage.charlotte.edu/event/10522919.ics"
-}, {
-    "name": "Tuesday Night Hangout",
-    "start": "2024-10-29T23:00:00+00:00",
-    "end": "2024-10-30T00:00:00+00:00",
-    "lat": "",
-    "lng": "",
-    "url": "https://ninerengage.charlotte.edu/event/10356158",
-    "location": "Campus",
-    "description": "Hangouts are a weekly rhythm for college students to exist in community with one another in two different ways:\nFamily Hangouts\u00a0are a time for believers to gather together and worship God through encouragement, song, scripture, and prayer.\nMissional Hangouts\u00a0is a fun, informal environment that allows Mercy College to invite their non-Christian friends into a community, engage them with the gospel, and model to them what it looks like to be transformed by the gospel.",
-    "host": "Mercy College",
-    "gcal": "https://ninerengage.charlotte.edu/event/10356158/googlepublish",
-    "ical": "https://ninerengage.charlotte.edu/event/10356158.ics"
 }, {
     "name": "Tuesday Night Hangout",
     "start": "2024-11-06T00:00:00+00:00",
@@ -3946,424 +3922,4 @@
     "host": "Mercy College",
     "gcal": "https://ninerengage.charlotte.edu/event/10356211/googlepublish",
     "ical": "https://ninerengage.charlotte.edu/event/10356211.ics"
-}, {
-    "name": "Falling into Wellness: Rest & Reset - Grad Student Support Space",
-    "start": "2024-10-29T19:00:00+00:00",
-    "end": "2024-10-29T20:00:00+00:00",
-    "lat": "35.30703",
-    "lng": "-80.7309",
-    "url": "https://ninerengage.charlotte.edu/event/10453590",
-    "location": "Atkins 146",
-    "description": "Join CAPS for the second in a series of three informal drop-in conversations:\u00a0Falling into Wellness: Rest & Reset. \nNo registration necessary.\nCoffee and snacks provided.",
-    "host": "Counseling and Psychological Services, The Center for Graduate Life and Learning",
-    "gcal": "https://ninerengage.charlotte.edu/event/10453590/googlepublish",
-    "ical": "https://ninerengage.charlotte.edu/event/10453590.ics"
-}, {
-    "name": "Jamil Niner Student Pantry: Thursday Volunteer Shift  |  2:30pm \u2013 5:15pm",
-    "start": "2024-10-31T18:30:00+00:00",
-    "end": "2024-10-31T21:15:00+00:00",
-    "lat": "35.30994",
-    "lng": "-80.72398",
-    "url": "https://ninerengage.charlotte.edu/event/10486462",
-    "location": "Jamil Niner Student Pantry",
-    "description": "The Jamil Niner Student Pantry assists UNC Charlotte students and faculty/staff who are having challenges accessing food regularly. Through volunteering, you will be working with the pantry leadership team to provide healthy, culturally appropriate, and emergency foods to students, faculty, and staff on campus. Volunteer activities may include, but are not limited to: checking shoppers in and out, assisting with pantry upkeep, stocking and sorting food, garden work, and other various activities to help run the pantry. Please wear closed-toed shoes and comfortable clothing when volunteering at the food pantry. Enter through the front door and proceed to the conference room for volunteer check-in.\u00a0\nIf you are unable to stay for the duration of the volunteer shift, please notify a team member before leaving your shift.\u00a0\nQuestions? Email ninerpantry@charlotte.edu.",
-    "host": "Jamil Niner Student Pantry",
-    "gcal": "https://ninerengage.charlotte.edu/event/10486462/googlepublish",
-    "ical": "https://ninerengage.charlotte.edu/event/10486462.ics"
-}, {
-    "name": "Waterway Getaway - Canoe Camping",
-    "start": "2024-11-09T12:00:00+00:00",
-    "end": "2024-11-11T00:00:00+00:00",
-    "lat": "",
-    "lng": "",
-    "url": "https://ninerengage.charlotte.edu/event/10211337",
-    "location": "Lake James State Park",
-    "description": "Join Venture Outdoor Leadership for this canoe camping trip!\u00a0 We'll explore Lake James State Park in canoes, following the shoreline while enjoying the views, learning how to work together as a team, and honing the craftsmanship of tandem canoes.\u00a0 Designed for both beginners and experienced canoeists, our adventure trip leaders will guide and teach along the way.\nWhile no experience is necessary, comfort being submerged in water is required. While we don't plan on capsizes, they may happen. The pre-trip meeting will include a water-comfort assessment in the Belk Gym pool.\u00a0\nIf you have any questions or concerns, please reach out to our office at venturedept@charlotte.edu\nExact location will be based on weather and river levels.\u00a0\nCosts include:\u00a0Transportation to/from campus; meals; equipment; technical clothing (e.g. rain jackets); instruction.\u00a0\n\nStudent - $95\nFaculty/Staff/Alumni - $110\nCommunity - $150\n\nMandatory Pre-Trip Meeting:\u00a0Wed, Nov. 6, 5:30pm\nRegistration due by Wed, Nov. 6, 12pm.",
-    "host": "Venture Outdoor Leadership",
-    "gcal": "https://ninerengage.charlotte.edu/event/10211337/googlepublish",
-    "ical": "https://ninerengage.charlotte.edu/event/10211337.ics"
-}, {
-    "name": "Guyana Game Night",
-    "start": "2024-11-05T23:00:00+00:00",
-    "end": "2024-11-06T01:00:00+00:00",
-    "lat": "35.30203",
-    "lng": "-80.73167",
-    "url": "https://ninerengage.charlotte.edu/event/10575580",
-    "location": "CHHS 128",
-    "description": "This event will allow students to recognize another country's game. We will be exploring Guyana with some delicious snacks as well!",
-    "host": "Unity In Diversity",
-    "gcal": "https://ninerengage.charlotte.edu/event/10575580/googlepublish",
-    "ical": "https://ninerengage.charlotte.edu/event/10575580.ics"
-}, {
-    "name": "Jamil Niner Student Pantry: Tuesday Volunteer Shift  |  12:30pm \u2013 2:45pm",
-    "start": "2024-11-05T17:30:00+00:00",
-    "end": "2024-11-05T19:45:00+00:00",
-    "lat": "35.30994",
-    "lng": "-80.72398",
-    "url": "https://ninerengage.charlotte.edu/event/10625581",
-    "location": "Jamil Niner Student Pantry",
-    "description": "The Jamil Niner Student Pantry assists UNC Charlotte students and faculty/staff who are having challenges accessing food regularly. Through volunteering, you will be working with the pantry leadership team to provide healthy, culturally appropriate, and emergency foods to students, faculty, and staff on campus. Volunteer activities may include, but are not limited to: checking shoppers in and out, assisting with pantry upkeep, stocking and sorting food, garden work, and other various activities to help run the pantry. Please wear closed-toed shoes and comfortable clothing when volunteering at the food pantry. Enter through the front door and proceed to the conference room for volunteer check-in.\u00a0\nIf you are unable to stay for the duration of the volunteer shift, please notify a team member before leaving your shift.\u00a0\nQuestions? Email ninerpantry@charlotte.edu.",
-    "host": "Jamil Niner Student Pantry",
-    "gcal": "https://ninerengage.charlotte.edu/event/10625581/googlepublish",
-    "ical": "https://ninerengage.charlotte.edu/event/10625581.ics"
-}, {
-    "name": "Jamil Niner Student Pantry: Tuesday Volunteer Shift  |  12:30pm \u2013 2:45pm",
-    "start": "2024-11-19T17:30:00+00:00",
-    "end": "2024-11-19T19:45:00+00:00",
-    "lat": "35.30994",
-    "lng": "-80.72398",
-    "url": "https://ninerengage.charlotte.edu/event/10625582",
-    "location": "Jamil Niner Student Pantry",
-    "description": "The Jamil Niner Student Pantry assists UNC Charlotte students and faculty/staff who are having challenges accessing food regularly. Through volunteering, you will be working with the pantry leadership team to provide healthy, culturally appropriate, and emergency foods to students, faculty, and staff on campus. Volunteer activities may include, but are not limited to: checking shoppers in and out, assisting with pantry upkeep, stocking and sorting food, garden work, and other various activities to help run the pantry. Please wear closed-toed shoes and comfortable clothing when volunteering at the food pantry. Enter through the front door and proceed to the conference room for volunteer check-in.\u00a0\nIf you are unable to stay for the duration of the volunteer shift, please notify a team member before leaving your shift.\u00a0\nQuestions? Email ninerpantry@charlotte.edu.",
-    "host": "Jamil Niner Student Pantry",
-    "gcal": "https://ninerengage.charlotte.edu/event/10625582/googlepublish",
-    "ical": "https://ninerengage.charlotte.edu/event/10625582.ics"
-}, {
-    "name": "Happy Hallo-world!",
-    "start": "2024-10-30T21:30:00+00:00",
-    "end": "2024-10-30T23:30:00+00:00",
-    "lat": "35.30711",
-    "lng": "-80.73573",
-    "url": "https://ninerengage.charlotte.edu/event/10561310",
-    "location": "Woodward 154",
-    "description": "\ud83c\udf83 Happy Hallo-world Social \ud83c\udf83\nMidterms and application season got you stressed? Join us for a spooktacular study break! Whether you're looking to show off your costume, CS knowledge, or just want to enjoy some Halloween treats, this event is for everyone! Faculty members are encouraged to drop by and trick-or-treat with us!\nCome in costume (optional, but encouraged!) and get ready for a night of tricks, treats, and tech talk. \ud83d\udc7b",
-    "host": "Association for Computing Machinery",
-    "gcal": "https://ninerengage.charlotte.edu/event/10561310/googlepublish",
-    "ical": "https://ninerengage.charlotte.edu/event/10561310.ics"
-}, {
-    "name": "Conflict Management",
-    "start": "2024-11-19T20:00:00+00:00",
-    "end": "2024-11-19T21:00:00+00:00",
-    "lat": "",
-    "lng": "",
-    "url": "https://ninerengage.charlotte.edu/event/10434434",
-    "location": "Popp Martin Student Union Room 263",
-    "description": "All good leaders must learn to manage conflict effectively. In this workshop, participants will explore their \"conflict comfort level\" and the difference between conflict resolution and conflict management. In addition, participants will learn how to use a conflict solving sequence model.\n\u00a0\nThis workshop counts towards the\u00a0Skill Building or Leadership/Ethics\u00a0PILOT Credit.",
-    "host": "Programs in Leadership and Organizational Training",
-    "gcal": "https://ninerengage.charlotte.edu/event/10434434/googlepublish",
-    "ical": "https://ninerengage.charlotte.edu/event/10434434.ics"
-}, {
-    "name": "Procrastination Workshop Series",
-    "start": "2024-11-20T21:00:00+00:00",
-    "end": "2024-11-20T22:00:00+00:00",
-    "lat": "",
-    "lng": "",
-    "url": "https://ninerengage.charlotte.edu/event/10624680",
-    "location": "Visualization Lab, J. Murrey Atkins Library, 2nd floor",
-    "description": "Struggling with procrastination? One part of you knows what you should be doing, and another part of you still puts it off until the last minute or doesn't do it at all, so you're left feeling panicked, guilty, or frustrated with yourself. Join us for a workshop addressing common causes of procrastination, including perfectionism and external pressures. We will explore the thoughts, behaviors, and emotions that often prevent us from being as productive and on-task as we would like. We will discuss practical tools to improve time management and accountability, along with ways to reframe your mindset and manage the emotions that come up with procrastination.\n\u00a0\nThis is a 3 part workshop happening on 3 consecutive Wednesdays. To receive the most benefits, please plan to attend all 3 workshop. Sign up for the other two session:\nNovember 6, 4-5pm\u00a0\nNovember 13, 4-5pm",
-    "host": "J. Murrey Atkins Library",
-    "gcal": "https://ninerengage.charlotte.edu/event/10624680/googlepublish",
-    "ical": "https://ninerengage.charlotte.edu/event/10624680.ics"
-}, {
-    "name": "Project Downtown CLT Interest Meeting",
-    "start": "2024-11-18T23:00:00+00:00",
-    "end": "2024-11-19T03:00:00+00:00",
-    "lat": "35.30864",
-    "lng": "-80.73374",
-    "url": "https://ninerengage.charlotte.edu/event/10607556",
-    "location": "Student Union 340 CF",
-    "description": "Are you passionate about making a difference in the lives of Charlotte\u2019s homeless population? Project Downtown CLT is hosting an interest meeting for individuals interested in joining and volunteering with us. Learn more about our mission, the impact we\u2019re making in the community, and what to expect as a volunteer. Plus\u2014yes, we\u2019ll have food! So, come hungry, ready to connect, and discover how you can contribute to meaningful change.\nWe can\u2019t wait to see you!",
-    "host": "Project Downtown CLT",
-    "gcal": "https://ninerengage.charlotte.edu/event/10607556/googlepublish",
-    "ical": "https://ninerengage.charlotte.edu/event/10607556.ics"
-}, {
-    "name": "Boab Excellence Gala",
-    "start": "2024-11-20T23:00:00+00:00",
-    "end": "2024-11-21T02:00:00+00:00",
-    "lat": "",
-    "lng": "",
-    "url": "https://ninerengage.charlotte.edu/event/10661545",
-    "location": "Cone \"Lucas Room\"",
-    "description": "Boab Excellence Gala w Food!!",
-    "host": "The Black Organization Alliance Board",
-    "gcal": "https://ninerengage.charlotte.edu/event/10661545/googlepublish",
-    "ical": "https://ninerengage.charlotte.edu/event/10661545.ics"
-}, {
-    "name": "Champions House of Care",
-    "start": "2024-10-30T17:00:00+00:00",
-    "end": "2024-10-30T19:00:00+00:00",
-    "lat": "35.32814",
-    "lng": "-80.81286",
-    "url": "https://ninerengage.charlotte.edu/event/10529546",
-    "location": "Champions House of Care",
-    "description": "Join SERVE's Team Public and Community Health Committee as we work with special needs adults as well as organize supplies. If you would like to volunteer with us, please RSVP, we would love to have you!\nTransportation is provided.\nIf you have any questions text: (919)428-6540",
-    "host": "SERVE Team",
-    "gcal": "https://ninerengage.charlotte.edu/event/10529546/googlepublish",
-    "ical": "https://ninerengage.charlotte.edu/event/10529546.ics"
-}, {
-    "name": "Jamil Niner Student Pantry: Tuesday Volunteer Shift  |  10:30am \u2013 12:45pm",
-    "start": "2024-11-05T15:30:00+00:00",
-    "end": "2024-11-05T17:45:00+00:00",
-    "lat": "35.30994",
-    "lng": "-80.72398",
-    "url": "https://ninerengage.charlotte.edu/event/10625548",
-    "location": "Jamil Niner Student Pantry",
-    "description": "The Jamil Niner Student Pantry assists UNC Charlotte students and faculty/staff who are having challenges accessing food regularly. Through volunteering, you will be working with the pantry leadership team to provide healthy, culturally appropriate, and emergency foods to students, faculty, and staff on campus. Volunteer activities may include, but are not limited to: checking shoppers in and out, assisting with pantry upkeep, stocking and sorting food, garden work, and other various activities to help run the pantry. Please wear closed-toed shoes and comfortable clothing when volunteering at the food pantry. Enter through the front door and proceed to the conference room for volunteer check-in.\u00a0\nIf you are unable to stay for the duration of the volunteer shift, please notify a team member before leaving your shift.\u00a0\nQuestions? Email ninerpantry@charlotte.edu.",
-    "host": "Jamil Niner Student Pantry",
-    "gcal": "https://ninerengage.charlotte.edu/event/10625548/googlepublish",
-    "ical": "https://ninerengage.charlotte.edu/event/10625548.ics"
-}, {
-    "name": "Jamil Niner Student Pantry: Tuesday Volunteer Shift  |  10:30am \u2013 12:45pm",
-    "start": "2024-11-19T15:30:00+00:00",
-    "end": "2024-11-19T17:45:00+00:00",
-    "lat": "35.30994",
-    "lng": "-80.72398",
-    "url": "https://ninerengage.charlotte.edu/event/10625549",
-    "location": "Jamil Niner Student Pantry",
-    "description": "The Jamil Niner Student Pantry assists UNC Charlotte students and faculty/staff who are having challenges accessing food regularly. Through volunteering, you will be working with the pantry leadership team to provide healthy, culturally appropriate, and emergency foods to students, faculty, and staff on campus. Volunteer activities may include, but are not limited to: checking shoppers in and out, assisting with pantry upkeep, stocking and sorting food, garden work, and other various activities to help run the pantry. Please wear closed-toed shoes and comfortable clothing when volunteering at the food pantry. Enter through the front door and proceed to the conference room for volunteer check-in.\u00a0\nIf you are unable to stay for the duration of the volunteer shift, please notify a team member before leaving your shift.\u00a0\nQuestions? Email ninerpantry@charlotte.edu.",
-    "host": "Jamil Niner Student Pantry",
-    "gcal": "https://ninerengage.charlotte.edu/event/10625549/googlepublish",
-    "ical": "https://ninerengage.charlotte.edu/event/10625549.ics"
-}, {
-    "name": "Charlotte Combat Robot Club design and building meeting",
-    "start": "2024-10-29T22:30:00+00:00",
-    "end": "2024-10-29T23:30:00+00:00",
-    "lat": "",
-    "lng": "",
-    "url": "https://ninerengage.charlotte.edu/event/10248414",
-    "location": "COED 102 (Mebane Hall)",
-    "description": "Come build combat robots with us!\u00a0 We build one pound fighting remote control robots every Tuesday.\u00a0\n\u00a0\nJoin our club discord\u00a0here",
-    "host": "Charlotte Combat Robot Club",
-    "gcal": "https://ninerengage.charlotte.edu/event/10248414/googlepublish",
-    "ical": "https://ninerengage.charlotte.edu/event/10248414.ics"
-}, {
-    "name": "Charlotte Combat Robot Club design and building meeting",
-    "start": "2024-11-05T23:30:00+00:00",
-    "end": "2024-11-06T00:30:00+00:00",
-    "lat": "",
-    "lng": "",
-    "url": "https://ninerengage.charlotte.edu/event/10248415",
-    "location": "COED 102 (Mebane Hall)",
-    "description": "Come build combat robots with us!\u00a0 We build one pound fighting remote control robots every Tuesday.\u00a0\n\u00a0\nJoin our club discord\u00a0here",
-    "host": "Charlotte Combat Robot Club",
-    "gcal": "https://ninerengage.charlotte.edu/event/10248415/googlepublish",
-    "ical": "https://ninerengage.charlotte.edu/event/10248415.ics"
-}, {
-    "name": "Charlotte Combat Robot Club design and building meeting",
-    "start": "2024-11-12T23:30:00+00:00",
-    "end": "2024-11-13T00:30:00+00:00",
-    "lat": "",
-    "lng": "",
-    "url": "https://ninerengage.charlotte.edu/event/10248416",
-    "location": "COED 102 (Mebane Hall)",
-    "description": "Come build combat robots with us!\u00a0 We build one pound fighting remote control robots every Tuesday.\u00a0\n\u00a0\nJoin our club discord\u00a0here",
-    "host": "Charlotte Combat Robot Club",
-    "gcal": "https://ninerengage.charlotte.edu/event/10248416/googlepublish",
-    "ical": "https://ninerengage.charlotte.edu/event/10248416.ics"
-}, {
-    "name": "Charlotte Combat Robot Club design and building meeting",
-    "start": "2024-11-19T23:30:00+00:00",
-    "end": "2024-11-20T00:30:00+00:00",
-    "lat": "",
-    "lng": "",
-    "url": "https://ninerengage.charlotte.edu/event/10248417",
-    "location": "COED 102 (Mebane Hall)",
-    "description": "Come build combat robots with us!\u00a0 We build one pound fighting remote control robots every Tuesday.\u00a0\n\u00a0\nJoin our club discord\u00a0here",
-    "host": "Charlotte Combat Robot Club",
-    "gcal": "https://ninerengage.charlotte.edu/event/10248417/googlepublish",
-    "ical": "https://ninerengage.charlotte.edu/event/10248417.ics"
-}, {
-    "name": "North Carolina Student Legislature Mid-Term Session",
-    "start": "2024-11-16T14:00:00+00:00",
-    "end": "2024-11-16T23:00:00+00:00",
-    "lat": "",
-    "lng": "",
-    "url": "https://ninerengage.charlotte.edu/event/10630418",
-    "location": "Friday Building Room 137",
-    "description": "Join the North Carolina Student Legislature for its 89th year at the Mid-Term Session event here at UNC Charlotte. Those in attendance will hear from students from the Campbell delegation, Elon Delegation, Western Carolina University Delegation, Belmont Abbey Delegation, and UNC Charlotte Delegation.",
-    "host": "North Carolina Student Legislature",
-    "gcal": "https://ninerengage.charlotte.edu/event/10630418/googlepublish",
-    "ical": "https://ninerengage.charlotte.edu/event/10630418.ics"
-}, {
-    "name": "North Carolina Student Legislature Mid-Term Session",
-    "start": "2024-11-17T13:30:00+00:00",
-    "end": "2024-11-17T23:00:00+00:00",
-    "lat": "",
-    "lng": "",
-    "url": "https://ninerengage.charlotte.edu/event/10630419",
-    "location": "Rowe Arts Building Room 130",
-    "description": "Join the North Carolina Student Legislature for its 89th year at the Mid-Term Session event here at UNC Charlotte. Those in attendance will hear from students from the Campbell delegation, Elon Delegation, Western Carolina University Delegation, Belmont Abbey Delegation, and UNC Charlotte Delegation.",
-    "host": "North Carolina Student Legislature",
-    "gcal": "https://ninerengage.charlotte.edu/event/10630419/googlepublish",
-    "ical": "https://ninerengage.charlotte.edu/event/10630419.ics"
-}, {
-    "name": "First-Gen Week Speedfriending",
-    "start": "2024-11-06T16:00:00+00:00",
-    "end": "2024-11-06T17:30:00+00:00",
-    "lat": "",
-    "lng": "",
-    "url": "https://ninerengage.charlotte.edu/event/10634661",
-    "location": "Popp Martin Student Union 200",
-    "description": "Looking to meet new people? Join us for a fast-paced, fun way to connect with other First-Gen Niners. Who knows, you might meet your new best friend!\n\u00a0\nNiners who come to Speed Friending and make a connection will have a chance to win an amazon gift card.",
-    "host": "IAmAFirstGenNiner",
-    "gcal": "https://ninerengage.charlotte.edu/event/10634661/googlepublish",
-    "ical": "https://ninerengage.charlotte.edu/event/10634661.ics"
-}, {
-    "name": "Weekly Meeting",
-    "start": "2024-10-30T20:30:00+00:00",
-    "end": "2024-10-30T22:00:00+00:00",
-    "lat": "",
-    "lng": "",
-    "url": "https://ninerengage.charlotte.edu/event/10587531",
-    "location": "Woodward Hall 255",
-    "description": "Niners with Novel's weekly meeting to talk about current reads and meet other literature enjoyers.",
-    "host": "Niners with Novels Reading Club",
-    "gcal": "https://ninerengage.charlotte.edu/event/10587531/googlepublish",
-    "ical": "https://ninerengage.charlotte.edu/event/10587531.ics"
-}, {
-    "name": "Weekly Meeting",
-    "start": "2024-11-06T21:30:00+00:00",
-    "end": "2024-11-06T23:00:00+00:00",
-    "lat": "",
-    "lng": "",
-    "url": "https://ninerengage.charlotte.edu/event/10587532",
-    "location": "Woodward Hall 255",
-    "description": "Niners with Novel's weekly meeting to talk about current reads and meet other literature enjoyers.",
-    "host": "Niners with Novels Reading Club",
-    "gcal": "https://ninerengage.charlotte.edu/event/10587532/googlepublish",
-    "ical": "https://ninerengage.charlotte.edu/event/10587532.ics"
-}, {
-    "name": "Weekly Meeting",
-    "start": "2024-11-13T21:30:00+00:00",
-    "end": "2024-11-13T23:00:00+00:00",
-    "lat": "",
-    "lng": "",
-    "url": "https://ninerengage.charlotte.edu/event/10587533",
-    "location": "Woodward Hall 255",
-    "description": "Niners with Novel's weekly meeting to talk about current reads and meet other literature enjoyers.",
-    "host": "Niners with Novels Reading Club",
-    "gcal": "https://ninerengage.charlotte.edu/event/10587533/googlepublish",
-    "ical": "https://ninerengage.charlotte.edu/event/10587533.ics"
-}, {
-    "name": "Weekly Meeting",
-    "start": "2024-11-20T21:30:00+00:00",
-    "end": "2024-11-20T23:00:00+00:00",
-    "lat": "",
-    "lng": "",
-    "url": "https://ninerengage.charlotte.edu/event/10587534",
-    "location": "Woodward Hall 255",
-    "description": "Niners with Novel's weekly meeting to talk about current reads and meet other literature enjoyers.",
-    "host": "Niners with Novels Reading Club",
-    "gcal": "https://ninerengage.charlotte.edu/event/10587534/googlepublish",
-    "ical": "https://ninerengage.charlotte.edu/event/10587534.ics"
-}, {
-    "name": "Bonfire and Smores",
-    "start": "2024-11-12T23:30:00+00:00",
-    "end": "2024-11-13T01:30:00+00:00",
-    "lat": "",
-    "lng": "",
-    "url": "https://ninerengage.charlotte.edu/event/10503535",
-    "location": "University Crossings fire pit",
-    "description": "Come join us for s'mores and laughs by the fire!",
-    "host": "Hillel at UNC Charlotte",
-    "gcal": "https://ninerengage.charlotte.edu/event/10503535/googlepublish",
-    "ical": "https://ninerengage.charlotte.edu/event/10503535.ics"
-}, {
-    "name": "Noche de Recuerdos",
-    "start": "2024-11-22T23:00:00+00:00",
-    "end": "2024-11-23T04:00:00+00:00",
-    "lat": "",
-    "lng": "",
-    "url": "https://ninerengage.charlotte.edu/event/10661528",
-    "location": "Student Union",
-    "description": "\"Noche de Recuerdos\" is a vibrant event celebrating the monumental moments of 2024. This gathering will spotlight our seniors and reflect on their achievements throughout the year. It's also a wonderful opportunity to unite the Latino community in Charlotte, honoring our shared memories and accomplishments that were fulfilled by students in our organization and members throughout the diverse organizations and clubs found in our own University! Enjoying music that connects us all. Join us for an evening filled with celebration, reflection, and community spirit!",
-    "host": "LatinX Student Union",
-    "gcal": "https://ninerengage.charlotte.edu/event/10661528/googlepublish",
-    "ical": "https://ninerengage.charlotte.edu/event/10661528.ics"
-}, {
-    "name": "First-Generation Resource Fair",
-    "start": "2024-11-05T16:30:00+00:00",
-    "end": "2024-11-05T18:00:00+00:00",
-    "lat": "",
-    "lng": "",
-    "url": "https://ninerengage.charlotte.edu/event/10634644",
-    "location": "CHHS/Mebane Plaza",
-    "description": "Explore campus resources all in one place. The first 75 First-Gen Niners will receive a voucher for a free AstroDog and Drink from the AstroDog Food Truck!",
-    "host": "IAmAFirstGenNiner",
-    "gcal": "https://ninerengage.charlotte.edu/event/10634644/googlepublish",
-    "ical": "https://ninerengage.charlotte.edu/event/10634644.ics"
-}, {
-    "name": "CAN-FD Workshop",
-    "start": "2024-11-13T23:00:00+00:00",
-    "end": "2024-11-14T01:00:00+00:00",
-    "lat": "",
-    "lng": "",
-    "url": "https://ninerengage.charlotte.edu/event/10580897",
-    "location": "EPIC 1249",
-    "description": "Stop by and learn about CAN, communication protocol for high-speed communication in machines!",
-    "host": "Gold Rush Robotics",
-    "gcal": "https://ninerengage.charlotte.edu/event/10580897/googlepublish",
-    "ical": "https://ninerengage.charlotte.edu/event/10580897.ics"
-}, {
-    "name": "Movie: Halloweentown",
-    "start": "2024-10-27T18:00:00+00:00",
-    "end": "2024-10-27T20:00:00+00:00",
-    "lat": "35.30871920175642",
-    "lng": "-80.73317960493391",
-    "url": "https://ninerengage.charlotte.edu/event/10483764",
-    "location": "Popp Martin Student Union",
-    "description": "When a young girl living with her secret witch mother learns she too is a witch, she must help her witch grandmother save Halloweentown from evil forces.",
-    "host": "Popp Martin Student Union",
-    "gcal": "https://ninerengage.charlotte.edu/event/10483764/googlepublish",
-    "ical": "https://ninerengage.charlotte.edu/event/10483764.ics"
-}, {
-    "name": "Movie: Halloweentown",
-    "start": "2024-10-28T01:00:00+00:00",
-    "end": "2024-10-28T03:00:00+00:00",
-    "lat": "",
-    "lng": "",
-    "url": "https://ninerengage.charlotte.edu/event/10483765",
-    "location": "Popp Martin Student Union",
-    "description": "When a young girl living with her secret witch mother learns she too is a witch, she must help her witch grandmother save Halloweentown from evil forces.",
-    "host": "Popp Martin Student Union",
-    "gcal": "https://ninerengage.charlotte.edu/event/10483765/googlepublish",
-    "ical": "https://ninerengage.charlotte.edu/event/10483765.ics"
-}, {
-    "name": "Mindset and Motivation",
-    "start": "2024-11-05T16:30:00+00:00",
-    "end": "2024-11-05T17:45:00+00:00",
-    "lat": "",
-    "lng": "",
-    "url": "https://ninerengage.charlotte.edu/event/10298624",
-    "location": "Colvard North, Room 2006",
-    "description": "Explore Growth Mindset and motivation and discover how perception can influence development in academics and beyond.\n\u00a0\nThis workshop is first come, first serve for seating.\n\u00a0\nThis workshop counts towards the Skill Building PILOT credit.",
-    "host": "Programs in Leadership and Organizational Training",
-    "gcal": "https://ninerengage.charlotte.edu/event/10298624/googlepublish",
-    "ical": "https://ninerengage.charlotte.edu/event/10298624.ics"
-}, {
-    "name": "Your Choices Matter: Academic Publishing Survival Guide",
-    "start": "2024-10-30T16:00:00+00:00",
-    "end": "2024-10-30T17:00:00+00:00",
-    "lat": "",
-    "lng": "",
-    "url": "https://ninerengage.charlotte.edu/event/10609071",
-    "location": "Online",
-    "description": "The challenges in academic publishing begin well before the first word hits the page - every grad student knows that. But what many don\u2019t know is that there is a wealth of tools and tips that make the process not only easier, but more fulfilling. Garrison Libby and Jeff McAdams, experts from the Atkins Library, lead this virtual workshop overview of academic publishing - and, more importantly, your agency within it. Learn how to find the right journals for you, get the rundown on open access publishing, and more - there will even be time for a Q&A session at the end. This Survival Guide will show you concrete ways to take control of your research and decide how you put it out into the world.\n\u00a0\nQuestions? Contact Garrison Libby (g.libby@charlotte.edu) or Jeff McAdams (jmmcadams@charlotte.edu) in Atkins Library!\n\u00a0\n\nPlease register\u00a0here\u00a0and we will send you a calendar invite with a Zoom link.",
-    "host": "J. Murrey Atkins Library, The Center for Graduate Life and Learning",
-    "gcal": "https://ninerengage.charlotte.edu/event/10609071/googlepublish",
-    "ical": "https://ninerengage.charlotte.edu/event/10609071.ics"
-}, {
-    "name": "BITS en Bleu",
-    "start": "2024-11-18T23:30:00+00:00",
-    "end": "2024-11-19T01:30:00+00:00",
-    "lat": "35.30509",
-    "lng": "-80.73324",
-    "url": "https://ninerengage.charlotte.edu/event/10577745",
-    "location": "Cone 210B",
-    "description": "Join us for an unforgettable evening of elegance and opportunity at BITS en Bleu, a formal networking dinner designed to connect students with professionals in business and technology fields. This event offers a chance to build valuable connections while enjoying a sophisticated dinner in a business-formal setting. With a blue color theme, attendees are encouraged to embrace the spirit of the evening by incorporating blue into their formal attire. Whether you're an aspiring business leader, a tech enthusiast, or simply looking to expand your professional network, BITS en Bleu provides the perfect atmosphere to engage with industry professionals and fellow students in a relaxed yet refined setting.\nDress Code: Business Formal (Blue Theme)",
-    "host": "AfroBITS",
-    "gcal": "https://ninerengage.charlotte.edu/event/10577745/googlepublish",
-    "ical": "https://ninerengage.charlotte.edu/event/10577745.ics"
-}, {
-    "name": "Niners for Social Impact Interest Meeting",
-    "start": "2024-11-04T23:30:00+00:00",
-    "end": "2024-11-05T00:30:00+00:00",
-    "lat": "",
-    "lng": "",
-    "url": "https://ninerengage.charlotte.edu/event/10655737",
-    "location": "Student Union 265",
-    "description": "Come learn about our new student organization, Niners for Social Impact! We will be introducing the Executive Board, talking about our mission and goals, future events, and ways to get involved. Everyone is welcome! Join other like-minded students, learn what Niners for Social Impact is all about, and get ready to turn your ideas into impact!",
-    "host": "Niners for Social Impact",
-    "gcal": "https://ninerengage.charlotte.edu/event/10655737/googlepublish",
-    "ical": "https://ninerengage.charlotte.edu/event/10655737.ics"
 }]

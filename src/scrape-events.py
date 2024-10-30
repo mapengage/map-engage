@@ -33,7 +33,7 @@ def get_ics_data(ics_url='https://ninerengage.charlotte.edu/events.ics', print_n
     for event in list(c.events):
         pal = "PAL Session"
         # Checking if the event is a PAL Session or It is cancelled 
-        if pal != event.name[:11] and event.status != "CANCELLED":
+        if pal != event.name[:11]:
             lat = ""
             lng = ""
 
