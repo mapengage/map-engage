@@ -146,13 +146,16 @@ function App() {
     //console.log('Filtering events from', nextSunday, 'to', nextSaturday);
   };
   const filterTodayEvents = () => {
-    //alert('filtering events for today', today);
+    const today = new Date();
+    today.setHours(0,0,0,0);
     const tomorrow = new Date(today);
     tomorrow.setDate(today.getDate() + 1); // Move to the next day
     setFilterDateStart(today);
     setFilterDateEnd(tomorrow);
   };
   const filterTomorrowEvents = () => {
+    const today = new Date();
+    today.setHours(0,0,0,0);
     const tomorrow = new Date(today);
     tomorrow.setDate(tomorrow.getDate() + 1); // Move to the next day
     //alert("filtering for tomorrow's date", tomorrow);

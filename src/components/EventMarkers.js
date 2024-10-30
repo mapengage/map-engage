@@ -30,6 +30,7 @@ const EventMarkers = ({ events, onEventClick, filterStartDate, filterEndDate }) 
           console.log("Event Start Date:", eventStartDate, "| Event End Date:", eventEndDate);
 
           // Filter events by comparing start and end dates
+          console.log(events.name);
           console.log(eventStartDate.getTime());
           console.log(eventEndDate.getTime());
           console.log(startDate.getTime());
