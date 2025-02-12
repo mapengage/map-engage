@@ -4,7 +4,9 @@
 
 # Mobile Application for Map Engage
 
-https://map-engage-a0fa60d33209.herokuapp.com/ 
+[https://mapengage.tech/ ](https://www.mapengage.tech/)
+OR
+https://map-engage-a0fa60d33209.herokuapp.com/
 
 # Map Engage 
 Map Engage is a Node.js application designed to put all the events on Niner Engage on a map for easy viewing access. You can also add events to your calendar and open the routing in Google Maps. 
