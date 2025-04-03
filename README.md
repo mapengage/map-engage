@@ -2,10 +2,8 @@
     <img src="https://github.com/user-attachments/assets/c261600f-2b7f-42ed-8de8-890a244d098e" alt="output" width="500" />
 </p>
 
-# Mobile Application for Map Engage
+# Mobile Application and Website for Map Engage
 
-[https://mapengage.tech/ ](https://www.mapengage.tech/)
-OR
 https://map-engage-a0fa60d33209.herokuapp.com/
 
 # Map Engage 
